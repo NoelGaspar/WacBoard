@@ -4,42 +4,34 @@
 \contentsline {chapter}{\tocchapter {}{}{LISTA DE TABLAS}}{ix}{chapter*.4}
 \contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{x}{chapter*.5}
 \contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{xi}{chapter*.6}
-\contentsline {chapter}{\tocchapter {}{1}{INTRODUCCIÓN}}{1}{chapter.1}
-\contentsline {section}{\tocsection {}{1.1}{Experimentos de física de partículas}}{1}{section.1.1}
-\contentsline {section}{\tocsection {}{1.2}{Electrónica en detectores de partículas}}{3}{section.1.2}
-\contentsline {section}{\tocsection {}{1.3}{Experimentos y adquisición de datos en física de partículas}}{5}{section.1.3}
-\contentsline {section}{\tocsection {}{1.4}{Contenido de esta tesis}}{7}{section.1.4}
-\contentsline {chapter}{\tocchapter {}{2}{DEFINICIÓN DEL PROBLEMA}}{8}{chapter.2}
+\contentsline {chapter}{\tocchapter {}{1}{INTRODUCCI\IeC {\'O}N}}{1}{chapter.1}
+\contentsline {section}{\tocsection {}{1.1}{Experimentos de f\IeC {\'\i }sica de part\IeC {\'\i }culas}}{1}{section.1.1}
+\contentsline {section}{\tocsection {}{1.2}{Electr\IeC {\'o}nica en detectores de part\IeC {\'\i }culas}}{3}{section.1.2}
+\contentsline {section}{\tocsection {}{1.3}{Experimentos y adquisici\IeC {\'o}n de datos en f\IeC {\'\i }sica de part\IeC {\'\i }culas}}{5}{section.1.3}
+\contentsline {section}{\tocsection {}{1.4}{Contenido de esta tesis}}{6}{section.1.4}
+\contentsline {chapter}{\tocchapter {}{2}{DEFINICI\IeC {\'O}N DEL PROBLEMA}}{8}{chapter.2}
 \contentsline {section}{\tocsection {}{2.1}{El colisionador lineal internacional}}{8}{section.2.1}
 \contentsline {section}{\tocsection {}{2.2}{El detector frontal y the BeamCal}}{9}{section.2.2}
 \contentsline {section}{\tocsection {}{2.3}{The bean V2}}{9}{section.2.3}
-\contentsline {section}{\tocsection {}{2.4}{La plataforma de pruebas}}{11}{section.2.4}
-\contentsline {chapter}{\tocchapter {}{3}{THE BEAN V2}}{14}{chapter.3}
-\contentsline {section}{\tocsection {}{3.1}{Detalle del integrado}}{15}{section.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.1.1}{El CSA}}{15}{subsection.3.1.1}
-\contentsline {subsection}{\tocsubsection {}{3.1.2}{Pre-charger}}{16}{subsection.3.1.2}
-\contentsline {subsection}{\tocsubsection {}{3.1.3}{Filtro}}{16}{subsection.3.1.3}
-\contentsline {section}{\tocsection {}{3.2}{Pruebas y diagramas de tiempo}}{18}{section.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.1}{Diagramas de tiempo}}{18}{subsection.3.2.1}
-\contentsline {subsection}{\tocsubsection {}{3.2.2}{Diseño de pruebas}}{18}{subsection.3.2.2}
-\contentsline {chapter}{\tocchapter {}{4}{DISEÑO DE LA PLATAFORMA}}{25}{chapter.4}
-\contentsline {section}{\tocsection {}{4.1}{Introducción}}{25}{section.4.1}
-\contentsline {section}{\tocsection {}{4.2}{La placa: WAC}}{25}{section.4.2}
-\contentsline {subsection}{\tocsubsection {}{4.2.1}{Potenciometros digitales}}{26}{subsection.4.2.1}
-\contentsline {subsection}{\tocsubsection {}{4.2.2}{DAC}}{27}{subsection.4.2.2}
-\contentsline {subsection}{\tocsubsection {}{4.2.3}{Circuito de inyección de carga}}{27}{subsection.4.2.3}
-\contentsline {chapter}{\tocchapter {}{5}{RESULTADOS}}{29}{chapter.5}
-\contentsline {section}{\tocsection {}{5.1}{The Bean V2 prototype Implementation}}{29}{section.5.1}
-\contentsline {section}{\tocsection {}{5.2}{Filter post-layout simulation results}}{30}{section.5.2}
-\contentsline {subsection}{\tocsubsection {}{5.2.1}{Sub-blocks}}{30}{subsection.5.2.1}
-\contentsline {subsection}{\tocsubsection {}{5.2.2}{Power dissipation}}{31}{subsection.5.2.2}
-\contentsline {subsection}{\tocsubsection {}{5.2.3}{Functionality}}{31}{subsection.5.2.3}
-\contentsline {subsection}{\tocsubsection {}{5.2.4}{Linearity}}{32}{subsection.5.2.4}
-\contentsline {subsection}{\tocsubsection {}{5.2.5}{Weighting function}}{32}{subsection.5.2.5}
-\contentsline {chapter}{\tocchapter {}{6}{CONCLUSION}}{38}{chapter.6}
-\contentsline {section}{\tocsection {}{6.1}{Summary}}{38}{section.6.1}
-\contentsline {section}{\tocsection {}{6.2}{Future work}}{39}{section.6.2}
-\contentsline {chapter}{\tocchapter {}{}{References}}{40}{chapter*.7}
-\contentsline {chapter}{APPENDIX}{42}{chapter*.7}
-\contentsline {chapter}{\tocchapter {}{A}{Anexos}}{43}{appendix.A}
-\contentsline {section}{\tocsection {}{A.1}{Pinout de the Bean V2}}{43}{section.A.1}
+\contentsline {section}{\tocsection {}{2.4}{La plataforma de pruebas}}{10}{section.2.4}
+\contentsline {chapter}{\tocchapter {}{3}{DISE\IeC {\~N}O DE LA PLATAFORMA}}{14}{chapter.3}
+\contentsline {section}{\tocsection {}{3.1}{Introducci\IeC {\'o}n}}{14}{section.3.1}
+\contentsline {section}{\tocsection {}{3.2}{La placa: WAC}}{14}{section.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.1}{Potenciometros digitales}}{15}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{3.2.2}{DAC}}{16}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.3}{Circuito de inyecci\IeC {\'o}n de carga}}{16}{subsection.3.2.3}
+\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{18}{chapter.4}
+\contentsline {section}{\tocsection {}{4.1}{The Bean V2 prototype Implementation}}{18}{section.4.1}
+\contentsline {section}{\tocsection {}{4.2}{Filter post-layout simulation results}}{20}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.1}{Sub-blocks}}{20}{subsection.4.2.1}
+\contentsline {subsection}{\tocsubsection {}{4.2.2}{Power dissipation}}{21}{subsection.4.2.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.3}{Functionality}}{21}{subsection.4.2.3}
+\contentsline {subsection}{\tocsubsection {}{4.2.4}{Linearity}}{22}{subsection.4.2.4}
+\contentsline {subsection}{\tocsubsection {}{4.2.5}{Weighting function}}{22}{subsection.4.2.5}
+\contentsline {chapter}{\tocchapter {}{5}{CONCLUSION}}{29}{chapter.5}
+\contentsline {section}{\tocsection {}{5.1}{Summary}}{29}{section.5.1}
+\contentsline {section}{\tocsection {}{5.2}{Future work}}{30}{section.5.2}
+\contentsline {chapter}{\tocchapter {}{}{References}}{31}{chapter*.7}
+\contentsline {chapter}{APPENDIX}{33}{chapter*.7}
+\contentsline {chapter}{\tocchapter {}{A}{Anexos}}{34}{appendix.A}
+\contentsline {section}{\tocsection {}{A.1}{Pinout de the Bean V2}}{34}{section.A.1}

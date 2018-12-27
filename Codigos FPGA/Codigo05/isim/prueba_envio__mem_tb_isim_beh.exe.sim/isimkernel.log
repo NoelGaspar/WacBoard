@@ -1,0 +1,30 @@
+Command line:
+   prueba_envio__mem_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52347
+
+Wed Aug 24 16:46:02 2016
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 847.786 Meg
+
+ Total Signals          : 346
+ Total Nets             : 745
+ Total Signal Drivers   : 135
+ Total Blocks           : 28
+ Total Primitive Blocks : 22
+ Total Processes        : 181
+ Total Traceable Variables  : 432
+ Total Scalar Nets and Variables : 68761
+Total Line Count : 1080
+Total Line Count : 1080
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 375.927 Meg
+
+Wed Aug 24 17:32:15 2016
+

@@ -1,0 +1,425 @@
+// testEpp.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <windows.h>
+#include <stdio.h>
+#include <iostream>
+#include <fstream>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include "dpcdecl.h"
+#include "depp.h"
+#include "dmgr.h"
+#include "dpcutil.h"
+#include "dpcdefs.h"
+using namespace std;
+
+static HIF hif = hifInvalid;
+static HANDLE han = hifInvalid;
+static ERC erc=0;
+static int val=0;
+static char dato=0x00;
+
+static int test(){
+	 //tratamos de inicializar la comunicacion con el puerto EPP
+	
+	BYTE data[16];
+	BYTE data2[16];
+	int i =0;
+	BYTE count=0x00;
+	memset(data2,0x00,16);
+	for(i=0;i<16;i++){
+	 count=count+1;
+		data[i]=count;
+
+	}
+
+	
+	fprintf(stderr,"Iniciando\n");
+    if(!DpcInit(&erc)) { 
+        printf("No fue posible iniciar...\n");
+        puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 0;
+    }
+
+	//una vez inicializado tratamos de abrir la comuniacion.
+	fprintf(stderr,"Iniciado\nAbriendo\n");
+	if(!DpcOpenData(&han, "Nexys2",&erc,NULL)) {  // Change to Basys2 for the other board.
+        printf("DpcOpenData failed (revise si la tarjeta esta conectada)\n");
+		DpcTerm();
+        puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 0;
+    } 
+	puts("presione una tecla para cerrar");
+	getchar();
+
+	// ya abierta la comunicación tratamos de enviar un dato al primer registro
+    fprintf(stderr,"enviando dato de prueba\n");
+	if(!DpcPutReg(han,0x00, 0x01, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 0;
+	}
+	puts("presione una tecla para cerrar");
+	getchar();
+		
+    fprintf(stderr,"enviando dato de prueba\n");
+	if(!DpcPutReg(han, 0x10, 0x02, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 0;
+	}
+	puts("presione una tecla para cerrar");
+	getchar();
+		
+	//DpcPutReg(HANDLE hif, BYTE bAddr, BYTE bData, ERC* perc, TRID *ptrid)
+	fprintf(stderr,"enviando dato de prueba\n");
+	if(!DpcPutReg(han, 0x20, 0x04, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 0;
+	}
+
+	//// TRATAMOS DE ENVIAR UN BLOQUE DE 40 BYTES
+	//fprintf(stderr,"enviado 16 datos");
+	//if(!DpcPutRegRepeat(han,0x30, data,16,&erc, NULL)){
+ //       printf("DpcPutRegRepeat failed.\n");
+	//	puts("presione una tecla para cerrar");
+	//	char c=getchar();
+	//}
+
+ // // TRATAMOS DE LEER UN BLOQUE DE 40 BYTES
+	//fprintf(stderr,"leyendo datos. \n");
+	//if(!DpcGetRegRepeat(han,0x30,data2,16,&erc, NULL)){
+    //       printf("DpcGetRegRepeat failed.\n");
+	//	puts("presione una tecla para cerrar");
+	//	char c=getchar();
+	//}
+	//
+
+	//for(int i=0;i<16;i++){
+	//printf( "datos obtenidos:%x \n",data2[i]);
+	//}
+
+
+	fprintf(stderr,"dato enviado exitosamente. Cerrando\n");
+    if( han != hifInvalid ) {
+        DpcCloseData(han,&erc);
+		DpcTerm();
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 0;
+    }
+	return 1;
+}
+
+static int sendDac(){
+	
+    
+	if(!DpcPutReg(han,0x00, 0x01, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 1;
+	}
+    
+	if(!DpcPutReg(han,0x10, 0x1f, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 1;
+	}
+
+	fprintf(stderr,"se ha enviado el dato 0xe800\n");
+	if(!DpcPutReg(han,0x20, 0xec, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		char c=getchar();
+		return 1;
+	}
+
+	return 0;
+}
+
+static int sendConf(){ 
+	
+	if(!DpcPutReg(han,0x00, 0x04, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+    
+	if(!DpcPutReg(han,0x10, 0x55, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+	
+	if(!DpcPutReg(han,0x20, 0xee, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+	fprintf(stderr,"se ha enviado el dato 0xffff\n");//cambiar por el dato a enviar!!
+
+	return 0;
+
+}
+
+static int sendDpot(){
+
+	if(!DpcPutReg(han,0x00, 0x03, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+    
+	if(!DpcPutReg(han,0x10, 0x80, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	fprintf(stderr,"se ha enviado el dato 0xe800\n");
+	if(!DpcPutReg(han,0x20, 0x01, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	return 0;}
+
+static int sendMux(){
+    
+	if(!DpcPutReg(han,0x00, 0x02, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+    
+	if(!DpcPutReg(han,0x10, 0x1f, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	fprintf(stderr,"se ha enviado el dato 0x1f00\n");
+	if(!DpcPutReg(han,0x20, 0x00, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	return 0;
+}
+
+static int sendAdc(BYTE *datos){
+		
+	
+	if(!DpcPutReg(han,0x00, 0x59, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+    
+	if(!DpcPutReg(han,0x10, 0xff, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	if(!DpcPutReg(han,0x20, 0x55, &erc, NULL)){
+        printf("DpcPutReg failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	Sleep(20);
+
+
+	fprintf(stderr,"leyendo datos. \n");
+	if(!DpcGetRegRepeat(han,0x30,datos,20,&erc, NULL)){
+        printf("DpcGetRegRepeat failed.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	return 0;
+
+}
+
+
+static int sendComnd(BYTE ctrl, BYTE confH,BYTE confL){ 
+	
+	if(!DpcPutReg(han,0x00, ctrl, &erc, NULL)){
+        printf("DpcPutReg failed sending control word.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+    
+	if(!DpcPutReg(han,0x10, confL, &erc, NULL)){
+        printf("DpcPutReg failed sending config Low word.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	if(!DpcPutReg(han,0x20, 0x55, &erc, NULL)){
+        printf("DpcPutReg failed sending config HIGH word.\n");
+		puts("presione una tecla para cerrar");
+		getchar();
+		return 1;
+	}
+
+	return 0;
+}
+static BYTE charintohex(char in1,char in2){
+	BYTE out=0x00;
+	BYTE temp1=0x00;
+	BYTE temp2=0x00;
+
+
+	if(in1=='1'){temp1=0x01;}
+	if(in1=='2'){ temp1=0x02;}
+	if(in1=='3'){ temp1=0x03;}
+	if(in1=='4'){ temp1=0x04;}
+	if(in1=='5'){ temp1=0x05;}
+	if(in1=='6'){ temp1=0x06;}
+	if(in1=='7'){ temp1=0x07;}
+	if(in1=='8'){ temp1=0x08;}
+	if(in1=='9'){ temp1=0x09;}
+	if(in1=='a'){ temp1=0x0a;}
+	if(in1=='b'){ temp1=0x0b;}
+	if(in1=='c'){ temp1=0x0c;}
+	if(in1=='d'){ temp1=0x0d;}
+	if(in1=='e'){ temp1=0x0e;}
+	if(in1=='f'){ temp1=0x0f;}
+		
+	if(in2=='1'){temp2=0x10;}
+	if(in2=='2'){ temp2=0x20;}
+	if(in2=='3'){ temp2=0x30;}
+	if(in2=='4'){ temp2=0x40;}
+	if(in2=='5'){ temp2=0x50;}
+	if(in2=='6'){ temp2=0x60;}
+	if(in2=='7'){ temp2=0x70;}
+	if(in2=='8'){ temp2=0x80;}
+	if(in2=='9'){ temp2=0x90;}
+	if(in2=='a'){ temp2=0xa0;}
+	if(in2=='b'){ temp2=0xb0;}
+	if(in2=='c'){ temp2=0xc0;}
+	if(in2=='d'){ temp2=0xd0;}
+	if(in2=='e'){ temp2=0xe0;}
+	if(in2=='f'){ temp2=0xf0;}
+
+	return out=temp2|temp1;
+}
+
+
+int main(int cszArg, char * rgszArg[]) {
+  	char c='p';
+	char n='p';
+	BYTE dato=0x00;
+
+	printf("ingrese valor:\n");  //codigo para ingresar valores desde el pc
+	n=getchar();
+	c=getchar();
+	dato=charintohex(c,n);
+	printf("El dato es : 0x%x\n",dato);
+	getchar();
+	getchar();
+
+
+	   //test();
+
+		//// este codigo es para escribir un arreglo en un archivo .txt
+		//BYTE datos[20];
+		//memset(datos,0xff,20);
+		//FILE * pFile;
+		//pFile = fopen ("myfile.txt","w");
+		//for(int i=0; i<20;i++){
+		//   fprintf (pFile, "datos obtenidos:%x \n",datos[i]);	
+		//}  
+		//fclose (pFile);
+		//getchar();
+	/*
+	FILE * pFile;
+	pFile = fopen ("myfile.txt","w");
+	BYTE datos[20];
+	memset(datos,0xff,20);
+
+	fprintf(stderr,"Iniciando\n");
+    if(!DpcInit(&erc)) { 
+        printf("No fue posible iniciar...\n");
+        puts("presione una tecla para cerrar");
+		c=getchar();
+		return 0;
+    }
+
+	//una vez inicializado tratamos de abrir la comuniacion.
+	fprintf(stderr,"Abriendo conexion...\n");
+	if(!DpcOpenData(&han, "Nexys2",&erc,NULL)) {  // Change to Basys2 for the other board.
+        printf("DpcOpenData failed (revise si la tarjeta esta conectada)\n");
+		DpcTerm();
+        puts("presione una tecla para cerrar");
+		c=getchar();
+		return 0;
+    } 
+
+	while(c!='x'){
+	printf("Ingrese un comando:\na:Configuracion\ns:Multiplexores\nd:Digipot\nf:Dac.\nq:diente de cierra del dac.\ng:Adc1\nh:Adc2\nx:Salir\n");
+	c=getchar();
+	n=getchar();
+	if(c=='a'){ printf("modo Configuracion\n"); 
+				val= sendConf();}
+	if(c=='s'){ printf("modo Multiplexor\n"); 
+				val= sendMux();}
+	if(c=='d'){ printf("modo Digipot\n"); 
+				val= sendDpot();}
+	if(c=='f'){ printf("modo Dac\n"); 
+				val= sendDac();}
+	if(c=='g'){printf("modo ADC2\n");
+				val=sendAdc(datos);
+				for(int i=0; i<20;i++){
+				fprintf (pFile, "datos obtenidos:%x \n",datos[i]);} 
+			   }
+	if(c=='x'){ printf("Saliendo del programa\n"); }
+	if(val!=0){ printf("problema detectado\n");
+				break;}
+	}
+
+
+	printf("Cerrando. presione cualquier tecla para continuar\n");
+	c=getchar();	
+    if( han != hifInvalid ) {
+        DpcCloseData(han,&erc);
+		DpcTerm();
+    }
+	
+	DpcCloseData(han,&erc);
+	DpcTerm();
+	fclose (pFile);
+    return 0;
+	*/
+	return 0;
+}

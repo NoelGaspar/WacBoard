@@ -1,0 +1,247 @@
+ \documentclass[pucformat,spanish]{XPucThesis}
+\usepackage{fixltx2e}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{amsmath,amssymb,amsbsy,amsfonts}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{pdfpages}
+\usepackage{color}
+\usepackage{ifpdf}             
+\usepackage{array}
+\usepackage{sistyle}
+\usepackage{nicefrac}
+\usepackage{longtable}  
+\usepackage[stable]{footmisc}    
+\usepackage{wasysym}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+
+% Graphics packages for dual use of LaTeX and pdfTeX and other graphics handling definitions.
+\ifpdf
+ \usepackage[pdftex]{graphicx}
+ \usepackage{epstopdf}
+ \DeclareGraphicsExtensions{.eps,.jpg,.png,.pdf}
+ \graphicspath{{\figpath}}
+\else
+ \usepackage[dvips]{graphicx}
+ \DeclareGraphicsExtensions{.eps}
+ \graphicspath{{\figpath}}
+\fi
+
+\usepackage[bookmarks=true,pdftex]{hyperref}
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black,
+    filecolor=black,
+    plainpages=false,
+    pdftitle={},
+    pdfauthor={Nombre},
+    pdfsubject={T\'itulo},
+    pdfkeywords={Palabras clave},
+    pdfproducer=PDFLaTeX,
+    pdfstartview=FitH,
+    pdfpagemode=UseOutlines,
+    bookmarksopen=true,
+    bookmarksopenlevel=0,
+    verbose=true
+}
+%\usepackage[natbibapa]{apacite}
+\usepackage[]{apacite}
+
+% List used files in logfile
+\listfiles
+
+% New Theorem-based environments names
+\newtheorem{definition}{\bf Definition}[chapter]
+\newtheorem{property}{Property}[chapter]
+\newtheorem{claim}{Claim}[chapter]
+\newtheorem{lemma}{\bf Lemma}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{theorem}{\noindent \bf Theorem}[chapter]
+\newtheorem{corollary}{\bf Corollary}[chapter]
+\newtheorem{pf}{Proof}[chapter]
+\newtheorem{example}{\bf Example}[chapter]
+\newtheorem{remark}{Remark}[chapter]
+
+% Filepath definitions
+\newcommand{\latexroot}{.}
+\newcommand{\defpath}{\latexroot/def}
+\newcommand{\bibpath}{.}
+\newcommand{\figpath}{./figs}	
+\newcommand{\textpath}{./text}
+\newcommand{\paperloc}{papers}
+
+% Define references names
+\newcommand*{\figref}[1]{\figurename~\ref{#1}}
+\newcommand*{\tableref}[1]{\tablename~\ref{#1}}
+\newcommand*{\chapref}[1]{Cap\'itulo~\ref{#1}}
+\newcommand*{\secref}[1]{Secci\'on~\ref{#1}}
+\newcommand*{\eqnref}[1]{Ecuaci\'on~(\ref{#1})}
+
+% Redefine styles
+\renewcommand{\thesubfigure}{\textsc{\alph{subfigure}}} 
+
+
+% Figure shortcuts
+\newcommand{\fig}[4]{
+  \begin{figure}[ht]	
+    \centering
+    \fbox{\resizebox{#3}{!}{\includegraphics{\figpath/#2}}}
+    \caption{#4}
+    \label{#1}
+  \end{figure}
+\normalsize
+}
+\newcommand{\sfig}[8]{
+  \begin{figure}[ht]	
+    \centering%
+    \subfloat[][]{\label{#3}%
+    		\fbox{\resizebox{#4}{!}{\includegraphics{\figpath/#2}}}}\qquad%
+    \subfloat[][]{\label{#6}%
+    		\fbox{\resizebox{#7}{!}{\includegraphics{\figpath/#5}}}}%
+    \caption{#8}%
+    \label{#1}%
+  \end{figure}
+\normalsize
+}
+
+\begin{document}
+
+\mdate{Septiembre XX, 2016}
+\version{\today}
+
+\title[TITLE]{\textbf{Diseño e implementación de una plataforma de pruebas para la segunda iteración de the Bean}}
+\author[AUTOR]{Wladimir Araya Caro}
+\address{Escuela de Ingenier\'ia\\
+         Pontificia Universidad Cat\'olica de Chile\\ 
+         Vicu\~na Mackenna 4860\\
+         Santiago, Chile\\
+         {\it Tel.\/} : 56 (2) 354-2000}
+\email{waaraya@uc.cl}
+
+\facultyto    {Escuela de ingeniería}
+\faculty      {Facultad de ingeniería }
+\degree       {Ingeniero Civil Electricista} 
+\advisorA{Ángel Abusleme Hoffman} 
+\advisorB{} % de existir, segundo supervisor
+
+% Committee
+\committeememberA{Marcelo Guarini Herrmann}
+\guestmemberA{Pablo Zegers Fernández}
+\ogrsmember{Jorge Bayer}
+
+% Subject
+\subject{Engineering}
+
+% Date
+\date{Septiembre 2016} %FECHA
+
+% Copyright
+\copyrightname{Wladimir Araya Caro} %AUTOR
+\copyrightyear{MMXIV} %AÃO
+
+% Dedication
+\dedication{\mbox{}}
+
+% Preliminaries: cover page and dedication
+\NoChapterPageNumber    % no header - footer on first page of chapter
+\pagenumbering{roman}
+
+% Make title
+\maketitle
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+
+\chapter*{AGRADECIMIENTOS}
+%
+%Quisiera agradecer a todos aquellos quienes hicieron posible este trabajo. Agradecer en particular a mis amigos y compañeros de universidad 
+%Agradecer a todos aquellos miembros de IC-UC con quienes compartí innumerables horas de trabajo y conversación y me ayudaron incondicionalmente.
+%Agradecer a todos los miembros de la rama estudiantil de la IEEE de la Pontificia Universidad Católica.
+%En particular a Francisco Retamales, Sergio Aguilera, Diego Gomez y muy especialmente a Igancio Passalaqua quienes mucho mas que compañeros son amigos quienes representan un pilar importante.
+%Agradecer a mi familia quienes gracias a su amor y apoyo me han permitido llega tan lejos.
+%Finalmente quiero agradecer de forma muy especial a las dos personas mas importantes quienes permitieron que todo esto fuera realmente posible. Primero a mi profesor guía Angel Abusleme, gracias por toda esa buena disposición y apoyo, y por sobre todo por su infinita paciencia. Gracias a esta oportunidad que me ha birndando creo que he descubierto lo que realmente quiero ser en la vida. Y la segunda persona es mi madre a quien quiero con mucho amor y sin ella nada de esto sería posible, en ningun momento ha dejado de creer en mi y ha realizado grandes sacrificios para que yo pueda salir adelante.  Por todo muchisimas gracias.
+
+\cleardoublepage
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\cleardoublepage
+
+\MScAbstract{Particle Physics is the branch of physics that studies the fundamental constituents of matter and radiation, and their mutual interactions. The main tools used by particle physicists are particle accelerators, which use electromagnetic fields to accelerate charged particles to relativistic speeds before they are made to collide inside detectors. The International Linear Collider (ILC), a next generation, 31-kilometer long linear particle accelerator, will smash electron and positron bunches at up to 500 GeV. Located at the ILC detector forward region is the BeamCal, a highly segmented calorimeter detector. The BeamCal specifications for radiation tolerance, noise, signal charge, pulse rate and occupancy pose unique challenges for the instrumentation system.
+
+Framed in the design, integration and testing of the Bean IC, a 5-channel application specific integrated circuit (\textsc{asic}) planned to meet the BeamCal instrumentation needs, this thesis presents: the development of a new mathematical framework for a design-oriented analysis of discrete-time filters in the discrete-time domain; and the design and implementation of a switched-capacitor (SC) filter for arbitrary weighting function synthesis to be included in the Bean IC, which aims to take full advantage of the introduced mathematical framework. 
+
+}{Charge Measurements, Low-noise filters, Noise, Nuclear Physics Instrumentation, Optimum Digital Filtering.}
+
+\cleardoublepage
+
+\MScResumen{
+La Física de Partículas es la rama de la física que estudia las constituyentes fundamentales de la materia y la radiación, y sus interacciones mutuas. Las principales herramientas utilizadas por los físicos de partículas son los aceleradores de partículas, los cuales usan campos electromagnéticos para acelerar partículas cargadas a velocidades relativistas, para después hacerlas colisionar dentro de detectores. El Colisionador Lineal Internacional (ILC) es un acelerador de partículas lineal de la próxima generación de 31 kilómetros de largo que colisionará grupos de electrones y positrones a 500 GeV. Ubicado en la región delantera del ILC se encuentra el BeamCal, un calorímetro altamente segmentado. Las especificaciones del BeamCal para tolerancia a la radiación, ruido, señal de carga, tasa de pulsos y ocupación plantean desafíos únicos para el sistema de instrumentación.
+
+Enmarcado en el diseño, integración y prueba de \emph{Bean IC}, un circuito integrado de aplicación específica (\textsc{asic}, por su sigla en inglés) de cinco canales para satisfacer las necesidades de instrumentación del BeamCal, esta tesis presenta: el desarrollo de un nuevo marco matemático para el análisis orientado al diseño de filtros de tiempo discreto; y el diseño y implementación de un filtro de capacitores conmutados para la síntesis de funciones de peso arbitraria que será incluido en \emph{Bean IC}, el cual busca aprovechar al máximo el marco matemático propuesto.
+
+
+}{Medición de carga, Filtros de Bajo Ruido, Ruido, Instrumentación para Física Nuclear, Filtrado Digital Optimo.}
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setlength{\labelsep}{1em}
+
+\include{./text/introduction}
+\clearpage
+\include{./text/problem}
+\clearpage
+\include{./text/theoretical}
+\clearpage
+\include{./text/filter}
+\clearpage
+\include{./text/results}
+\clearpage
+\include{./text/conclusion}
+
+% References
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin Appendix
+
+
+
+\cleardoublepage
+\bibliographystyle{apacite}
+\bibliography{\bibpath/library}
+\cleardoublepage
+
+\cleardoublepage
+\thispagestyle{empty}
+\begin{center}
+\vspace*{3.5in}
+\large{\bfseries{APPENDIX}}
+\addcontentsline{toc}{chapter}{APPENDIX}
+\end{center}
+
+\appendix
+\cleardoublepage
+
+
+\include{./text/appendixA}
+
+\end{document}
+
+

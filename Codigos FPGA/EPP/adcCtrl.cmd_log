@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj EPP -o "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP/adcCtrl.tfi" -lib work "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP//adcCtrl.v" -module adcCtrl -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror 

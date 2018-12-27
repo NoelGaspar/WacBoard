@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/xst"
+elaborate
+-ifn EppCtrl.prj
+-ifmt mixed

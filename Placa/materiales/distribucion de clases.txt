@@ -1,0 +1,11 @@
+Clase	Profesor	Tema	
+1. 		Aarón		Lograr una visión panorámica sobre los contenidos del curso e introducir los conceptos esenciales.
+2. 		Aarón		Entender cómo el ser humano escucha y qué es lo que percibe del mundo físico.
+3. 					Aprender a trabajar con audio digital.
+4. 		Marie		Crear un flujo de señales de audio en software Pd.
+5. 					Analizar y sintetizar sonidos en base a distintas técnicas.
+6. 		Marie		Analizar obras de música electroacústica y crear un pasaje con síntesis aditiva.
+7. 					Crear envolventes para lograr efectos musicales.
+8. 		Marie		Crear sonidos en base a síntesis FM.
+9. 					Comprender, analizar y crear sonido en base a sampling.
+10.					Crear un paisaje sonoro con cada estudiante tocando su instrumento digital

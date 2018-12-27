@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/wacComCtrl_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wacComCtrl_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/wacComCtrl_tb/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/uut/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/ctrlWeBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWeBram</obj_property>
+      <obj_property name="ObjectShortName">ctrlWeBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/clkBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkBram</obj_property>
+      <obj_property name="ObjectShortName">clkBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/ctrlWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWord[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlWord[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/confWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">confWord[15:0]</obj_property>
+      <obj_property name="ObjectShortName">confWord[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/nSamples" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nSamples[11:0]</obj_property>
+      <obj_property name="ObjectShortName">nSamples[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/contData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">contData[2:0]</obj_property>
+      <obj_property name="ObjectShortName">contData[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/controlEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">controlEn</obj_property>
+      <obj_property name="ObjectShortName">controlEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/stTest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stTest[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stTest[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/dataStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataStb</obj_property>
+      <obj_property name="ObjectShortName">dataStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/addrEpp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrEpp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrEpp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/datoAdc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datoAdc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">datoAdc[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/readyAdc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">readyAdc</obj_property>
+      <obj_property name="ObjectShortName">readyAdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacComCtrl_tb/aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aux[10:0]</obj_property>
+      <obj_property name="ObjectShortName">aux[10:0]</obj_property>
+   </wvobject>
+</wave_config>

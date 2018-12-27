@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/wacTest_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wacTest_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/wacTest_tb/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/controlEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">controlEn</obj_property>
+      <obj_property name="ObjectShortName">controlEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/instance_name/ctrl_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrl_seq</obj_property>
+      <obj_property name="ObjectShortName">ctrl_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/instance_name/mode_seq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mode_seq[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_seq[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/instance_name/modo_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">modo_seq</obj_property>
+      <obj_property name="ObjectShortName">modo_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/ctrlWeBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWeBram</obj_property>
+      <obj_property name="ObjectShortName">ctrlWeBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/clkBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkBram</obj_property>
+      <obj_property name="ObjectShortName">clkBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/contData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">contData[2:0]</obj_property>
+      <obj_property name="ObjectShortName">contData[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSDAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSDAC</obj_property>
+      <obj_property name="ObjectShortName">CSDAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/SDIDAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDIDAC</obj_property>
+      <obj_property name="ObjectShortName">SDIDAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CLKDAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKDAC</obj_property>
+      <obj_property name="ObjectShortName">CLKDAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSDPOT1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSDPOT1</obj_property>
+      <obj_property name="ObjectShortName">CSDPOT1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSDPOT2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSDPOT2</obj_property>
+      <obj_property name="ObjectShortName">CSDPOT2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSDPOT3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSDPOT3</obj_property>
+      <obj_property name="ObjectShortName">CSDPOT3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/SDIDPOT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDIDPOT</obj_property>
+      <obj_property name="ObjectShortName">SDIDPOT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CLKDPOT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKDPOT</obj_property>
+      <obj_property name="ObjectShortName">CLKDPOT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/MUXREF1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXREF1</obj_property>
+      <obj_property name="ObjectShortName">MUXREF1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/MUXREF2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXREF2</obj_property>
+      <obj_property name="ObjectShortName">MUXREF2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/MUXREF3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXREF3</obj_property>
+      <obj_property name="ObjectShortName">MUXREF3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/MUXDACEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXDACEN</obj_property>
+      <obj_property name="ObjectShortName">MUXDACEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/theBeanConf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">theBeanConf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">theBeanConf[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSADC1</obj_property>
+      <obj_property name="ObjectShortName">CSADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CLKADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKADC1</obj_property>
+      <obj_property name="ObjectShortName">CLKADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSADC2</obj_property>
+      <obj_property name="ObjectShortName">CSADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CLKADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKADC2</obj_property>
+      <obj_property name="ObjectShortName">CLKADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/stTest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stTest[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stTest[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/dataStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataStb</obj_property>
+      <obj_property name="ObjectShortName">dataStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/addrEpp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrEpp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrEpp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/SDOADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDOADC1</obj_property>
+      <obj_property name="ObjectShortName">SDOADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/SDOADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDOADC2</obj_property>
+      <obj_property name="ObjectShortName">SDOADC2</obj_property>
+   </wvobject>
+</wave_config>

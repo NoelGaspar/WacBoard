@@ -1,0 +1,1489 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Aad%
+\ \protect \BOthers {.}}{%
+Aad%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Aad:2012tfa}
+\APACinsertmetastar {%
+Aad:2012tfa}%
+\begin{APACrefauthors}%
+Aad, G.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC}} {{Observation
+  of a new particle in the search for the Standard Model Higgs boson with the
+  ATLAS detector at the LHC}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physics Letters}{B716}{}{1-29}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Abusleme%
+}{%
+Abusleme%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+abuslemethesis}
+\APACinsertmetastar {%
+abuslemethesis}%
+\begin{APACrefauthors}%
+Abusleme, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\unskip\
+\newblock
+\APACrefbtitle {{The Bean: A Pulse Processor for a Particle Physics
+  Experiment}} {{The Bean: A Pulse Processor for a Particle Physics
+  Experiment}}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Stanford University}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Abusleme%
+, Dragone%
+, Haller%
+\BCBL {}\ \BBA {} Wooley%
+}{%
+Abusleme%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+abusleme101}
+\APACinsertmetastar {%
+abusleme101}%
+\begin{APACrefauthors}%
+Abusleme, A.%
+, Dragone, A.%
+, Haller, G.%
+\BCBL {}\ \BBA {} Wooley, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Beam{C}al {I}nstrumentation {IC}: {D}esign,
+  {I}mplementation, and {T}est {R}esults} {Beam{C}al {I}nstrumentation {IC}:
+  {D}esign, {I}mplementation, and {T}est {R}esults}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions on}{59}{3}{589-596}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alvarez%
+, Avila%
+, Campillo%
+, Dragone%
+\BCBL {}\ \BBA {} Abusleme%
+}{%
+Alvarez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Alvarez101}
+\APACinsertmetastar {%
+Alvarez101}%
+\begin{APACrefauthors}%
+Alvarez, E.%
+, Avila, D.%
+, Campillo, H.%
+, Dragone, A.%
+\BCBL {}\ \BBA {} Abusleme, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{{Noise in Charge Amplifiers -- A $g_m/I_D$ Approach}}}
+  {{{Noise in Charge Amplifiers -- A $g_m/I_D$ Approach}}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{59}{}{2457--2462}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aspell%
+\ \protect \BOthers {.}}{%
+Aspell%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+Asp100}
+\APACinsertmetastar {%
+Asp100}%
+\begin{APACrefauthors}%
+Aspell, P.%
+, Barney, D.%
+, Bloch, P.%
+, Jarron, P.%
+, Lofstedt, B.%
+, Reynaud, S.%
+\BCBL {}\ \BBA {} Tabbers, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Delta: A Charge Sensitive Front-End Amplifier with
+  Switched Gain for Low-Noise, Large Dynamic Range Silicon Detector Readout}}
+  {{Delta: A Charge Sensitive Front-End Amplifier with Switched Gain for
+  Low-Noise, Large Dynamic Range Silicon Detector Readout}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{Nuclear Instruments and Methods in Physics Research,
+  Section A}}{461}{}{449--455}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Assaad%
+\ \BBA {} Silva-Martinez%
+}{%
+Assaad%
+\ \BBA {} Silva-Martinez%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+assaad101}
+\APACinsertmetastar {%
+assaad101}%
+\begin{APACrefauthors}%
+Assaad, R.%
+\BCBT {}\ \BBA {} Silva-Martinez, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Recycling Folded Cascode: A General Enhancement of
+  the Folded Cascode Amplifier}} {{The Recycling Folded Cascode: A General
+  Enhancement of the Folded Cascode Amplifier}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solid-State Circuits, IEEE Journal
+  of}{44}{9}{2535-2542}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Avila%
+, Alvarez%
+\BCBL {}\ \BBA {} Abusleme%
+}{%
+Avila%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+avila101}
+\APACinsertmetastar {%
+avila101}%
+\begin{APACrefauthors}%
+Avila, D.%
+, Alvarez, E.%
+\BCBL {}\ \BBA {} Abusleme, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Noise Analysis in Pulse-Processing Discrete-Time
+  Filters} {Noise analysis in pulse-processing discrete-time filters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{60}{6}{4634-4640}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Baker%
+}{%
+Baker%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+baker101}
+\APACinsertmetastar {%
+baker101}%
+\begin{APACrefauthors}%
+Baker, R\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {{CMOS Circuit Design, Layout, and Simulation}} {{CMOS Circuit
+  Design, Layout, and Simulation}}\ (\PrintOrdinal{3rd}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Wiley-IEEE Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bernardinis%
+, Jordan%
+\BCBL {}\ \BBA {} Sangiovanni-Vincentelli%
+}{%
+Bernardinis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+bernardinis101}
+\APACinsertmetastar {%
+bernardinis101}%
+\begin{APACrefauthors}%
+Bernardinis, F\BPBI D.%
+, Jordan, M\BPBI I.%
+\BCBL {}\ \BBA {} Sangiovanni-Vincentelli, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Support Vector Machines for Analog Circuit Performance
+  Representation} {Support vector machines for analog circuit performance
+  representation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the Design Automation
+  Conference}{}{}{964--969}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bertuccio%
+\ \BBA {} Pullia%
+}{%
+Bertuccio%
+\ \BBA {} Pullia%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+bertuccio101}
+\APACinsertmetastar {%
+bertuccio101}%
+\begin{APACrefauthors}%
+Bertuccio, G.%
+\BCBT {}\ \BBA {} Pullia, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A method for the determination of the noise parameters
+  in preamplifying systems for semiconductor radiation detectors} {A method for
+  the determination of the noise parameters in preamplifying systems for
+  semiconductor radiation detectors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Review of Scientific Instruments}{64}{11}{3294-3298}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+CERN%
+}{%
+CERN%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+cern101}
+\APACinsertmetastar {%
+cern101}%
+\begin{APACrefauthors}%
+CERN.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\APACrefbtitle {{H}ow {D}etectors {W}orks.} {{H}ow {D}etectors {W}orks.}
+\newblock
+\begin{APACrefURL} \url{http://home.web.cern.ch/about/how-detector-works/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chatrchyan%
+\ \protect \BOthers {.}}{%
+Chatrchyan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Chatrchyan:2012ufa}
+\APACinsertmetastar {%
+Chatrchyan:2012ufa}%
+\begin{APACrefauthors}%
+Chatrchyan, S.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Observation of a new boson at a mass of 125 GeV with
+  the CMS experiment at the LHC}} {{Observation of a new boson at a mass of 125
+  GeV with the CMS experiment at the LHC}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physics Letters}{B716}{}{30-61}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De$\;$Geronimo%
+\ \BBA {} O'Connor%
+}{%
+De$\;$Geronimo%
+\ \BBA {} O'Connor%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+deGeronimo500}
+\APACinsertmetastar {%
+deGeronimo500}%
+\begin{APACrefauthors}%
+De$\;$Geronimo, G.%
+\BCBT {}\ \BBA {} O'Connor, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{MOSFET Optimization in Deep Submicron Technology for
+  Charge Amplifiers}} {{MOSFET Optimization in Deep Submicron Technology for
+  Charge Amplifiers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{52}{6}{3223--3232}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Geronimo%
+\ \BBA {} O'Connor%
+}{%
+De~Geronimo%
+\ \BBA {} O'Connor%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+degeronimo101}
+\APACinsertmetastar {%
+degeronimo101}%
+\begin{APACrefauthors}%
+De~Geronimo, G.%
+\BCBT {}\ \BBA {} O'Connor, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{MOSFET} optimization in deep submicron technology for
+  charge amplifiers} {{MOSFET} optimization in deep submicron technology for
+  charge amplifiers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{52}{6}{3223-3232}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fiorini%
+\ \BBA {} Buttler%
+}{%
+Fiorini%
+\ \BBA {} Buttler%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+fiorini101}
+\APACinsertmetastar {%
+fiorini101}%
+\begin{APACrefauthors}%
+Fiorini, C.%
+\BCBT {}\ \BBA {} Buttler, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multicorrelated double sampling readout of asynchronous
+  events from multi-element semiconductor detectors} {Multicorrelated double
+  sampling readout of asynchronous events from multi-element semiconductor
+  detectors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{49}{3}{1566-1573}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Gadomski}%
+\ \protect \BOthers {.}}{%
+{Gadomski}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1992}}%
+}]{%
+gadomski101}
+\APACinsertmetastar {%
+gadomski101}%
+\begin{APACrefauthors}%
+{Gadomski}, S.%
+, {Hall}, G.%
+, {H{\o}gh}, T.%
+, {Jalocha}, P.%
+, {Nyg{\aa}rd}, E.%
+\BCBL {}\ \BBA {} {Weilhammer}, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The deconvolution method of fast pulse shaping at
+  hadron colliders}} {{The deconvolution method of fast pulse shaping at hadron
+  colliders}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods in Physics Research
+  A}{320}{}{217-227}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gatti%
+, Geraci%
+\BCBL {}\ \BBA {} Ripamonti%
+}{%
+Gatti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+gatti102}
+\APACinsertmetastar {%
+gatti102}%
+\begin{APACrefauthors}%
+Gatti, E.%
+, Geraci, A.%
+\BCBL {}\ \BBA {} Ripamonti, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic synthesis of optimum filters with arbitrary
+  constraints and noises: a new method} {Automatic synthesis of optimum filters
+  with arbitrary constraints and noises: a new method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{A381}{1}{117-127}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gatti%
+\ \BBA {} Manfredi%
+}{%
+Gatti%
+\ \BBA {} Manfredi%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+gatti101}
+\APACinsertmetastar {%
+gatti101}%
+\begin{APACrefauthors}%
+Gatti, E.%
+\BCBT {}\ \BBA {} Manfredi, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Processing the signals from solid-state detectors in
+  elementary-particle physics} {Processing the signals from solid-state
+  detectors in elementary-particle physics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Rivista del Nuovo Cimento}{9}{}{1-146}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gatti%
+, Sampietro%
+\BCBL {}\ \BBA {} Manfredi%
+}{%
+Gatti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1990}}%
+}]{%
+gatti104}
+\APACinsertmetastar {%
+gatti104}%
+\begin{APACrefauthors}%
+Gatti, E.%
+, Sampietro, M.%
+\BCBL {}\ \BBA {} Manfredi, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimum filters for detector charge measurements in
+  presence of 1f noise} {Optimum filters for detector charge measurements in
+  presence of 1f noise}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment}{287}{3}{513 - 520}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Geraci%
+\ \BBA {} Gatti%
+}{%
+Geraci%
+\ \BBA {} Gatti%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+geraci101}
+\APACinsertmetastar {%
+geraci101}%
+\begin{APACrefauthors}%
+Geraci, A.%
+\BCBT {}\ \BBA {} Gatti, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimum filters for charge measurements in the presence
+  of 1/f current noise} {Optimum filters for charge measurements in the
+  presence of 1/f current noise}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{A361}{2}{277-289}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Geraci%
+, Zambusi%
+\BCBL {}\ \BBA {} Ripamonti%
+}{%
+Geraci%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+geraci103}
+\APACinsertmetastar {%
+geraci103}%
+\begin{APACrefauthors}%
+Geraci, A.%
+, Zambusi, M.%
+\BCBL {}\ \BBA {} Ripamonti, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A comparative study of the energy resolution achievable
+  with digital signal processors in {X}-ray spectroscopy} {A comparative study
+  of the energy resolution achievable with digital signal processors in {X}-ray
+  spectroscopy}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions on}{43}{2}{731-736}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Geronimo%
+, O'Connor%
+, Radeka%
+\BCBL {}\ \BBA {} Yu%
+}{%
+Geronimo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+degeronimo102}
+\APACinsertmetastar {%
+degeronimo102}%
+\begin{APACrefauthors}%
+Geronimo, G\BPBI D.%
+, O'Connor, P.%
+, Radeka, V.%
+\BCBL {}\ \BBA {} Yu, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Front-end electronics for imaging detectors} {Front-end
+  electronics for imaging detectors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{A471}{12}{192-199}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goulding%
+}{%
+Goulding%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+goulding101}
+\APACinsertmetastar {%
+goulding101}%
+\begin{APACrefauthors}%
+Goulding, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pulse-shaping in low-noise nuclear amplifiers: {A}
+  physical approach to noise analysis} {Pulse-shaping in low-noise nuclear
+  amplifiers: {A} physical approach to noise analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{100}{3}{493-504}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gray%
+, Hurst%
+, Lewis%
+\BCBL {}\ \BBA {} Meyer%
+}{%
+Gray%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+gray101}
+\APACinsertmetastar {%
+gray101}%
+\begin{APACrefauthors}%
+Gray, P\BPBI R.%
+, Hurst, P\BPBI J.%
+, Lewis, S\BPBI H.%
+\BCBL {}\ \BBA {} Meyer, R\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {Analysis and design of analog integrated circuits} {Analysis
+  and design of analog integrated circuits}\ (\PrintOrdinal{4th}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Wiley}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guzman%
+\ \protect \BOthers {.}}{%
+Guzman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+guzman101}
+\APACinsertmetastar {%
+guzman101}%
+\begin{APACrefauthors}%
+Guzman, D.%
+, Abusleme, A.%
+, Guarini, M.%
+, Alessandri, C.%
+, Avila, D.%
+, Alvarez, E.%
+\BCBL {}\ \BBA {} Oberli, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Theoretical considerations, early results and plans for
+  an {ASIC} to implement weighted multiple sampling in scientific {CCDs}}
+  {Theoretical considerations, early results and plans for an {ASIC} to
+  implement weighted multiple sampling in scientific {CCDs}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{Proceedings of the Scientific Detectors
+  Workshop}}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haigh%
+\ \BBA {} Singh%
+}{%
+Haigh%
+\ \BBA {} Singh%
+}{%
+{\protect \APACyear {1983}}%
+}]{%
+haigh101}
+\APACinsertmetastar {%
+haigh101}%
+\begin{APACrefauthors}%
+Haigh, D.%
+\BCBT {}\ \BBA {} Singh, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1983}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A switching scheme for switched capacitor filters which
+  reduces the effect of parasitic capacitances associated with switch control
+  terminals} {A switching scheme for switched capacitor filters which reduces
+  the effect of parasitic capacitances associated with switch control
+  terminals}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of ISCAS}{}{}{586-589}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haller%
+\ \BBA {} Wooley%
+}{%
+Haller%
+\ \BBA {} Wooley%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Haller100}
+\APACinsertmetastar {%
+Haller100}%
+\begin{APACrefauthors}%
+Haller, G.%
+\BCBT {}\ \BBA {} Wooley, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{An Analog Memory Integrated Circuit for Waveform
+  Sampling up to 900 MHz}} {{An Analog Memory Integrated Circuit for Waveform
+  Sampling up to 900 MHz}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{41}{4}{1203--1207}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hogervorst%
+, Tero%
+, Eschauzier%
+\BCBL {}\ \BBA {} Huijsing%
+}{%
+Hogervorst%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1994}}%
+}]{%
+hogervorst102}
+\APACinsertmetastar {%
+hogervorst102}%
+\begin{APACrefauthors}%
+Hogervorst, R.%
+, Tero, J\BPBI P.%
+, Eschauzier, R\BPBI G\BPBI H.%
+\BCBL {}\ \BBA {} Huijsing, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A compact power-efficient 3 V CMOS rail-to-rail
+  input/output operational amplifier for VLSI cell libraries} {A compact
+  power-efficient 3 v cmos rail-to-rail input/output operational amplifier for
+  vlsi cell libraries}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solid-State Circuits, IEEE Journal
+  of}{29}{12}{1505-1513}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hogervorst%
+, Tero%
+\BCBL {}\ \BBA {} Huijsing%
+}{%
+Hogervorst%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+hogervorst101}
+\APACinsertmetastar {%
+hogervorst101}%
+\begin{APACrefauthors}%
+Hogervorst, R.%
+, Tero, J\BPBI P.%
+\BCBL {}\ \BBA {} Huijsing, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Compact CMOS constant-gm rail-to-rail input stages with
+  gm-control by an electronic zener diode}} {{Compact CMOS constant-gm
+  rail-to-rail input stages with gm-control by an electronic zener
+  diode}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solid-State Circuits Conference, 1995. ESSCIRC '95.
+  Twenty-first European}{}{}{78-81}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+IBM%
+}{%
+IBM%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+cplex}
+\APACinsertmetastar {%
+cplex}%
+\begin{APACrefauthors}%
+IBM.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {{ILOG CPLEX} {O}ptimizer.} {{ILOG CPLEX} {O}ptimizer.}
+\newblock
+\begin{APACrefURL} \url{http://www.ilog.com/products/cplex/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jindal%
+}{%
+Jindal%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+jindal101}
+\APACinsertmetastar {%
+jindal101}%
+\begin{APACrefauthors}%
+Jindal, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Compact Noise Models for MOSFETs} {Compact noise models
+  for mosfets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Electron Devices, IEEE Transactions
+  on}{53}{9}{2051-2061}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jordanov%
+}{%
+Jordanov%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+jordanov101}
+\APACinsertmetastar {%
+jordanov101}%
+\begin{APACrefauthors}%
+Jordanov, V\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Real time digital pulse shaper with variable weighting
+  function} {Real time digital pulse shaper with variable weighting
+  function}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{A505}{1}{347-351}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kleinfelder%
+, Chen%
+, Kwiatkowski%
+\BCBL {}\ \BBA {} Shah%
+}{%
+Kleinfelder%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Kleinfelder100}
+\APACinsertmetastar {%
+Kleinfelder100}%
+\begin{APACrefauthors}%
+Kleinfelder, S.%
+, Chen, Y.%
+, Kwiatkowski, K.%
+\BCBL {}\ \BBA {} Shah, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{High-Speed CMOS Image Sensor Circuits with In Situ
+  Frame Storage}} {{High-Speed CMOS Image Sensor Circuits with In Situ Frame
+  Storage}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{51}{4}{1648--1656}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lutz%
+, Manfredi%
+, Re%
+\BCBL {}\ \BBA {} Speziali%
+}{%
+Lutz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1989}}%
+}]{%
+lutz101}
+\APACinsertmetastar {%
+lutz101}%
+\begin{APACrefauthors}%
+Lutz, G.%
+, Manfredi, P.%
+, Re, V.%
+\BCBL {}\ \BBA {} Speziali, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Limitations in the accuracy of detector charge
+  measurements set by the 1/F noise in the front end amplifier}} {{Limitations
+  in the accuracy of detector charge measurements set by the 1/F noise in the
+  front end amplifier}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nucl.Instrum.Meth.}{A277}{}{194-203}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Motchenbacher%
+\ \BBA {} Fitchen%
+}{%
+Motchenbacher%
+\ \BBA {} Fitchen%
+}{%
+{\protect \APACyear {1973}}%
+}]{%
+motchenbacher}
+\APACinsertmetastar {%
+motchenbacher}%
+\begin{APACrefauthors}%
+Motchenbacher, C.%
+\BCBT {}\ \BBA {} Fitchen, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1973}.
+\newblock
+\APACrefbtitle {{Low-Noise Electronic Design}} {{Low-Noise Electronic Design}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murmann%
+}{%
+Murmann%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+murmann101}
+\APACinsertmetastar {%
+murmann101}%
+\begin{APACrefauthors}%
+Murmann, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{EE214: Analog Integrated Circuit Design}} {{EE214:
+  Analog Integrated Circuit Design}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Stanford University}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+O'Connor%
+\ \BBA {} De$\;$Geronimo%
+}{%
+O'Connor%
+\ \BBA {} De$\;$Geronimo%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+oconnor100}
+\APACinsertmetastar {%
+oconnor100}%
+\begin{APACrefauthors}%
+O'Connor, P.%
+\BCBT {}\ \BBA {} De$\;$Geronimo, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Prospects for Charge Sensitive Amplifiers in Scaled
+  CMOS}} {{Prospects for Charge Sensitive Amplifiers in Scaled CMOS}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{Nuclear Science Symposium, 1999 IEEE Conference
+  Record}}{1}{}{88--93}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Porro%
+, Herrmann%
+\BCBL {}\ \BBA {} Hornel%
+}{%
+Porro%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+porro101}
+\APACinsertmetastar {%
+porro101}%
+\begin{APACrefauthors}%
+Porro, M.%
+, Herrmann, S.%
+\BCBL {}\ \BBA {} Hornel, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\APACrefbtitle {Multi correlated double sampling with exponential reset} {Multi
+  correlated double sampling with exponential reset}\ (\BVOL~26)\ (\BNUM~3).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Pullia}%
+}{%
+{Pullia}%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+pullia103}
+\APACinsertmetastar {%
+pullia103}%
+\begin{APACrefauthors}%
+{Pullia}, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{How to derive the optimum filter in presence of
+  arbitrary noises, time-domain constraints, and shaped input signals: {A} new
+  method}} {{How to derive the optimum filter in presence of arbitrary noises,
+  time-domain constraints, and shaped input signals: {A} new method}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{A397}{}{414-425}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Pullia}%
+}{%
+{Pullia}%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+pullia104}
+\APACinsertmetastar {%
+pullia104}%
+\begin{APACrefauthors}%
+{Pullia}, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impact of non-white noises in pulse amplitude
+  measurements: a time-domain approach} {Impact of non-white noises in pulse
+  amplitude measurements: a time-domain approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Instruments and Methods}{A405}{1}{121-125}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pullia%
+\ \BBA {} Gatti%
+}{%
+Pullia%
+\ \BBA {} Gatti%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+pullia105}
+\APACinsertmetastar {%
+pullia105}%
+\begin{APACrefauthors}%
+Pullia, A.%
+\BCBT {}\ \BBA {} Gatti, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimal filters with constant-slope crossover and finite
+  width for pulse-timing measurements} {Optimal filters with constant-slope
+  crossover and finite width for pulse-timing measurements}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{49}{3}{1170-1176}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pullia%
+\ \BBA {} Riboldi%
+}{%
+Pullia%
+\ \BBA {} Riboldi%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+pullia102}
+\APACinsertmetastar {%
+pullia102}%
+\begin{APACrefauthors}%
+Pullia, A.%
+\BCBT {}\ \BBA {} Riboldi, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Time-domain {S}imulation of electronic noises}
+  {Time-domain {S}imulation of electronic noises}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{51}{4}{1817-1823}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Radeka%
+}{%
+Radeka%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+radeka104}
+\APACinsertmetastar {%
+radeka104}%
+\begin{APACrefauthors}%
+Radeka, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimum {S}ignal-{P}rocessing for {P}ulse-{A}mplitude
+  {S}pectrometry in the {P}resence of {H}igh-{R}ate {E}ffects and {N}oise}
+  {Optimum {S}ignal-{P}rocessing for {P}ulse-{A}mplitude {S}pectrometry in the
+  {P}resence of {H}igh-{R}ate {E}ffects and {N}oise}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions on}{15}{3}{455-470}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Radeka%
+}{%
+Radeka%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+radeka101}
+\APACinsertmetastar {%
+radeka101}%
+\begin{APACrefauthors}%
+Radeka, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{L}ow-{N}oise {T}echniques in {D}etectors}
+  {{L}ow-{N}oise {T}echniques in {D}etectors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Annual Review of Nuclear and Particle
+  Science}{38}{1}{217-277}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Radeka%
+}{%
+Radeka%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+radeka201}
+\APACinsertmetastar {%
+radeka201}%
+\begin{APACrefauthors}%
+Radeka, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Signal {P}rocessing for {P}article {D}etectors} {Signal
+  {P}rocessing for {P}article {D}etectors}.{\BBCQ}
+\newblock
+\BIn{} C.~Fabjan\ \BBA {} H.~Schopper\ (\BEDS), \APACrefbtitle {Detectors for
+  {P}articles and {R}adiation. {P}art 1: {P}rinciples and {M}ethods} {Detectors
+  for {P}articles and {R}adiation. {P}art 1: {P}rinciples and {M}ethods}\
+  (\BVOL\ 21B1, \BPG~288-319).
+\newblock
+\APACaddressPublisher{}{Springer Berlin Heidelberg}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rashid%
+}{%
+Rashid%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+rashid101}
+\APACinsertmetastar {%
+rashid101}%
+\begin{APACrefauthors}%
+Rashid, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Microelectronic Circuits: Analysis \& Design} {Microelectronic
+  circuits: Analysis \& design}.
+\newblock
+\APACaddressPublisher{}{Cengage Learning}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sampietro%
+, Bertuccio%
+, Geraci%
+\BCBL {}\ \BBA {} Fazzi%
+}{%
+Sampietro%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+sampietro101}
+\APACinsertmetastar {%
+sampietro101}%
+\begin{APACrefauthors}%
+Sampietro, M.%
+, Bertuccio, G.%
+, Geraci, A.%
+\BCBL {}\ \BBA {} Fazzi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A digital system for ``optimum'' resolution in x-ray
+  spectroscopy} {A digital system for ``optimum'' resolution in x-ray
+  spectroscopy}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Review of Scientific Instruments}{66}{2}{975-981}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sansen%
+}{%
+Sansen%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+analogessentials}
+\APACinsertmetastar {%
+analogessentials}%
+\begin{APACrefauthors}%
+Sansen, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {{Analog Design Essentials}} {{Analog Design Essentials}}.
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sansen%
+\ \BBA {} Chang%
+}{%
+Sansen%
+\ \BBA {} Chang%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+sansen101}
+\APACinsertmetastar {%
+sansen101}%
+\begin{APACrefauthors}%
+Sansen, W.%
+\BCBT {}\ \BBA {} Chang, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Limits of low noise performance of detector readout
+  front ends in {CMOS} technology} {Limits of low noise performance of detector
+  readout front ends in {CMOS} technology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Circuits and Systems, IEEE Transactions
+  on}{37}{11}{1375-1382}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Silveira%
+, Flandre%
+\BCBL {}\ \BBA {} Jespers%
+}{%
+Silveira%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+silveira101}
+\APACinsertmetastar {%
+silveira101}%
+\begin{APACrefauthors}%
+Silveira, F.%
+, Flandre, D.%
+\BCBL {}\ \BBA {} Jespers, P\BPBI G\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A gm/ID based methodology for the design of CMOS analog
+  circuits and its application to the synthesis of a silicon-on-insulator
+  micropower OTA} {A gm/id based methodology for the design of cmos analog
+  circuits and its application to the synthesis of a silicon-on-insulator
+  micropower ota}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solid-State Circuits, IEEE Journal
+  of}{31}{9}{1314-1319}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Snoeys%
+, Campbell%
+, Heijne%
+\BCBL {}\ \BBA {} Marchioro%
+}{%
+Snoeys%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+Snoeys100}
+\APACinsertmetastar {%
+Snoeys100}%
+\begin{APACrefauthors}%
+Snoeys, W.%
+, Campbell, M.%
+, Heijne, E\BPBI H\BPBI M.%
+\BCBL {}\ \BBA {} Marchioro, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Integrated Circuits for Particle Physics Experiments}}
+  {{Integrated Circuits for Particle Physics Experiments}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{2000 IEEE International Solid-State Circuits
+  Conference Digest of Technical Papers (ISSCC)}}{}{}{184-185, 455}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Spieler%
+}{%
+Spieler%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+spieler2005semiconductor}
+\APACinsertmetastar {%
+spieler2005semiconductor}%
+\begin{APACrefauthors}%
+Spieler, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Semiconductor Detector Systems} {Semiconductor detector
+  systems}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tuttle%
+}{%
+Tuttle%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+tuttle101}
+\APACinsertmetastar {%
+tuttle101}%
+\begin{APACrefauthors}%
+Tuttle, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Why particle physics matters} {Why particle physics
+  matters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Symmetry Magazine}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Van Der~Ziel%
+}{%
+Van Der~Ziel%
+}{%
+{\protect \APACyear {1970}}%
+}]{%
+van101}
+\APACinsertmetastar {%
+van101}%
+\begin{APACrefauthors}%
+Van Der~Ziel, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1970}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Noise in solid-state devices and lasers} {Noise in
+  solid-state devices and lasers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the IEEE}{58}{8}{1178-1206}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vleugels%
+}{%
+Vleugels%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+vleugels101}
+\APACinsertmetastar {%
+vleugels101}%
+\begin{APACrefauthors}%
+Vleugels, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{EE315B: VLSI Data Conversion Circuits}} {{EE315B: VLSI
+  Data Conversion Circuits}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Stanford University}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

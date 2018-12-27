@@ -1,0 +1,113 @@
+Lista y valores de componentes:
+
+Capacitores		valores 		Descripcion
+C1: 			4.7 uf			capacitor de entrada para la referencia IC6. ceramico x5r o x7r
+C2: 			4.7 uf			capacitor de entrada para la referencia IC7. ceramico x5r o x7r
+C3: 			4.7 uf			capacitor de entrada para la referencia IC5. ceramico x5r o x7r
+C4: 			4.7 uf			capacitor de entrada para la referencia IC8. ceramico x5r o x7r
+C5: 			4.7 uf			capacitor de entrada para la referencia IC10. ceramico x5r o x7r
+
+C6: 			1uf				Capacitorde bypass AVDD. Tantalio
+
+C7: 			4.7 uf			Capacitor de entrada para la referencia IC13. ceramico x5r
+
+C8:				0.01uf			Capacitor de bypass para el VL en el ADC1(debe ir en paralelo con uno de 10uf)|0603
+
+C9:				0.1uf 			Capacitor de bypass para AVDD. ceramico.									|0603
+C10:			0.1uf 			Capacitor de bypass para AVDD. ceramico.									|0603
+
+C11: 			1uf				Capacitorde bypass DVDD. Tantalio
+C12:			0.1uf 			Capacitor de bypass para DVDD. ceramico.									|0603
+C13:			0.1uf 			Capacitor de bypass para DVDD. ceramico.									|0603
+
+C14: 			10uf			Capacitor de bypass para VL del ADC1. ceramico               				|0603
+C15:			0.01uf 			Capacitor de bypas para VDD del ADC1. ceramicos								|0603
+C16:			10uf			Capacitor de bypas para VDD del ADC1. ceramicos								|0603
+
+C17:			0.01uf			Capaictor de bypass para el Vref del ADC1. Ceramicos						|0603
+C18:			4.7uf			Capaictor de bypass para el Vref del ADC1. Ceramicos						|0603
+
+C19:			0.01uf			Capacitor de bypass para VDD. en el ADC2. ceramicos							|0603
+C20:			10uf			Capacitor de bypass para VDD. en el ADC2. Ceramicos 						|0603
+
+C21:			0.01uf 			Capacitores de bypass para Vl en el ADC2. Ceramicos.						|0603
+C22:			10uf 			Capacitores de bypass para Vl en el ADC2. Ceramicos.						|0603
+
+
+C23:			0.01uf 			Capacitores de bypass para Vref en el ADC2. Ceramicos.						|0603
+C24:			4.7uf 			Capacitores de bypass para Vref en el ADC2. Ceramicos.						|0603
+
+C25:			4.7uf			Capacitor de entrada para el IC16. ceramico x5r.
+
+C26:			0.1uf 			Capacitor de salida para el IC5. ceramico x5r.								|0603
+C27:			0.1uf 			Capacitor de salida para el IC6. ceramico x5r.								|0603
+C28:			0.1uf 			Capacitor de salida para el IC8. ceramico x5r.								|0603
+C29:			0.1uf 			Capacitor de salida para el IC16. ceramico x5r.								|0603
+C30:			0.1uf 			Capacitor de salida para el IC17. ceramico x5r.
+
+C31:			4.7uf 			Capacitor de entrada para el IC17. ceramico x5r.							|0603
+
+C32:			4.7uf 			Capacitor de filtro para la salida de VICM. ceramico.						|0603
+C33:			4.7uf 			Capacitor de filtro para la salida de VICM. ceramico.						|0603
+C34:			4.7uf 			Capacitor de filtro para la salida de VICM. ceramico.						|0603
+C35:			0.1uf 			Capacitor de salida de IC7. ceramico.										|0603
+
+C36:			x.xxuf			Capacitores de la entrada Vin_Csa.											|0603
+C37:			x.xxuf			Capacitores de la entrada Vin_Csa.											|0603								
+C38:			x.xxuf			Capacitores de la entrada Vin_Csa.											|0603
+
+C39: 			0.10uf 			Capacitor de bypass para la alimentacion de el multiplexor.					|0603
+
+C40: 			0.10uf 			Capacitor de salida para IC10.												|0603
+C41: 			0.10uf 			Capacitor de salida para IC13.												|0603
+C42: 			1nf 			Capacitor de 1nf para el cuerpo del conector VHDCI							|0603	
+
+C43:			xx 				Capacitor extra para IC11													|0603
+C44:			xx 				Capacitor extra para IC11													|0603
+
+C45:			xx 				Capacitor extra para IC9													|0603
+C46:			xx 				Capacitor extra para IC9													|0603
+
+
+Resistencias 	valores 		Descripcion
+R1:				xx   			Trim de referencia para ResBiasExt 100k.
+R2:				xx   			Trim de referencia para ResBiasExt 100k.
+R3:				xx   			Resistencia de pull up para sdi en adc
+R4:				xx   			Trim de presicion de referencia para VICM 100k.
+R5:				xx 				Trim de presicion de referencia para VOCM 100k.
+R6:				xx   			Trim de presicion de referencia para V_ref_prechar 100k.
+R7:				xx 				esistencia de pull up para sdi en adc  			
+R8:				1M				Resistencia de 1M para el cuerpo del conector VHDCI   						|0603
+R9:				xx   			Resistencia del shield del conector.
+R14-R43			1k				Resistencias para conversion de valores logicos entre la salida de la fpga y el chip. |0603	
+
+
+Circuitos
+Integrados	 	Nombre			Descripcion
+IC1 			THEBEAN2		Chip The Bean 2
+IC2				ADG3248			switch analogico. utilizado para VICM
+IC3				ADG3248			switch analogico. utilizado para VOCM
+IC4				ADG3248			switch analogico. utilizado para V_ref_prechar
+IC5				LM4128			Referencia de voltaje. de 1.8v para los potenciometros de VICM
+IC6				LM4128			Referencia de voltaje. de 1.8v para los potenciometros de VOCM
+IC7				LM4128			Referencia de voltaje. de 1.8v para los potenciometros de v_ref_prechar.
+IC8				LM4128			Referencia de voltaje para el voltaje logico del dac. (3.3V)
+IC9				UA78M33			Regulador de voltaje para VDD2 que alimenta al chip.
+IC10			LM4128			Referencia de voltaje. de 1.8v para la alimentacion DVDD del chip.
+IC11			UA78M33			Regulador de voltaje para VDD que alimenta al los integrados de la targeta.
+IC12			OPA282			buffer de voltaje para VICM y VOCM
+IC13			LM4128			Referencia de voltaje. de 1.8v para la alimentacion AVDD del chip.
+IC14			OPA282			buffer de voltaje para V_ref_prechar
+IC15			UA78M05			Regulador de voltaje para VDD que alimenta al los integrados de 5 volts.
+IC16			LM4128			Referencia de voltaje. voltaje logico para el adc. V de 3.3
+IC17			LM4128			Referencia de voltaje. voltaje para el adc. V de 4.096
+
+IC18			AD5160			Potenciometro digital. para referencia en vicm.
+IC19			AD5160			Potenciometro digital. para referencia en vocm.
+IC20			AD5160			Potenciometro digital. para referencia en v_ref_prechar.
+IC21			ADG774A			Multiplexor analogico. para la salida del dac.
+IC22			MAX1072			ADC. mide vo ch
+IC23			dac7554			DAC de 4 canales. señales vi fil.
+IC24			MAX1072			ADC. mide vo fil
+
+

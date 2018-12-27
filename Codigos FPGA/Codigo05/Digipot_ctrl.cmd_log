@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Codigo03 -o "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Digipot_ctrl.tfi" -lib work "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03//Digipot_ctrl.v" -module Digipot_ctrl -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror 

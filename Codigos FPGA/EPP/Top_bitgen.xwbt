@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Wac\Desktop\1_2014\Memoria\Codigos FPGA\EPP\Top.ncd
+OUTFILE=C:\Users\Wac\Desktop\1_2014\Memoria\Codigos FPGA\EPP\Top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Wac\Desktop\1_2014\Memoria\Codigos FPGA\EPP
+LICENSE=WebPack
+USER_INFO=210765149_0_0_318

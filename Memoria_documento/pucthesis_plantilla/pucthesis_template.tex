@@ -1,0 +1,334 @@
+%======================================================================%
+%        pucthesis_template.tex       04-Apr-2007, modif. 04-Apr-2007
+%______________________________________________________________________%
+%.......10........20........30........40........50........60........70.%
+%________|_________|_________|_________|_________|_________|_________|_%
+%======================================================================%
+% $Id: pucthesis_template.tex,v 1.5 2007/04/04 20:46:03 mtorrest Exp $
+\documentclass[12pt,reqno,oneside]{pucthesis}         % For dvips
+%\documentclass[12pt,reqno,oneside,pdftex]{pucthesis} % For pdflatex
+%\documentclass[10pt,reqno,twoside]{pucthesis}
+%\draft
+%\doublespacing
+%\usepackage{verbatim}
+%\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm2e}
+\usepackage{fancybox}
+\usepackage{float}
+\usepackage{times}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   Preamble                                       %
+           %------------------------------------------------- %
+           %        \newcommand\...{...}                      %
+           %        \newtheorem{}{}[]                         %
+           %        \numberwithin{}{}                         %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%--------- NEW ENVIRONMENTS ---------
+\newtheorem{definition}{\bf Definition}[chapter]
+\newtheorem{property}{Property}[chapter]
+\newtheorem{claim}{Claim}[chapter]
+\newtheorem{lemma}{\bf Lemma}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{theorem}{\noindent \bf Theorem}[chapter]
+\newtheorem{corollary}{\bf Corollary}[chapter]
+\newtheorem{pf}{Proof}[chapter]
+\newtheorem{example}{\bf Example}[chapter]
+\newtheorem{remark}{Remark}[chapter]
+
+%--------- PLACE ADDITIONAL ENVIRONMENTS/DEFINITIONS HERE ---------
+
+% ...
+
+%----------------------------------------------------------------------%
+\begin{document}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %                                                  %
+           %  INITIALISATIONS : Top Matter                    %
+           %                                                  %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\draft                        %adds a footer with date of draft
+\mdate{April 17, 2007}         %date manuscript changed
+\version{1}                    %manuscript version#
+
+
+\title[Short Title]{Long title of the thesis}
+\author{Author's Full Name}           
+%
+\address{Escuela de Ingenier\'ia\\
+         Pontificia Universidad Cat\'olica de Chile\\ 
+         Vicu\~na Mackenna 4860\\
+         Santiago, Chile\\
+         {\it Tel.\/} : 56 (2) 354-2000}
+\email{mailname@address}
+%
+\facultyto    {the School of Engineering}
+%\department   {Departement of ...}
+\faculty      {Faculty of Engineering}
+\degree       {Master of Science in Engineering} 
+              % or {Doctor in Engineering Sciences}
+\advisor      {Advisor's Name}
+\committeememberA {Committee Member A}
+\committeememberB {Committee Member B (Optional)}
+\guestmemberA {Guest Committee Member A}
+\guestmemberB {Guest Committee Member B (Optional)}
+\ogrsmember   {ORGS Representative}
+\subject      {Engineering}
+\date         {April 2007}
+\copyrightname{Author's Full Name}
+\copyrightyear{MMVII}
+\dedication   {Gratefully to my family}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   PRELIMINARIES                                  %
+           %--------------------------------------------------%
+           %      page i & ii: cover page                     %
+           %      page iii: dedication                        %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NoChapterPageNumber           % no header - footer on first page of chapter
+\pagenumbering{roman}
+\maketitle
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   EXTRA PAGES                                    %
+           %--------------------------------------------------%
+           %      page --: not used                           %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+%\thispagestyle{empty}
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      page iv: ACKNOWLEDGEMENTS                   %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{ACKNOWLEDGEMENTS}
+%................................
+%................................
+Write in a sober style your acknowledgements to those persons that contributed to the development and preparation of your thesis.
+
+% Do not use the following lines.
+% These do not comply with the PUC Thesis guidelines.
+%~\vspace{1cm}
+%\hfill\parbox[t]{6cm}{\raggedleft
+%                      \em Author's Full Name\\[1ex]
+%                          Santiago, Chile, dd mmmm yyyy}
+       
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      page v & up ---                             %
+           %            Table of Contents                     %
+           %            List of Figures                       %
+           %            List of Tables                        %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\listoffigures          
+\listoftables           
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      page x & xi: ABSTRACT - RESUMEN
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{ABSTRACT}
+%................................
+%................................
+
+The abstract must contain between 100 and 300 words.  The abstract must be written in English and Spanish.  In the case of doctoral theses, the layout of the abstract page is different, so please check the template provided by the OGRS.
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   KEYWORDS                                       %
+           %--------------------------------------------------%
+           %      at the end of the abstract page             %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+~\vfill
+{\bf Keywords:} \parbox[t]{.8\textwidth}{
+  thesis template, document writing, {\bf (Write here the keywords
+  relevant and strictly related to the topic of the thesis)}.}
+
+
+\chapter*{RESUMEN}
+%................................
+%................................
+
+El resumen debe contener entre 100 y 300 palabras. El resumen debe ser escrito en ingl\'es y espa\~nol.  En el caso de tesis de doctorado, el formato de la p\'agina del resumen es distinta, por favor verifique la plantilla entregada por la Direcci\'on de Postrgrado.
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   PALABRAS CLAVES                                %
+           %--------------------------------------------------%
+           %      al final de la pagina de resumen            %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+~\vfill
+{\bf Palabras Claves:} \parbox[t]{.75\textwidth}{
+  plantilla de tesis, escritura de documentos, {\bf (Colocar aqu\'i las
+  palabras claves relevantes y estr\'ictamente relacionadas al tema de la tesis)}.}
+
+
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%======================================================================%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   TEXT  OF THESIS
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 1
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[INTRODUCTION]{INTRODUCTION}
+%...........................
+%...........................
+\section{Problem Definition/Problem Description}
+\section{Motivation}
+\subsection{Some examples}
+\subsection{Some features}
+\section{Existing Techniques/Existing Approaches}
+\subsection{General methods}
+\subsection{Drawbacks of existing approaches}
+\section{Summary of Contributions/Original Contributions}
+\section{Thesis Outline/Document Organization}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 2
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[BASIC ASSUMPTIONS, FACTS AND PRELIMINARY RESULTS]{BASIC ASSUMPTIONS, FACTS AND PRELIMINARY RESULTS}
+%A\mbox{}\parbox{0.8\textwidth}{
+%BASIC ASSUMPTIONS, FACTS AND PRELIMINARY RESULTS}}
+%...........................
+%...........................
+This section introduces some preliminary notions and mathematical background.  The following is a citation~\cite{CYB00}.
+
+\section{Basic Assumptions}
+\section{Basic Facts and Preliminary Results}
+\section{Mathematical Models}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 3
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[ANALYSIS AND SIMULATIONS]{ANALYSIS AND SIMULATIONS}
+%...........................
+%...........................
+
+\section{Analysis}
+\section{Simulations}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 4
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[IMPLEMENTATION AND TESTING]{IMPLEMENTATION AND TESTING METHODOLOGY}
+%...........................
+%...........................
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 5
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[EXPERIMENTAL RESULTS]{EXPERIMENTAL RESULTS}
+%...........................
+%...........................
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 6
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{CONCLUSION AND FUTURE RESEARCH}
+%...........................
+%...........................
+
+\section{Review of the Results and General Remarks}
+\section{Comparison of Solutions}
+\section{Future Research Topics}
+
+%----------------------------------------------------------------------%
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   REFERENCES 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\nocite{*} % To make all the uncited references to appear in the bibliography.
+\bibliographystyle{apacite} 
+\bibliography{abbrev,pucthesis_refs}
+
+%----------------------------------------------------------------------%
+
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   APPENDICES
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\chapter[ADDITIONAL RESOURCES]{ADDITIONAL RESOURCES}
+%...........................
+%...........................
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   INDEX 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Uncomment the following lines to include an index.
+
+%% INSERT INDEX PAGE # IN TOC
+%%%\addtocounter{chapter}{1}
+%%%\addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}{Index}}
+%%\addcontentsline{toc}{chapter}{\protect\numberline{}{Index}}
+%% NOTE: Insert "\label{IDX}" in '.ind' file after compiling the index
+%% with makeindex.
+%%\index{ @\label{IDX}}
+%% The above NOTE is not really needed as can be achieved by 
+%% the trick below.
+%\addtocounter{page}{1}
+%\label{IDX}
+%\addtocounter{page}{-1}
+%\printindex
+
+%----------------------------------------------------------------------%
+
+\end{document}
+%======================================================================%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

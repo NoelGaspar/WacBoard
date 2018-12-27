@@ -1,0 +1,87 @@
+\chapter{DEFINICIÓN DEL PROBLEMA}
+\label{chapter:problem}
+\hyphenation{BeamCal}
+En esta tesis de pre-grado se describe el diseño y la implementación de una plataforma de pruebas cuyo fin es someter a pruebas y caracterizar un prototipo de the bean V2. Este es un ASCI diseñado para satisfacer necesidades de instrumentación del BeamCal, un detector del International Linear Collider.
+
+\section{El colisionador lineal internacional}
+El ILC es un colisionador de partículas aún  en etapa de diseño, que pretende complementar los descubrimientos realizados por el LHC en el 2012. Este instrumento colisionará electrones contra sus  anti-partículas los positrones, para lo cual cuenta principalmente de dos aceleradores los que comprenden una extension de aproximadamente 31 kilómetros. En estos aceleradores las partículas confinadas dentro de un haz son aceleradas por medio de campos electromagnéticos hasta alcanzar velocidades relativas a la velocidad de la luz, para luego ser colisionadas. La escala de energía en estas colisiones serán del orden de 500 GeV para su primera etapa. Posteriormente en una segunda etapa, el ILC contempla actualización que pretende utilizar una estructura de aceleradores de 50 kilómetros y niveles de energía de 1 Tev. Estos representan niveles de energía nunca antes observados en la tierra, es por esta razón que estos aceleradores reciben el nombre de aceleradores de ``escala tera". 
+
+El proyecto del ILC representa un desafío de carácter mundial. Más de 300 laboratorios y Universidades de todo el mundo participan en el diseño de este nuevo instrumento de alto nivel para la física de partículas.  Debido a que tanto la realización de un proyecto de esta magnitud, así como las tareas de coordinación representan un desafío extremadamente complejo, muchas de las especificaciones que comprenden al proyecto aun están en discusión. Un ejemplo de esto es el emplazamiento de este proyecto, el cual aun no se encuentra definido.
+
+
+\section{El detector frontal y the BeamCal}
+	En un acelerador de partículas las colisiones se llevan a cabo dentro de un gran detector, el cual esta a su vez compuestos de un conjunto de distintos detectores, destinados a medir fenómenos específicos. La estructura de estos detectores para el ILC aun permanece en estudio, sin embargo, existen dos propuestas validadas como candidatas. Cada una de estas propuestas considera la presencia de un detector frontal en su estructura. El propósito de este detector frontal es realizar mediciones de la luminosidad de alta velocidad y precisión, y asegurar la hermiticidad del detector.
+	Para lograr dichas tareas, el detector frontal cuenta a su vez con dos calorímetros principales ubicados en las capas más cercanas al haz de partículas: el LumiCal y el BeamCal.
+The BeamCal es un calorímetro electromagnético altamente segmentado,  adyacente al haz de partículas y cuenta principalmente con tres propósitos: Mejorar la hermeticidad del ILC para ángulos polares bajos, reducir el backscattering para pares en la parte interior del detector del ILC y asistir al diagnostico del haz de partículas. Las especificaciones del BeamCal para la tolerancia de radiación, ruido, carga de señal, tasas de pulsos y tiempos de ocupación plantean un reto único para el sistema de instrumentación. 
+
+\section{The bean V2}
+The bean V2 es un IC que implementa la segunda iteración de The bean. Este integrado tiene como objetivo implementar el  front-end para un detector destinado a formar parte de BeamCal. En su segunda iteración The bean V2 contempla integrar la electronica para 32 canales. Cada uno de estos canales contará con: un amplificador sensible a la carga (CSA), con un pulsador de pre-carga; un filtro de capacitores conmutados (SC) totalmente diferencial con características de supresión de bajo ruido; un conversor análogo-digital(ADC) totalmente diferencial de aproximación sucesiva de 10 bits; y sistema para almacenar la información de salida, ya sea en una memoria analógica o digital. Adicionálmente, el IC cuenta con una red de feed-back para propósitos de diagnostico. En la figura \ref{fig:thebean_diagram} se entrega un diagrama de la estructura de The bean. 
+  
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=5in]{./figures/thebeamdiagram-02.eps}
+	\caption{Diagrama de bloques de The bean.}\label{fig:thebean_diagram}
+\end{figure}
+ 
+El IC debe ser capaz de procesar la información proveniente del detector BeamCal a una frecuencia nominal de 3.2468 MHz, con un 100\% de ocupación. Por otro lado, debe ser capaz de lidiar con dos modos diferentes de operación: El modo de adquisición estandar (standar data taking mode o SDT mode) y el modo de calibración del detector (Detector Calibration mode o DCal mode). Según las especificaciones de BeamCal, la máxima señal de entrada corresponde aproximadamente a $37pC$ en el modo SDT  y 50 veces menor en el modo DCal.
+Por otro lado, dada la proximidad del detector a las colisiones, se encontrará expuesto a granes cantidades de radiación (1Mrad $\text{SiO}_2$).
+
+\begin{table}[!h]
+	\begin{center}
+		\begin{tabular}{|l|l|}\hline
+			Tasa de entrada & $3.25\,\text{MHz}$ durante $0.87\,\text{ms}$, repetidos cada $200\,\text{ms}$ \\ \hline
+			Canales por AISC & $32$ \\ \hline
+			Ocupación & $100\%$ \\ \hline
+			Resolución & $10$ bits por un canal individual, $8$ bits para la cadena de \textit{fast feedback} \\ \hline
+			Modos de Operación & Modo de adquisición estandar (STD), Modo de calibración del detector (DCal) \\ \hline
+			Señal de entrada & Hasta $40$ pC en el modo SDT, $0.74$ pC en el modo DCal \\ \hline
+			Capacitancia de entrada & $65$ pF \\ \hline
+			Características adicionales  & Baja latencia de salida($1\,\micro\text{s}$)\\ \hline
+			Características adicionales  & Pulsador interno para calibración electrónica\\ \hline
+			Tolerancia de radiación & 1 Mrad ($\text{SiO}_2$),TID \\ \hline
+			Consumo & $2.19$ mW  por canal \\ \hline
+			\end{tabular}
+		\vspace*{5pt}
+		\caption{Resumen de las especificaciones para el ASIC de instrumentación para the BeamCal.}\label{tab:bean_specs}
+	\end{center}
+\end{table}
+
+ La tabla \ref{tab:bean_specs} resume las especificaciones a las que se encontrará sometido el IC The bean V2, las cuales son heredadas de los requisitos exigidos por the BeamCal.
+ 
+\section{La plataforma de pruebas}
+	El desafío del trabajo presentado en esta tesis de pre-grado consiste en lograr implementar una plataforma que permita instanciar todas las condiciones necesarias para probar el funcionamiento de un  prototipo para the bean V2 \citep{diegothesis}. En la figura \ref{fig:thebean_spec} se presenta la estructura general de las señales que intervienen en el IC. Esta investigación se realizó bajo el patrocinio de CONICYT a través del programa FONDECYT.
+El FONDECYT  \# 1110165: Aplicación de técnicas CMOS avanzadas en el procesamiento de pulsos para experimentos en física de partículas.
+
+	Debido a que The bean V2 es un integrado de señales mixtas, requiere de alimentación analógica y digital. Ambas alimentaciones deben ser de $1.8V$ y con características de bajo ruido. Las entradas del circuito se dividen en entradas analógicas y digitales. En las entradas analógicas cuenta con una señal para un canal del \textit{front-end} que recibe la salida del detector, y una entrada diferencial para el filtro de prueba. Las entradas digitales, representan todas las señales de control, que periten definir el modo de operación del IC y controlan su funcionamiento. Por otra parte, las salidas del IC corresponden a voltajes analógicos, los cuales son un par de salidas provenientes desde \textit{buffers} para seguimiento del funcionamiento del integrado; un par de salidas diferenciales provenientes desde el filtro de prueba; y un par diferencial correspondiente a la salida del canal del \textit{front-end}. Junto con las señales descritas, el integrado necesita de un grupo de voltajes analógicos, los cuales definen el punto de operación del integrado. En la sección \ref{chapter:theoretical} se entrega un estudio más detallado del funcionamiento de cada una de las señales del integrado. 
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=6in]{./figures/especificiaciones-01}
+	\caption{Diagrama general de los requisitos del IC.}\label{fig:thebean_spec}
+\end{figure}
+
+
+
+Para generar el control de las variables digitales, la plataforma de pruebas debe contar con una interfaz que permita comunicarse con un control digital. Otro de los aspectos importantes a considerar en los requisitos para la plataforma de pruebas, es la capacidad de operar \textit{on-line}, es decir, realizar continuas iteraciones de secuencias de entradas para distintas configuraciones y condiciones de operación del integrado, sin tener que re-programar el controlador. Esto implica contar con un protocolo que permita establecer una comunicación entre un computador y el controlador en tiempo real.
+
+En resumen la plataforma de pruebas a implementar debe cumplir con los siguientes requisitos:
+\begin{itemize}
+\item Contar con reguladores de voltaje para generar la alimentación del IC the bean V2.
+\item Poseer la capacidad de generar distintos voltajes para emular las entradas necesarias del sistema, lo cual debe implementarse en base a un conversor digital análogo (DAC) de 12 bits.
+\item Debe contar con la capacidad de leer los datos de salida, para esto es necesario contar con dos conversores análogo digital (ADC) de 10 bits totalmente diferenciales.
+\item Debe ser capaz de generar los voltajes de referencia para ajustar el punto de operación del integrado.
+\item Implementar una interfaz que permita comunicarse directamente con un control digital.
+\item Implementar junto al control un protocolo de comunicación, que permita el control \textit{on-line} del integrado.
+\end{itemize}
+
+ Dadas las especificaciones del problema, desarrollar un control basado en una FPGA aparece como la mejor opción. Debido a la versatilidad que ofrecen las FPGAs, es posible desarrollar un control tan específico como sea necesario. Además las FPGA comúnmente cuentan con un gran número de pines I/O lo cual permitiría controlar múltiples señales de control de forma paralela, aumentando la velocidad de procesamiento.	
+ 
+ 
+Finalmente los objetivos específicos del trabajo presentado en esta tesis de pre-grado son:
+
+
+\begin{enumerate}
+\item Implementar una plataforma de pruebas que permita caracterizar bajo parámetros definidos un circuito integrado especifico llamado The bean V2.
+\item Implementar dentro de la misma plataforma la capacidad de operar on-line.
+\item Caracterizar el integrado dentro de las pruebas y parámetros establecidas bajo las consideraciones expuestas en este trabajo.
+\end{enumerate}

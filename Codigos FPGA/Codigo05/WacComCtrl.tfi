@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+WacComCtrl instance_name (
+    .clk(clk), 
+    .dataStb(dataStb), 
+    .addrEpp(addrEpp), 
+    .datoAdc(datoAdc), 
+    .busBramAddr(busBramAddr), 
+    .busBramIn(busBramIn), 
+    .busBramOut(busBramOut), 
+    .ctrlWeBram(ctrlWeBram), 
+    .clkBram(clkBram), 
+    .ctrlWord(ctrlWord), 
+    .confWord(confWord), 
+    .busy(busy), 
+    .contData(contData), 
+    .controlEn(controlEn)
+    );
+
+

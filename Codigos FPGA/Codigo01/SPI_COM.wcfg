@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo01/SPI_COM_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="SPI_COM_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/SPI_COM_tb/SOMI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SOMI</obj_property>
+      <obj_property name="ObjectShortName">SOMI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/SCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SCK</obj_property>
+      <obj_property name="ObjectShortName">SCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/SIMO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SIMO</obj_property>
+      <obj_property name="ObjectShortName">SIMO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/CS" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aux</obj_property>
+      <obj_property name="ObjectShortName">aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/uut/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_COM_tb/uut/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i[7:0]</obj_property>
+   </wvobject>
+</wave_config>

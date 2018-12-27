@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl.syr" 
+vhdtdtfi -lang verilog -prj EPP_PRUEBA -o "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl.tfi" -lib work "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA//EppCtrl.v" -module EppCtrl -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror 

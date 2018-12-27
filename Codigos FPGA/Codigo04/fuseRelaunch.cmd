@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/secuenciador_tb_isim_beh.exe" -prj "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/secuenciador_tb_beh.prj" "work.secuenciador_tb" "work.glbl" 

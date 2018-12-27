@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+BramComCtrl instance_name (
+    .clk(clk), 
+    .stb_data(stb_data), 
+    .ctrl_wr(ctrl_wr), 
+    .epp_in(epp_in), 
+    .epp_out(epp_out), 
+    .epp_addr_in(epp_addr_in), 
+    .bram_addr(bram_addr), 
+    .bram_in(bram_in), 
+    .bram_out(bram_out), 
+    .ctrlWeBram(ctrlWeBram), 
+    .clkBram(clkBram)
+    );
+
+

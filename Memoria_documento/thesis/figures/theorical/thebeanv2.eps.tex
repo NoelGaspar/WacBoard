@@ -1,0 +1,52 @@
+% XCircuit output "tx_ltspice.tex" for LaTeX input from tx_ltspice.eps
+\def\putbox#1#2#3#4{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{\scalebox{#3}{#4}}}}}
+\def\rightbox#1{\makebox[0in][r]{#1}}
+\def\centbox#1{\makebox[0in]{#1}}
+\def\topbox#1{\raisebox{-0.60\baselineskip}[0in][0in]{#1}}
+\def\midbox#1{\raisebox{-0.20\baselineskip}[0in][0in]{#1}}
+\begin{center}
+\scalebox{0.4}{
+   \normalsize
+   \parbox{17in}{
+   \includegraphics[scale=1]{./figures/theorical/thebeanv2.eps}\\
+% translate x=1296 y=1280 scale 0.38
+\putbox{0.06in}{5.72in}{1.2}{res\_bias\_ext}%
+\putbox{0.06in}{3.72in}{1.2}{Vin\_csa}%
+\putbox{0.06in}{2.89in}{1.2}{Vref\_prechar}%
+\putbox{0.06in}{2.72in}{1.2}{clk\_prechar1}%
+\putbox{0.06in}{2.56in}{1.2}{clk\_prechar2}%
+\putbox{0.06in}{2.39in}{1.2}{C\_ext\_prechar}%
+\putbox{0.06in}{1.47in}{1.2}{op\_mode}%
+\putbox{0.06in}{1.31in}{1.2}{rst\_csa}%
+\putbox{2.72in}{5.64in}{1.2}{CSA\_bias}%
+\putbox{2.31in}{2.64in}{1.2}{pre\_charger}%
+\putbox{5.31in}{2.22in}{1.2}{CSA\_ctrl}%
+\putbox{5.31in}{1.89in}{1.2}{feedback}%
+\putbox{5.56in}{5.56in}{1.2}{CSA}%
+\putbox{5.56in}{3.72in}{1.2}{CSA}%
+\putbox{8.56in}{5.64in}{1.2}{buffer}%
+\putbox{8.56in}{3.64in}{1.2}{buffer}%
+\putbox{8.31in}{2.06in}{1.2}{phase\_gen}%
+\putbox{11.97in}{5.39in}{1.2}{Filter}%
+\putbox{11.97in}{2.89in}{1.2}{Filter}%
+\putbox{14.97in}{4.72in}{1.2}{CS\_Bx}%
+\putbox{14.97in}{4.56in}{1.2}{out\_s}%
+\putbox{14.97in}{4.39in}{1.2}{Vocm}%
+\putbox{14.97in}{4.22in}{1.2}{hold}%
+\putbox{14.97in}{4.06in}{1.2}{rst}%
+\putbox{14.97in}{3.89in}{1.2}{sgn}%
+\putbox{14.97in}{3.72in}{1.2}{Vicm}%
+\putbox{14.97in}{5.64in}{1.2}{Vo+\_ch}%
+\putbox{14.97in}{5.39in}{1.2}{Vo-\_ch}%
+\putbox{14.97in}{3.31in}{1.2}{Vo-\_fil}%
+\putbox{14.97in}{3.14in}{1.2}{Vo+\_fill}%
+\putbox{14.97in}{2.81in}{1.2}{Vo-\_bp\_fill}%
+\putbox{14.97in}{2.64in}{1.2}{Vo+\_bp\_fill}%
+\putbox{14.97in}{1.56in}{1.2}{clk}%
+\putbox{11.31in}{0.39in}{1.2}{Vin-\_fill}%
+\putbox{11.14in}{0.06in}{1.2}{Vin+\_fill}%
+\putbox{10.14in}{7.39in}{1.2}{Vout\_csa}%
+\putbox{10.47in}{7.06in}{1.2}{baseline}%
+   } % close 'parbox'
+   } % close 'scalebox'
+\end{center}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb.v" Line 49: Target &lt;<arg fmt="%s" index="1">DB</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1190" delta="unknown" >"C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb.v" Line 49: Non-net variable cannot be connected to inout port <arg fmt="%s" index="1">DB</arg>
+</msg>
+
+<msg type="error" file="Simulator" num="778" delta="unknown" >Static elaboration of top level Verilog design unit(s) in library <arg fmt="%s" index="1">work</arg> failed
+</msg>
+
+</messages>
+

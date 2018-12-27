@@ -1,0 +1,5 @@
+verilog work "secuenciador.v"
+verilog work "Digipot_ctrl.v"
+verilog work "Dac_ctrl.v"
+verilog work "adcCtrl2.v"
+verilog work "wacCtrl.v"

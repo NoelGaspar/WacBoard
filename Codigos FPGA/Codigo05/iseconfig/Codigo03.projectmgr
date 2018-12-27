@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Codigo03" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Epp_top C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|Epp_top.v/mod5 - wacCtrl</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|Epp_top.v/mod5 - wacCtrl</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|Epp_top.v/mod5 - wacCtrl</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/pruebaDac C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|pruebaDac.v</ClosedNode>
+         <ClosedNode>/prueba_envio_mem C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|prueba_envio_mem.v</ClosedNode>
+         <ClosedNode>/prueba_envio_mem C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|prueba_envio_mem.v</ClosedNode>
+         <ClosedNode>/wacTest C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|wacTest.v</ClosedNode>
+         <ClosedNode>/wacTest C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|wacTest.v</ClosedNode>
+         <ClosedNode>/wacTest C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|wacTest.v</ClosedNode>
+         <ClosedNode>/wacTest C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|wacTest.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mod4 - WacComCtrl (C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo05/WacComCtrl.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000128000000020000000000000000000000000200000064ffffffff000000810000000300000002000001280000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mod4 - WacComCtrl (C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo05/WacComCtrl.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Bram.xco</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000010b000000a501000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BramComCtrl_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|BramComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/BramComCtrl_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|BramComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/BramComCtrl_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|BramComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|Epp_top.v/mod5 - wacCtrl</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|Epp_top.v/mod5 - wacCtrl</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|Epp_top.v</ClosedNode>
+         <ClosedNode>/Epp_top C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|Epp_top.v/mod5 - wacCtrl</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/Epp_top_prueba C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|Epp_top_prueba.v</ClosedNode>
+         <ClosedNode>/adc2_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|adc2_tb.v</ClosedNode>
+         <ClosedNode>/adc2_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|adc2_tb.v</ClosedNode>
+         <ClosedNode>/adc2_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|adc2_tb.v</ClosedNode>
+         <ClosedNode>/adc2_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|adc2_tb.v</ClosedNode>
+         <ClosedNode>/adc_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|adc_tb.v</ClosedNode>
+         <ClosedNode>/adc_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|adc_tb.v</ClosedNode>
+         <ClosedNode>/adc_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|adc_tb.v</ClosedNode>
+         <ClosedNode>/adc_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|adc_tb.v</ClosedNode>
+         <ClosedNode>/dac_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|dac_tb.v</ClosedNode>
+         <ClosedNode>/dac_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|dac_tb.v</ClosedNode>
+         <ClosedNode>/dac_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|dac_tb.v</ClosedNode>
+         <ClosedNode>/dac_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|dac_tb.v</ClosedNode>
+         <ClosedNode>/dpot_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|dpot_tb.v</ClosedNode>
+         <ClosedNode>/dpot_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|dpot_tb.v</ClosedNode>
+         <ClosedNode>/dpot_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|dpot_tb.v</ClosedNode>
+         <ClosedNode>/dpot_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|dpot_tb.v</ClosedNode>
+         <ClosedNode>/operaciones_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|operaciones_tb.v</ClosedNode>
+         <ClosedNode>/operaciones_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|operaciones_tb.v</ClosedNode>
+         <ClosedNode>/pruebaDac C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|pruebaDac.v</ClosedNode>
+         <ClosedNode>/prueba_envio__mem_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|prueba_envio__mem_tb.v</ClosedNode>
+         <ClosedNode>/prueba_envio__mem_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|prueba_envio__mem_tb.v/uut - prueba_envio_mem</ClosedNode>
+         <ClosedNode>/prueba_envio__mem_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|prueba_envio__mem_tb.v</ClosedNode>
+         <ClosedNode>/secuenciador_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|secuenciador_tb.v</ClosedNode>
+         <ClosedNode>/test_operaciones_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|test_operaciones_tb.v</ClosedNode>
+         <ClosedNode>/test_operaciones_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|test_operaciones_tb.v</ClosedNode>
+         <ClosedNode>/test_operaciones_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|test_operaciones_tb.v</ClosedNode>
+         <ClosedNode>/wacComCtrl_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|wacComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/wacComCtrl_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|wacComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/wacComCtrl_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|wacComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/wacComCtrl_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|wacComCtrl_tb.v</ClosedNode>
+         <ClosedNode>/wacTest_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|wacTest_tb.v</ClosedNode>
+         <ClosedNode>/wacTest_tb C:|Users|Wac|Desktop|1_2014|Memoria|Codigos FPGA|Codigo03|wacTest_tb.v/uut - wacTest/instance_name - wacCtrl</ClosedNode>
+         <ClosedNode>/wacTest_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|wacTest_tb.v</ClosedNode>
+         <ClosedNode>/wacTest_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo03|wacTest_tb.v/uut - wacTest</ClosedNode>
+         <ClosedNode>/wacTest_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo04|wacTest_tb.v</ClosedNode>
+         <ClosedNode>/wacTest_tb C:|Users|lenovo|Desktop|temp|Memoria|Codigos FPGA|Codigo05|wacTest_tb.v/uut - wacTest</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - secuenciador (C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo05/secuenciador.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >11</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000152000000020000000000000000000000000200000064ffffffff000000810000000300000002000001520000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut - secuenciador (C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo05/secuenciador.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

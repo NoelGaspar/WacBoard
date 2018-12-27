@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/wacTest_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wacTest_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/wacTest_tb/uut/COM/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/dataStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataStb</obj_property>
+      <obj_property name="ObjectShortName">dataStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/addrEpp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrEpp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrEpp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/contData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">contData[2:0]</obj_property>
+      <obj_property name="ObjectShortName">contData[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/ctrlWeBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWeBram</obj_property>
+      <obj_property name="ObjectShortName">ctrlWeBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/nAdc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nAdc</obj_property>
+      <obj_property name="ObjectShortName">nAdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/clkBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkBram</obj_property>
+      <obj_property name="ObjectShortName">clkBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/controlEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">controlEn</obj_property>
+      <obj_property name="ObjectShortName">controlEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/ctrlWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWord[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlWord[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/confWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">confWord[15:0]</obj_property>
+      <obj_property name="ObjectShortName">confWord[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/readyAdc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">readyAdc</obj_property>
+      <obj_property name="ObjectShortName">readyAdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/stCur" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stCur[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stCur[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/stNext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stNext[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stNext[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/stOld" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stOld[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stOld[2:0]</obj_property>
+   </wvobject>
+</wave_config>

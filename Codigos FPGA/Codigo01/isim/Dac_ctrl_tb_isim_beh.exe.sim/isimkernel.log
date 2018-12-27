@@ -1,0 +1,30 @@
+Command line:
+   Dac_ctrl_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49639
+
+Wed Oct 28 15:57:50 2015
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 505.422 Meg
+
+ Total Signals          : 20
+ Total Nets             : 34
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 18
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 150
+Total Line Count : 74
+Total Line Count : 74
+
+ Total Simulation Time: 0.0156 sec
+
+ Current Memory Usage: 505.422 Meg
+
+Wed Oct 28 16:00:32 2015
+

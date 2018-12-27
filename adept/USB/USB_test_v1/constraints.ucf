@@ -1,0 +1,56 @@
+# Este UCF es compatible tanto con la BASYS 2 como con la NEXYS 3, comentando correctamente el contenido
+
+###########
+# BASYS 2 #
+###########
+
+#NET "clk" TNM_NET = "clk";
+#NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+#TIMESPEC "TS_clk" = PERIOD "clk" 20 ns HIGH 50 %;
+#
+## clock net, first one is silicon oscillator
+##NET "clk" 					LOC = "B8"; 	# Bank = 0
+#NET "clk" 					LOC = "M6"; 	# Bank = 2, Signal name = UCLK
+#
+## USB communication nets
+#NET "usbAddrStrobe_n" 			LOC = "F2"; 		# Bank = 3
+#NET "usbDataStrobe_n" 			LOC = "F1"; 		# Bank = 3
+#NET "usbWait" 				LOC = "D2"; 		# Bank = 3
+#NET "usbWE_n"       			LOC = "C2"; 		# Bank = 3
+#NET "usbData<0>" 			LOC = "N2"; 		# Bank = 2
+#NET "usbData<1>" 			LOC = "M2"; 		# Bank = 2
+#NET "usbData<2>" 			LOC = "M1"; 		# Bank = 3
+#NET "usbData<3>" 			LOC = "L1"; 		# Bank = 3
+#NET "usbData<4>" 			LOC = "L2"; 		# Bank = 3
+#NET "usbData<5>" 			LOC = "H2"; 		# Bank = 3
+#NET "usbData<6>" 			LOC = "H1"; 		# Bank = 3
+#NET "usbData<7>" 			LOC = "H3"; 		# Bank = 3
+
+
+###########
+# NEXYS 3 #
+###########
+
+# Clock signal
+NET "clk"            LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+# onBoard USB controller
+# NOTE: DEPP and DSTM net names use some of the same pins, if trying to use both DEPP and DSTM use a signle net name for each shared pin.
+
+# Data bus for both the DEPP and DSTM interfaces uncomment lines 15-22 if using either one
+NET "usbData<0>"          LOC = "E1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L50N_M3BA2,                     Sch name = U-FD0
+NET "usbData<1>"          LOC = "F4"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L51P_M3A10,                     Sch name = U-FD1
+NET "usbData<2>"          LOC = "F3"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L51N_M3A4,                      Sch name = U-FD2
+NET "usbData<3>"          LOC = "D2"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L52P_M3A8,                      Sch name = U-FD3
+NET "usbData<4>"          LOC = "D1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L52N_M3A9,                      Sch name = U-FD4
+NET "usbData<5>"          LOC = "H7"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L53P_M3CKE,                     Sch name = U-FD5
+NET "usbData<6>"          LOC = "G6"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L53N_M3A12,                     Sch name = U-FD6
+NET "usbData<7>"          LOC = "E4"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L54P_M3RESET,                   Sch name = U-FD7
+
+# If using the DEPP interface uncomment lines 25-28
+NET "usbWE_n"       LOC = "F5"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L55N_M3A14,                     Sch name = U-FLAGC
+NET "usbAddrStrobe_n"        LOC = "H1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L41N_GCLK26_M3DQ5,              Sch name = U-FLAGA
+NET "usbDataStrobe_n"        LOC = "K4"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L42P_GCLK25_TRDY2_M3UDM,        Sch name = U-FLAGB
+NET "usbWait"        LOC = "C2"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L83P,                           Sch name = U-SLRD

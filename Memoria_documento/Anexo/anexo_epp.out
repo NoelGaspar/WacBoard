@@ -1,0 +1,8 @@
+\BOOKMARK [1][-]{section.1}{Resumen}{}% 1
+\BOOKMARK [1][-]{section.2}{Introducci\363n}{}% 2
+\BOOKMARK [1][-]{section.3}{Comunicaci\363n USB}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{protocolo EPP}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Detalle de la aplicaci\363n}{}% 5
+\BOOKMARK [1][-]{section.5}{Implementaci\363n del esclavo}{}% 6
+\BOOKMARK [1][-]{section.6}{Implementaci\363n del maestro}{}% 7
+\BOOKMARK [2][-]{subsection.6.1}{Incluir headers y bibliotecas}{section.6}% 8

@@ -1,0 +1,46 @@
+Circuit: * C:\Users\Wac\Desktop\1_2014\Memoria\Codigos\p1.asc
+
+WARNING: Less than two connections to node V-.  This node is used by V2.
+WARNING: Less than two connections to node NC_01.  This node is used by R1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Mon Jul 27 15:17:56 2015
+Total elapsed time: 0.520 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 21632
+traniter = 20086
+tranpoints = 10044
+accept = 10040
+rejected = 4
+matrix size = 40
+fillins = 29
+solver = Normal
+Matrix Compiler1: 3,54 KB object code size  1.5/1.0/[0.5]
+Matrix Compiler2:     295 opcodes  0.7/[0.6]/1.0
+
+

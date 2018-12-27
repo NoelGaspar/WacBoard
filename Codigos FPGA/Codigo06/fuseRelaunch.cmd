@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Wac/Google Drive/Memoria/Codigos FPGA/Codigo06/wacTest_tb_isim_beh.exe" -prj "C:/Users/Wac/Google Drive/Memoria/Codigos FPGA/Codigo06/wacTest_tb_beh.prj" "work.wacTest_tb" "work.glbl" 

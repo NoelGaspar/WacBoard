@@ -1,0 +1,34 @@
+% XCircuit output "circuito_receptor_2.tex" for LaTeX input from circuito_receptor_2.eps
+\def\putbox#1#2#3#4{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{\scalebox{#3}{#4}}}}}
+\def\rightbox#1{\makebox[0in][r]{#1}}
+\def\centbox#1{\makebox[0in]{#1}}
+\def\topbox#1{\raisebox{-0.60\baselineskip}[0in][0in]{#1}}
+\def\midbox#1{\raisebox{-0.20\baselineskip}[0in][0in]{#1}}
+\begin{center}
+   \scalebox{0.9}{
+   \normalsize
+   \parbox{5.35938in}{
+   \includegraphics[scale=1]{./figs/HP.eps}\\
+   % translate x=778 y=376 scale 0.38
+   \putbox{1.02in}{2.11in}{1.20}{$R_2$}%
+   \putbox{1.71in}{2.11in}{1.20}{$R_3$}%
+   \putbox{0.90in}{0.50in}{1.20}{$R_4$}%
+   \putbox{1.41in}{0.50in}{1.20}{10k}%
+   \putbox{0.68in}{1.20in}{1.20}{$C_1$}%
+   \putbox{0.06in}{0.86in}{1.20}{$S_2$}%
+   \putbox{1.85in}{1.62in}{1.20}{$V_\mathit{CC}$}%
+   \putbox{1.86in}{0.57in}{1.20}{$V_\mathit{EE}$}%
+   \putbox{2.86in}{1.44in}{1.20}{$C_2$}%
+   \putbox{3.30in}{1.90in}{1.20}{1k}%
+   \putbox{3.29in}{2.37in}{1.20}{$R_5$}%
+   \putbox{3.94in}{2.37in}{1.20}{$R_6$}%
+   \putbox{3.16in}{0.75in}{1.20}{$R_7$}%
+   \putbox{3.66in}{0.75in}{1.20}{10k}%
+   \putbox{5.21in}{1.34in}{1.20}{$S_3$}%
+   \putbox{4.10in}{1.87in}{1.20}{$V_\mathit{CC}$}%
+   \putbox{4.10in}{0.82in}{1.20}{$V_\mathit{EE}$}%
+   \putbox{1.06in}{1.64in}{1.20}{1k}%
+   } % close 'parbox'
+   } % close 'scalebox'
+   \vspace{-\baselineskip} % this is not necessary, but looks better
+\end{center}

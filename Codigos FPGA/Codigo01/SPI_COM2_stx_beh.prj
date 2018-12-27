@@ -1,0 +1,3 @@
+verilog isim_temp "SPI_COM.v"
+verilog isim_temp "SPI_COM2.v"
+verilog isim_temp "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

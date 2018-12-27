@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo01/Top_tb2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Top_tb2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/Top_tb2/SDI_REF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDI_REF</obj_property>
+      <obj_property name="ObjectShortName">SDI_REF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/CLK_REF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_REF</obj_property>
+      <obj_property name="ObjectShortName">CLK_REF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/CS_REF1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_REF1</obj_property>
+      <obj_property name="ObjectShortName">CS_REF1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/CS_REF2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_REF2</obj_property>
+      <obj_property name="ObjectShortName">CS_REF2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/CS_REF3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_REF3</obj_property>
+      <obj_property name="ObjectShortName">CS_REF3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/CS_DAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_DAC</obj_property>
+      <obj_property name="ObjectShortName">CS_DAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/SDI_DAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDI_DAC</obj_property>
+      <obj_property name="ObjectShortName">SDI_DAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/CLK_DAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_DAC</obj_property>
+      <obj_property name="ObjectShortName">CLK_DAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/sw[1]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">sw[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/sw[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">sw[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/sw[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">sw[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/MUX_REF1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUX_REF1</obj_property>
+      <obj_property name="ObjectShortName">MUX_REF1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/MUX_REF2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUX_REF2</obj_property>
+      <obj_property name="ObjectShortName">MUX_REF2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/MUX_REF3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUX_REF3</obj_property>
+      <obj_property name="ObjectShortName">MUX_REF3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb2/an" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+</wave_config>

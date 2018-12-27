@@ -1,0 +1,12 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb_isim_beh.exe -prj C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb_beh.prj work.EppCtrl_tb work.glbl 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl.v" into library work
+Analyzing Verilog file "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb.v" Line 49: Target <DB> of concurrent assignment or output port connection should be a net type.
+ERROR:HDLCompiler:1190 - "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP_PRUEBA/EppCtrl_tb.v" Line 49: Non-net variable cannot be connected to inout port DB
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

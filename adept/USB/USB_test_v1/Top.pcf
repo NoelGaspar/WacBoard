@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Wed Jan 22 04:51:53 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "usbWait" LOCATE = SITE "C2" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "usbAddrStrobe_n" LOCATE = SITE "H1" LEVEL 1;
+COMP "usbData<0>" LOCATE = SITE "E1" LEVEL 1;
+COMP "usbData<1>" LOCATE = SITE "F4" LEVEL 1;
+COMP "usbData<2>" LOCATE = SITE "F3" LEVEL 1;
+COMP "usbDataStrobe_n" LOCATE = SITE "K4" LEVEL 1;
+COMP "usbData<3>" LOCATE = SITE "D2" LEVEL 1;
+COMP "usbWE_n" LOCATE = SITE "F5" LEVEL 1;
+COMP "usbData<4>" LOCATE = SITE "D1" LEVEL 1;
+COMP "usbData<5>" LOCATE = SITE "H7" LEVEL 1;
+COMP "usbData<6>" LOCATE = SITE "G6" LEVEL 1;
+COMP "usbData<7>" LOCATE = SITE "E4" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "Dummy_Reg_0" BEL "Dummy_Reg_1" BEL "Dummy_Reg_2"
+        BEL "Dummy_Reg_3" BEL "Dummy_Reg_4" BEL "Dummy_Reg_5" BEL
+        "Dummy_Reg_6" BEL "Dummy_Reg_7" BEL "usb_interface/usbIF_address_7"
+        BEL "usb_interface/usbIF_address_6" BEL
+        "usb_interface/usbIF_address_5" BEL "usb_interface/usbIF_address_4"
+        BEL "usb_interface/usbIF_address_3" BEL
+        "usb_interface/usbIF_address_2" BEL "usb_interface/usbIF_address_1"
+        BEL "usb_interface/usbIF_address_0" BEL
+        "usb_interface/current_state_7" BEL "usb_interface/current_state_6"
+        BEL "usb_interface/current_state_5" BEL
+        "usb_interface/current_state_4" BEL "usb_interface/current_state_3"
+        BEL "usb_interface/current_state_2" BEL
+        "usb_interface/current_state_1" BEL "usb_interface/current_state_0"
+        BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

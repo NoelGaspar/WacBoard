@@ -1,0 +1,148 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    18:37:08 12/28/2015 
+// Design Name: 
+// Module Name:    adcCtrl 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module adcCtrl(clk_in, ctrl, sdo, n, data, sync,sclk,ready);//ADVERTENCIA : HAY QUE ARREGLAR EL CONTADOR DEL TIMER PARA QUE FUNCIONES AL DOBLE DE LA FRECUENCIA. HASTA AHORA ESTA HECHO AL LA RAPIDA CAMBIANDO EL FLANCO DE POSEDGE A POSEDGE Y NEGEDGE!!
+//-----------------
+// INPUTS
+//-----------------
+input clk_in;  		//clock de entrada Maximo clk 50MHz
+input ctrl;				//señal de control que inicia la comunicacion
+input sdo;				//señal de dato proveniente desde el ADC
+input n;
+//-----------------
+// OUTPUTS
+//-----------------
+output reg [11:0] data;  // dato proveniente desde el adc
+output sync;		   // Señal de CS para el ADc
+output sclk;			// Señal de clock para el ADC
+output reg ready=0;
+
+//auxiliares
+reg [7:0] count_clk;	// sirve para controlar la señal de clock de salida
+reg [7:0] count_data;// sirve para controlar la salida de datos
+reg [15:0] dato;
+reg cs;
+reg read=0;
+
+initial
+begin
+	count_clk=8'hff;
+	count_data=0;
+	cs=1;
+	dato=0;
+	data=0;
+end
+
+
+//-----------------------------
+// controla la comunicacion. cada pulso del sclk mide 4 pulsos de clk. (de este modo la frecuencia de sclk es 12.5Mhz)
+//	por ende son 4*16=64 se le agregan dos pulsos para setear el cs por ende son
+// 66 ciclos.
+//-----------------------------
+always@( posedge clk_in)  //ARREGLAR ESTO PARA AGREGAR MAS VELOCIDAD!!
+ begin
+	if(ctrl==1)
+		begin
+			count_clk=0; 
+			cs=1;
+			ready=0;
+		end
+	else if((ctrl==0)&&(count_clk<=66))
+		begin
+			count_clk=count_clk+1;
+			if(count_clk==64) ready=1;  
+			else ready=0;
+			if(n==0)
+				begin
+					cs=0;
+					if(count_clk>=66)
+						begin
+						count_clk=68;	
+						cs=1;
+						read=0;
+						end
+					else if(count_clk==65) read=1;	
+					else read=0;
+				end	
+		   else
+				begin
+					if(count_clk==65)
+						begin
+						read=1;
+						cs=1;
+						end
+					else if((count_clk>=56)&&(count_clk<66))
+						cs=1;
+					else if(count_clk>=66)
+						begin 
+							cs=0;
+							count_clk=0;
+							read=0;
+						end
+					else
+						begin
+						cs=0;
+						read=0;
+						end
+				end		
+		end
+  end 
+
+assign sclk=count_clk[1];
+
+always@(negedge sclk)
+begin
+	case(count_data)
+	   0: begin  dato[15]=0;end
+		1: begin  dato[15]=0;end
+		2: begin  dato[15]=0;end
+		3: begin  dato[14]=sdo;end
+		4: begin  dato[13]=sdo;end
+		5: begin  dato[12]=sdo;end
+		6: begin  dato[11]=sdo;end
+		7: begin  dato[10]=sdo;end
+		8: begin  dato[9]=sdo;end
+		9: begin  dato[8]=sdo;end
+		10: begin dato[7]=sdo;end
+		11: begin dato[6]=sdo;end
+		12: begin dato[5]=sdo;end
+		13: begin dato[4]=sdo;end
+		14: begin dato[3]=sdo;end
+		15: begin dato[2]=0;end
+		16: begin dato[1]=0;end
+		default: dato[15]=0;
+	endcase
+
+end
+
+always@(posedge sclk)
+begin
+count_data=count_data+1;
+if((count_data>=16)||(ctrl==1))
+	count_data=0;
+end
+
+always@(posedge read)
+	begin
+		data=dato[11:0];
+	end
+	
+assign sync=cs;	
+endmodule

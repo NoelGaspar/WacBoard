@@ -1,0 +1,11 @@
+Esta version es igual a la 9 en escencia. Solo se ha cambiado el ADC ya que el modelo max1075 no se encontraba disponible. En su remplazo se utilizara el ADC max1278 este es un adc de 12 bits diferencial de entrada bipolar, con una tasa de 18Msps y referencia interna de 4.096V, una de las principales rasones de porque se uso este modelo. es debido a que cuenta con el mismo layout y el pinout que el anterior utilizado. En la placa se elimino la referencia Vref_adc ya que ahora no es necesaria.
+
+
+
+-No cortar los planos de alimentacion.
+-Agregar plano de tierra analogico bajo el chip.
+-asegurarse de que hacia el punto de union vaya un plano y no una linea en las tierras
+- poner planos de tienerra digital bajo las lineas digitales.IMPORTANTE.
+- ver que las pistas diferenciales del adc tengan largos parecidos.Filtro anti aliasing. No tengan vias. Ojala lo mas juntas posibles. 
+- resistencias de 0 ohms en el filtro de la salida de los buffers.
+- revisar referencias en general.

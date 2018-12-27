@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo06/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo06/xst"
+elaborate
+-ifn wacCtrl.prj
+-ifmt mixed

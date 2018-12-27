@@ -1,0 +1,7 @@
+verilog work "SPI2.v"
+verilog work "display.v"
+verilog work "Digipot_ctrl.v"
+verilog work "Dac_ctrl.v"
+verilog work "Control.v"
+verilog work "Clk_div.v"
+verilog work "Top.v"

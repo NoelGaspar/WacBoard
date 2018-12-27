@@ -1,0 +1,6 @@
+verilog work "Digipot_ctrl.v"
+verilog work "Dac_ctrl.v"
+verilog work "wacCtrl.v"
+verilog work "wac.v"
+verilog work "wac_top.v"
+verilog work "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

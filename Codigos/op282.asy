@@ -1,0 +1,21 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 128 64 -48 -81
+TEXT 4 -27 Left 2 op282
+SYMATTR Prefix X
+SYMATTR Value OP282
+PIN -48 -16 LEFT 8
+PINATTR PinName in+
+PINATTR SpiceOrder 1
+PIN -48 16 LEFT 8
+PINATTR PinName in-
+PINATTR SpiceOrder 2
+PIN 48 -80 TOP 8
+PINATTR PinName Vdd
+PINATTR SpiceOrder 3
+PIN 48 64 BOTTOM 8
+PINATTR PinName Vee
+PINATTR SpiceOrder 4
+PIN 128 0 RIGHT 8
+PINATTR PinName Out
+PINATTR SpiceOrder 5

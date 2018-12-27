@@ -1,0 +1,3 @@
+verilog work "secuenciador.v"
+verilog work "secuenciador_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

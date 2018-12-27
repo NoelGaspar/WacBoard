@@ -1,0 +1,10 @@
+Codigo01 es el codigo que implementa el control de la placa por medio de una FPGA.
+sus principales atributos deben ser:
+ - fijar valores DC para los digipot
+ - Controlar los multiplexores analogicos.
+ - Controlar el DAC por medio de SPI
+ - Controlar el ADC por medio de SPI
+ - Poder recopilar los datos desde el ADC y almacenarlos en una memoria FIFO
+ - Poder implementar una comunicación con el computador por medio de la implementación de algun protocolo.
+
+

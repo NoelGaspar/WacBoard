@@ -1,0 +1,32 @@
+Command line:
+   wacComCtrl_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56896
+
+Wed Sep 14 03:47:55 2016
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 839.655 Meg
+
+ Total Signals          : 43
+ Total Nets             : 111
+ Total Signal Drivers   : 27
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 40
+ Total Traceable Variables  : 61
+ Total Scalar Nets and Variables : 393
+Total Line Count : 321
+Total Line Count : 321
+Total Line Count : 321
+Total Line Count : 321
+
+ Total Simulation Time: 1.4375 sec
+
+ Current Memory Usage: 682.369 Meg
+
+Wed Sep 14 03:53:31 2016
+

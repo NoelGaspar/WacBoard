@@ -1,0 +1,23 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 42 -48 -38
+LINE Normal 33 0 -48 -38
+LINE Normal -48 42 33 0
+TEXT 20 -34 Left 2 ADA4896
+SYMATTR Prefix X
+SYMATTR Value ADA4896
+PIN -48 16 LEFT 8
+PINATTR PinName +
+PINATTR SpiceOrder 1
+PIN -48 -16 LEFT 8
+PINATTR PinName -
+PINATTR SpiceOrder 2
+PIN 32 0 NONE 8
+PINATTR PinName out
+PINATTR SpiceOrder 5
+PIN 0 -16 NONE 8
+PINATTR PinName Vdd
+PINATTR SpiceOrder 3
+PIN 0 16 NONE 8
+PINATTR PinName Vee
+PINATTR SpiceOrder 4

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo01/Digipot_ctrl_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Digipot_ctrl_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Digipot_ctrl_tb/cs1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs1</obj_property>
+      <obj_property name="ObjectShortName">cs1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/cs2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs2</obj_property>
+      <obj_property name="ObjectShortName">cs2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/cs3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs3</obj_property>
+      <obj_property name="ObjectShortName">cs3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/sdi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdi</obj_property>
+      <obj_property name="ObjectShortName">sdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/clk_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/mux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/ctrl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrl</obj_property>
+      <obj_property name="ObjectShortName">ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/dato" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/instance_name/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Digipot_ctrl_tb/instance_name/count2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

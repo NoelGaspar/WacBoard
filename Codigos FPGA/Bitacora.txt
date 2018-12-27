@@ -1,0 +1,5 @@
+Version				Principal caracteristica
+Codigo03			código funcionando con la mayor parte de los requerimientos cubiertos. Envio de datos, Control de Wac, adc dac, y sequenciador.
+Codigo04			Se implemento la escritura de la memoria atravez del comando 44-00-00(desde c++). Esto permite mandar un grupo de 32 datos de 16. 
+Codigo05			Se amplio el tamaño de las memorias utilizadas en la version anterior. Ahora cada memoria es de 64x16. Aun no se implementa el envio de los datos, ya que hay que ampliarlo a 64 datos.
+Codigo06			Implementa la rutina para implementar el generador de funcion de peso. Es necesario, agregar un estado mas a la maquina de estado: ESTADO TEST.

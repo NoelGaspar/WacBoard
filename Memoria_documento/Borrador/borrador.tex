@@ -1,0 +1,149 @@
+\documentclass[11pt,letterpaper,spanish]{article}
+
+\usepackage{amsmath,amsthm,amssymb,amsfonts,amsxtra,amstext,anysize,graphicx}
+
+%% Para los usuarios de windows descomentar esta linea y utilizar acentos normalmente.
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{mathrsfs}
+\usepackage{fullpage}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage{esint}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{color}
+\usepackage{pdfpages}% Se utiliza para poder
+%\newcommand{\parrafo}[1]{\paragraph{#1}\mbox{}\\}
+
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire.
+\usepackage{color}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\usepackage{listings}
+\lstset{ frame=Ltb,
+framerule=0pt,
+aboveskip=0.5cm,
+framextopmargin=3pt,
+framexbottommargin=3pt,
+framexleftmargin=0.4cm,
+framesep=0pt,
+rulesep=.4pt,
+backgroundcolor=\color{gray97},
+rulesepcolor=\color{black},
+%
+stringstyle=\ttfamily,
+showstringspaces = false,
+basicstyle=\small\ttfamily,
+commentstyle=\color{gray45},
+keywordstyle=\bfseries ,
+%
+numbers= none,
+numbersep=15pt,
+numberstyle=\tiny ,
+numberfirstline = false,
+breaklines=true,
+}
+
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+\lstdefinestyle{consola}
+{
+basicstyle=\scriptsize\bf\ttfamily,
+backgroundcolor=\color{gray75},
+}
+
+\lstdefinestyle{C}
+{language=C,
+}
+
+
+
+
+\begin{document} %%Comienza el documento 
+
+\begin{center}\epsfig{file= figuras/logo2, width= 5 cm} %% Agrega una imagen
+\end{center}
+\bigskip
+ 
+\begin{center}
+\hrule
+\vspace{0.1 cm}
+\hrule
+\vspace{0.5 cm}
+\huge{Proyecto: Robot omnidireccional.}\\
+\Large{Enunciado de actividades.}\\
+%\normalsize{3- Sesiones}
+\vspace{0.5 cm}
+\hrule
+\vspace{0.1 cm}
+\hrule
+\end{center}
+\vspace{0.2 cm}
+\section{Introducción}
+\par 
+En este documento se presenta una división de las tareas necesarias para poder llevar a cabo la construcción del robot omnidireccional. Ademas, se entrega un detalle de cada una de las tareas asignadas a cada grupo.
+\section{División de tareas}
+\subsection{Grupo de comunicación}
+\begin{itemize}
+\item En este grupo deberemos aprender a programar los MSP430 y comprender como funciona, en general la comunicación vía bluetooth y en particular el modelo rn-42.
+\item  Las tareas a realizar son:
+
+\begin{enumerate}
+\item Familiarizarse con la programación de micro-controladores (2 sesiones mas trabajo personal)
+\item  Investigar sobre protocolos de comunicación, ejemplo: UART
+\item Estudiar el datasheet y el protocolo de comunicación utilizado por el módulo bluetooth  rn-42
+\item Lograr una comunicación robusta entre el módulo y el micro-controlador ejemplo: Prender un LED con una orden enviada desde un celular.
+\end{enumerate} 
+\end{itemize}
+\subsection{Grupo de programación}	
+\begin{itemize}
+\item En este grupo debemos aprender a programar los MSP430 en genera, esto implica: estudiar los bloques que lo componen, leer los User guide, buscar códigos en internet, programar cosas básicas. En particular necesitamos implementar el protocolo de funcionamiento del robot, esto implica crear las funciones: Avanzar, Frenar, Doblar, etc.
+\item Las tareas son:
+\begin{enumerate}	
+\item Familiarizarse con la programación de micro-controladores (2 sesiones mas trabajo personal).
+\item Profundizar en la programación de los módulos específicos que se necesiten.
+\item Crear el protocolo de funcionamiento del robot. Diseño de las funciones más importantes.
+\item Lograr implementar rutinas de funcionamiento con los micro-controladores que emulen el funcionamiento del robot.
+\end{enumerate}	
+\end{itemize}
+
+\subsection{Grupo de electrónica (grupos 1 y 2)}
+\begin{itemize}
+\item Finalmente, este grupo debe familiarizarse con los software CDA para el diseño de placas. También aprender las distintos tipos de procesos que nos llevan desde el diseño a la fabricación de una placa. Los conocimientos concretos son: Aprender a diseñar circuitos en algún CDA, generar los esquemáticos, diseñar placas, aprender los procesos para generar una PCB, aprender a soldar, y paralelamente obtener conocimientos básicos de electrónica.
+\item Las tareas comunes para ambos grupos son
+\begin{enumerate}
+\item Familiarizarse con los CDA en general, y aprender la linea de proceso en la creación de PCB.
+\item Comprender los conceptos de electrónica básica.
+\item Una vez creadas las placas, aprender técnicas de soldado e implementar los componentes.
+\item Testear el correcto funcionamiento del diseño implementado.
+\end{enumerate}
+		
+\item Las tareas del grupo 1
+\begin{enumerate}
+\item Investigar sobre las posibles opciones para el breakout para el módulo rn-42.
+\item Diseñar tanto el esquemático como el layout de la placa.
+\item Realizar un proceso de producción de la PCB.
+\end{enumerate}		
+
+\item Las tareas del grupo 2
+\begin{enumerate}
+\item Investigar sobre el funcionamiento del los motores, y las posibles opciones para el control de estos.
+\item Diseñar tanto el esquemático como el layout de la placa.
+\item  Realizar un proceso de producción de la PCB .
+\end{enumerate} 
+\end{itemize}
+
+\end{document}

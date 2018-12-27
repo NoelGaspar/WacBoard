@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+Control instance_name (
+    .clk(clk), 
+    .data_in(data_in), 
+    .tx_send(tx_send), 
+    .data_out(data_out), 
+    .ctrl_dac(ctrl_dac), 
+    .dato_dac(dato_dac), 
+    .mux_dpot(mux_dpot), 
+    .ctrl_dpot(ctrl_dpot), 
+    .dato_dpot(dato_dpot), 
+    .seg(seg)
+    );
+
+

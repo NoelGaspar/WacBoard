@@ -1,0 +1,99 @@
+\documentclass[11pt,letterpaper,spanish]{article}
+
+\usepackage{amsmath,amsthm,amssymb,amsfonts,amsxtra,amstext,anysize,graphicx}
+
+%% Para los usuarios de windows descomentar esta linea y utilizar acentos normalmente.
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{mathrsfs}
+\usepackage{fullpage}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{wrapfig} 
+\usepackage{esint}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{color}
+\usepackage{pdfpages}% Se utiliza para poder
+%\newcommand{\parrafo}[1]{\paragraph{#1}\mbox{}\\}
+\usepackage{textcomp}
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire.
+\usepackage{color}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\usepackage{listings}
+\lstset{ frame=Ltb,
+framerule=0pt,
+aboveskip=0.5cm,
+framextopmargin=3pt,
+framexbottommargin=3pt,
+framexleftmargin=0.4cm,
+framesep=0pt,
+rulesep=.4pt,
+backgroundcolor=\color{gray97},
+rulesepcolor=\color{black},
+%
+stringstyle=\ttfamily,
+showstringspaces = false,
+basicstyle=\small\ttfamily,
+commentstyle=\color{gray45},
+keywordstyle=\bfseries ,
+%
+numbers=left,
+numbersep=15pt,
+numberstyle=\tiny ,
+numberfirstline = false,
+breaklines=true,
+}
+
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+\lstdefinestyle{consola}
+{
+basicstyle=\scriptsize\bf\ttfamily,
+backgroundcolor=\color{gray75},
+}
+
+\lstdefinestyle{C}
+{language=C,
+}
+
+
+
+%   \begin{figure}[H]
+%      \centering
+%          \includegraphics[width=0.5\textwidth]{figuras/pizarra}
+%      \caption{\label{pizarra} Ilustración del funcionamiento aproximado del prototipo de la idea 2.}
+%    \end{figure}
+
+
+
+
+\begin{document} %%Comienza el documento 
+
+
+\thispagestyle{empty}
+
+\renewcommand{\tablename}{Tabla}
+%\epsfig{file= figuras/uclogo, width= 2 cm} %% Agrega una imagen
+\begin{tabular}{l}%% tabular va con una "l" no con un uno
+%Pontificia Universidad Cat\'olica de Chile\\
+%Escuela de Ingenier\'ia\\
+%Departamento de Ingenier\'ia El\'ectrica\\
+\vspace{1.5cm}\mbox{}
+\end{tabular}
+
+
+\end{document}
+

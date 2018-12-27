@@ -1,0 +1,32 @@
+eagle:
+-Intro
+-Configuracion para multiplacas
+-Creacion de un nuevo componente
+	- package
+	- symbol
+	- device
+-Creacion de componentes con arreglos de pines y uso de scripts en eagle
+	- como usar un script
+		-lista de comandos
+	- ejemplo
+-Consejos aplicados	
+
+
+Introduccion y motivacion
+
+Placa:
+	-eleccion de materiales.
+	- diseño de la placa.
+		-calculos de consumos.
+		-calculos de ruido.
+Software:
+	- Componentes
+		- Controles de voltajes:potenciometros y referencias
+		- Lectura de datos
+	- Ethernet
+
+Simulaciones:
+Resultados obtenidos:
+Conclusiones
+
+

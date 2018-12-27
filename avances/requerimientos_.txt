@@ -1,0 +1,44 @@
+potenciometros de 100k
+dac 12 bit spi   http://www.linear.com/product/LTC2632
+adc 10 bit spi   http://www.ti.com/lit/ds/symlink/ads7884.pdf
+
+http://www.linear.com/parametric/Digital-to-Analog_Converters_(DAC)#!cols_1049,1050,1056,1054,2234,1059,1031,1367!s_1050,0!gtd_!1049_10:12!1050_2!1056_Voltage!1054_Serial SPI
+
+
+clk 19.25ns
+cm adc 0.9
+Avdd=1.8  
+En AVDD 1 tantalio micro + 2 ceramicos de 0.1 micro.
+
+
+
+-------------------------------------------------------------------------------------
+Voltajes del adc con tstpoint
+Mux de los dac con VICM
+Vrefprechar con vincsa
+ a los conversores Vref con referencia y alimentacion con regulador.
+ ceramic 04
+------------------------------------------------
+7 tau = 1s.
+
+
+------------------------------------------------------
+jumpers para medir corrientes
+conectores fisicos en las esquinas
+las tierras conectadas por jumpers lo mas cercanas posibles a la entrada 
+poner el dac mas cerca del chip.
+señales de entrada
+------------------------------------------------------
+
+
+------------------------------------------------------
+ referencias con buffer  y salidas filtradas con capacitores op282
+ Impedancia de salida del dac
+
+
+el segundo es un 7
+7707
+vasanguinetti@uc.cl
+
+http://www.youtube.com/watch?v=GEwo6ktitcY
+------------------------------------------------------

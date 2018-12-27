@@ -1,0 +1,1582 @@
+%======================================================================%
+%        pucthesis_sample.tex       04-Apr-2007, modif. 22-June-2007
+%______________________________________________________________________%
+%.......10........20........30........40........50........60........70.%
+%________|_________|_________|_________|_________|_________|_________|_%
+%======================================================================%
+% $Id: pucthesis_sample.tex,v 1.3 2007/06/22 20:32:17 mtorrest Exp $
+%
+% WARNING!!! You cannot compile this template with pdflatex unless you:
+%            1. Convert the postscript images into pdf ones.
+%            2. Make the proper changes for bounding boxes in the
+%               \includegraphics commands.
+%            3. Set the "pdftex" option in the documentclass line
+%               as shown in the second line below.
+%
+\documentclass[12pt,reqno,oneside]{pucthesis}         % For dvips
+%\documentclass[12pt,reqno,oneside,pdftex]{pucthesis} % For pdflatex
+%\documentclass[10pt,reqno,twoside]{pucthesis}
+%\draft
+%\doublespacing
+%\usepackage{verbatim}
+%\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm2e}
+\usepackage{fancybox}
+\usepackage{float}
+\usepackage{times}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   Preamble                                       %
+           %------------------------------------------------- %
+           %        \newcommand\...{...}                      %
+           %        \newtheorem{}{}[]                         %
+           %        \numberwithin{}{}                         %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%--------- NEW ENVIRONMENTS ---------
+\newtheorem{definition}{\bf Definition}[chapter]
+\newtheorem{property}{Property}[chapter]
+\newtheorem{claim}{Claim}[chapter]
+\newtheorem{lemma}{\bf Lemma}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{theorem}{\noindent \bf Theorem}[chapter]
+\newtheorem{corollary}{\bf Corollary}[chapter]
+\newtheorem{pf}{Proof}[chapter]
+\newtheorem{example}{\bf Example}[chapter]
+\newtheorem{remark}{Remark}[chapter]
+
+%--------- PLACE ADDITIONAL ENVIRONMENTS/DEFINITIONS HERE ---------
+
+\newcommand\opgrad{\operatorname{grad}}        
+% ...
+
+
+%----------------------------------------------------------------------%
+\begin{document}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %                                                  %
+           %  INITIALISATIONS : Top Matter                    %
+           %                                                  %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\draft                       %adds a footer with date of draft
+\mdate{April 17, 2007}         %date manuscript changed
+\version{1}                    %manuscript version#
+
+
+\title[Thesis Preparation]{\bf Thesis preparation package using {\AmSLaTeX}}       
+\author[Miguel Torres Torriti]{Miguel Torres Torriti}           
+%
+\address{Escuela de Ingenier\'ia\\
+         Pontificia Universidad Cat\'olica de Chile\\ 
+         Vicu\~na Mackenna 4860\\
+         Santiago, Chile\\
+         {\it Tel.\/} : 56 (2) 354-2000}
+\email{mailname@ing.puc.cl}
+%
+\facultyto    {the School of Engineering}
+%\department   {}%{Departement of Electrical Engineering}
+\faculty      {Faculty of Engineering}
+\degree       {Master of Science in Engineering} 
+              % or {Doctor in Engineering Sciences}
+\advisor      {Advisor's Name}
+\committeememberA {Committee Member A}
+\committeememberB {Committee Member B (Optional)}
+\guestmemberA {Guest Committee Member A}
+\guestmemberB {Guest Committee Member B (Optional)}
+\ogrsmember   {ORGS Representative}
+\subject      {Electrical Engineering}
+\date         {April 2007}
+\copyrightname{Miguel Torres Torriti}
+\copyrightyear{MMVII}
+\dedication   {Gratefully to my family}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   PRELIMINARIES                                  %
+           %--------------------------------------------------%
+           %      page i & ii: cover page                     %
+           %      page iii: dedication                        %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NoChapterPageNumber           % no header - footer on first page of chapter
+\pagenumbering{roman}
+\maketitle
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   EXTRA PAGES                                    %
+           %--------------------------------------------------%
+           %      page --: not used                           %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+%\thispagestyle{empty}
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      page v: ACKNOWLEDGEMENTS                    %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{ACKNOWLEDGEMENTS}
+%................................
+%................................
+The \,\verb+pucthesis+\, document class is possible thanks to {\sl Wendy McKay\/}, from Universit\'e de Montr\'eal who provided the original template and to {\sl Benoit Dubuc} and {\sl Peter Whaite}, from McGill's Centre for Intelligent Machines, who modified back in May 1993 the original template to create the \,\verb+cimthesis+\, document class on which this template is based.
+\par
+\bigskip
+\begin{quotation}
+{\renewcommand{\baselinestretch}{1.0}
+\sl\footnotesize
+{~\\
+
+The merit of painting lies in the exactness of reproduction.  Painting is a science and all sciences are based on mathematics.  No human enquiry can be a science unless it pursues its path through mathematical exposition and demonstration.
+
+No human investigation can be called real science if it cannot be demonstrated mathematically.
+
+{\em Nessuna humana investigazione si puo dimandare vera scienzia s'essa non passa per le matematiche dimonstrazione.}
+}
+
+\hfill{{\sc ---Leonardo da Vinci}, \rm Treatise on Painting}
+}
+\end{quotation}
+%................................
+
+\bigskip
+\begin{quotation}
+{\renewcommand{\baselinestretch}{1.0}
+\sl\footnotesize
+~\\
+
+{Seriousness, young man, is an accident of time.  It consists, I don't mind telling you in confidence, in putting too high a value on time... In eternity, however, there is no time, you see. Eternity is a mere moment, just long enough for a joke.}
+
+\hfill{{\sc ---Hermann Hesse}, \rm Steppenwolf (1928)}
+}
+\end{quotation}
+%................................
+
+\bigskip
+\begin{quotation}
+{\renewcommand{\baselinestretch}{1.0}
+\sl \footnotesize
+~\\
+
+A man spoke with the Lord about heaven and hell.
+The Lord said to a man, `Come I will show you hell'.
+They entered a room where a group of people sat around a huge pot of stew.
+Everyone was famished and desperate. Each held a spoon that 
+reached the pot, but each spoon had a handle so long that it could not 
+be used to reach each person's mouth.  The suffering was terrible.
+
+`Come, now I will show you heaven', the Lord said after a while. They entered
+another room, identical to the first---the pot of stew, the group of people, the
+same long spoons.  But there everyone was happy and well-nourished.
+
+ `I don't understand,' said the man, `why are they happy here when
+they were miserable in the other room and everything was the same?'
+The Lord smiled, `Ah, but don't you see?' he said, `Here they have learned to
+feed each other.' 
+
+\hfill{\sc Author Unknown}
+}
+\end{quotation}
+%................................
+
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      page v & up ---                             %
+           %            Table of contents                     %
+           %            List of figures                       %
+           %            List of tables                        %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\listoffigures 
+\listoftables  
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      page x & xi: ABSTRACT - RESUMEN
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{ABSTRACT}
+%................................
+%................................
+This document is a sample prepared to illustrate the use of the \AmS-\LaTeX{} pacakage version~2.2 and the \LaTeX{} \,\verb+pucthesis+\, documentclass.
+
+Authors should use the coding in the file \,\verb+pucthesis_sample.tex+\, as a model.  This file was used to prepare this sample.
+
+The template file \,\verb+pucthesis_template.tex+\, should be of help in getting started with the writing of a new thesis. A verbatim listing of the template file is provided in Appendix~\ref{ap:pucthesis} of this document.
+
+The style file, \,\verb+pucthesis.sty,+\, and the document class \,\verb+pucthesis.cls,+\, are based on style files\hfill from\hfill the\hfill {\sl American\hfill Mathematical\hfill Society\/}\hfill (AMS).\hfill  New\hfill documents\hfill should\hfill employ\hfill the\\
+\,\verb+pucthesis.cls,+\, document class and be compiled using \LaTeX{} $2_\varepsilon$.  The current version of the \,\verb+pucthesis.sty,+\, style file should not be used as it does not comply with the guidelines for thesis preparation.  It is provided only as a reference and to support compilation in the unlikely situation that \LaTeX{} $2_\varepsilon$ is not available and only plain \LaTeX{} is.  Most of the text in this sample document is the same as that usually provided by the AMS with their article and monograph style packages.
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   KEYWORDS                                       %
+           %--------------------------------------------------%
+           %      at the end of the abstract page             %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+~\vfill
+{\bf Keywords:} \parbox[t]{.8\textwidth}{thesis template,
+  document writing, differential equations, aerodynamics,
+  electromagnetic waves theory, shock analysis, elasticity,
+  computer simulation, quantum mechanics, 
+  \mbox{Campbell-Baker-Hausdorff} formula.
+}
+
+
+\chapter*{RESUMEN}
+%................................
+%................................
+Este documento es un ejemplo preparado para ilustrar el uso de \AmS-\LaTeX{} versi\'on~2.2 y la clase de documento \,\verb+pucthesis+\, ({\em documentclass}) para \LaTeX.
+
+Los autores deben usar la c\'odigo en el archivo \,\verb+pucthesis_sample.tex+\, como modelo.  Este archivo fue utilizado para preparar este ejemplo.
+
+El documento plantilla \,\verb+pucthesis_template.tex+\, ser\'a de mucha ayuda para empezar con la escritura de una nueva tesis.  Un listado {\em verbatim} del c\'odigo del documento plantilla se presenta en el Ap\'endice~\ref{ap:pucthesis} de este documento.
+
+El archivo de estilo, \,\verb+pucthesis.sty,+\, y la clase de documento \,\verb+pucthesis.cls,+\, est\'an basados en archivos de estilo de la {\sl American Mathematical Society\/} (AMS).  Los documentos nuevos deber\'ian emplear la clase de documento \,\verb+pucthesis.cls,+\, y ser compilados usando \LaTeX{} $2_\varepsilon$.  La versi\'on actual del archivo de estilo \,\verb+pucthesis.sty,+\, no debe ser utilizado, ya que no cumple con las instrucciones para la preparaci\'on de tesis.  Este archivo se provee solamente como una referencia y para permitir la compilaci\'on en la improbable situaci\'on que \LaTeX{} $2_\varepsilon$ no est\'e disponible, pero si su versi\'on anterior ({\em plain} \LaTeX).  La mayor parte del texto de este ejemplo es la misma que usualmente es provista por la AMS en sus paquetes de estilo para art\'iculos y monograf\'ias.
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   PALABRAS CLAVES                                %
+           %--------------------------------------------------%
+           %      al final de la pagina de resumen            %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+~\vfill
+{\bf Palabras Claves:} \parbox[t]{.75\textwidth}{plantilla de tesis,
+  escritura de documentos, ecuaciones diferenciales, aerodin\'amica,
+  teor\'ia electromagn\'etica de ondas, an\'alisis de impactos, elasticidad,
+  simulaci\'on por computador, mec\'anica cu\'antica, 
+  f\'ormula de \mbox{Campbell-Baker-Hausdorff}.
+}
+
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%======================================================================%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   TEXT  OF THESIS
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 1
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{INTRODUCTION}\label{ch:introduction}
+This sample thesis illustrates the use of the \,\verb+pucthesis+\, document class, which is based on the \,\verb+amsbook+ document class of \AmS-\LaTeX{} version~2.2 and provides additional macros for writing theses according to the guidelines set in~\cite{SIBUC05}. 
+
+In this sample thesis, brief instructions to authors will be interspersed with mathematical text extracted from (purposely unidentified) published papers.  For instructions on preparing mathematical text, the author is referred to {\it The Joy of \TeX}, second edition, by Michael Spivak \cite{SPI90} and {\it \LaTeX{}: A Document Preparation System} by Leslie Lamport \cite{LAM94}.
+
+
+\section{Outline of the Thesis Document}
+An {\AmSLaTeX} document consists of three main commands:
+
+{\small
+\begin{verbatim}
+        \documentclass[12pt,reqno,oneside]{pucthesis}
+          ...                  %<-- the preamble section 
+        \begin{document}
+          ...                  %<-- the document text section 
+        \end{document}
+\end{verbatim}
+}
+
+The preamble section will be described in Chapter~\ref{ch:introduction} and the document text section in Chapter~\ref{ch:preamble}.  Within these two sections any {\AmSLaTeX} preprint style commands may be used.  In addition, new chapter commands do the following:
+ 
+\begin{verbatim}
+\NoChapterPageNo  % suppresses numbering of chapter page 
+\end{verbatim}
+
+Several general purpose macros have also been added to the thesis package:
+
+{\footnotesize
+\begin{verbatim}
+    \draft        % switch on:  add footer with [Draft: date and time]
+    \hhmm         % prints: the current hours and minutes as hh;mm
+    \today        % prints: day month year
+    \todayfr      % prints:  jour mois an  %french version of \today
+    \MoYr         % prints:  month year
+    \MoYrfr       % prints:  mois an       %french version of \MoYr
+    \Month        % prints:  month
+    \Monthfr      % prints:  mois          %french version of \Month
+    \Year         % prints:  year
+    \verbinput{}  % inputs a file verbatim; filename in the argument {}
+\end{verbatim}
+}
+%...........................
+
+\section{Fonts}
+The fonts used in this paper are from the Times family; they should be available to all authors preparing papers with these macros using the package \,\verb+times+.
+\bigskip
+
+\noindent
+{\bf N.B.}\enspace 
+{\it Good quality output can be obtained on 300dpi PostScript printers
+with the fonts produced in the proper size.
+To obtain the best quality of output, verify:
+\begin{itemize}
+\item that the printer being used is downloading the PostScript version of 
+      the fonts (and is not using bitmapped fonts, which produces very thin 
+      font outlines); and 
+\item that the printer is printing black on white (and not the reverse).
+\end{itemize}
+}
+
+\section{Margins}
+All page margins must be as follows:
+\begin{itemize}
+\item[Top:]    40 mm
+\item[Left:]   40 mm
+\item[Right:]  20 mm
+\item[Bottom:] 20 mm
+\end{itemize}
+
+\section{Line Spacing}
+Line spacing must be 1.5, except in the following items:
+\begin{itemize}
+\item Quotes must be made at single line spacing.  See for example the Acknowledgements chapter.
+\item The line following chapter or section titles must be a double line.
+\item Double spaced lines must precede and end figures, as well as tables.  Also a double spaced line must exist between the figure or table and its caption.
+\end{itemize}
+Note that line spacing can be changed using the command \texttt{baselinestretch} as shown in the next example (don't forget to include the braces around the section to which you want the new line spacing to apply, unless the line setting command is included within an environment declaration).
+{\renewcommand{\baselinestretch}{1.0}
+\begin{verbatim}
+{
+\renewcommand{\baselinestretch}{1.5}
+...
+}
+\end{verbatim}
+}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 2
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[THE PREAMBLE]{THE PREAMBLE}\label{ch:preamble}
+%...........................
+\section{Initialisations}
+All initialsations for theorems, new commands, numbering style, etc. should be made in the preamble before setting up the top matter for the preliminary pages.  The commands included in this part are:
+
+\begin{verbatim}
+       \newcommand\...{...}   % for local definitions
+       \newtheorem{}{}[]                         
+       \numberwithin{}{}                         
+\end{verbatim}
+
+
+\section{Top Matter}
+The input format and content of the top matter can be best understood
+by examining the\hfill first\hfill part\hfill of\hfill the\hfill sample\hfill file\hfill \verb+pucthesis_sample.tex+,\hfill up through the\\ \verb+\begin{document}+ instruction.
+
+The top matter includes both elements that must be input by the author and a
+few that are provided automatically.  
+The authors' names and the title that are
+to appear in the running heads should be input between square brackets as an
+option to the \verb+\author+ and \verb+\title+ commands, respectively (currently this option has been disabled because it does not conform to the PUC thesis guidelines). 
+The full
+names and title should be used unless they require too much space; in that
+event, abbreviated forms should be substituted. In the top matter, the title is
+input in caps and lowercase and will be set in all caps.  The authors' names
+should be input in caps and lowercase.
+
+Addresses
+are considered part of the top matter, but are set at the end of the document,
+following the references (currently this option has been disabled because it does not conform to the PUC thesis guidelines).
+For each author an address should be input.  If the current address is
+different than the address where the research was carried out then both
+addresses are given with the current address second and coded as indicated
+in this sample file (currently this option has been disabled because it does not conform to the PUC thesis guidelines).   Following these addresses, an
+address for electronic mail should be given, if one exists. Note that no
+abbreviations are used in addresses, and complete addresses for each author
+should be entered in the order that names appear on the title page (this option is also disabled and only applies to the writing of papers).  
+
+In summary, the commands to be set up for the topmatter are the following:
+
+{\footnotesize
+\begin{verbatim}
+       \draft                % adds a footer with date of draft
+       \mdate{}              % date manuscript written/changed
+       \version{}            % manuscript version#
+       \title[] {}           % use \\ for a newline in title 
+       \author[]{}          
+       \address {Department\\
+                 University\\ 
+                 Street address, City (Province) Postal Code, Country\\
+                 {\it Tel.\/} : (xxx) xxx-xxxx}
+
+       \email{aaaaaaaa@@xxx.yyy.zz} 
+       \university{}         
+       \facultyto{}          % Faculty document presented to  
+       \department{} 
+       \faculty{}                    
+       \degree{}                     
+       \subject{}
+       \date{}               % month/year of presentation
+       \copyrightname{}                          
+       \copyrightyear{}                                 
+       \president{}
+       \director{}
+       \codirector{}         % optional
+       \jurymember{}         % optional  1 name only
+       \manyjurymembers{}    % optional  multiple names 
+       \morejurymembers{}    % optional  additional names
+       \examiner{}           % optional
+       \dateaccepted{}
+\end{verbatim}
+}
+
+The cover page is created after setting up the topmatter commands by using:
+
+\begin{verbatim}
+      \pagenumbering{roman}
+      \maketitle
+\end{verbatim}
+
+
+\section{Abstract}
+A short abstract should appear on page (ii) using the command:
+
+\begin{verbatim}
+       \chapter*{ABSTRACT}
+\end{verbatim}
+
+and should be followed by its Spanish version, the {\em resumen}:
+
+\begin{verbatim}
+       \chapter*{RESUMEN}
+\end{verbatim}
+
+\section{Acknowledgements}
+
+Acknowledgements on page (iv) using the command:
+
+\begin{verbatim}
+       \chapter*{ACKNOWLEDGEMENTS}
+\end{verbatim}
+
+
+\section{Table of Contents}
+
+The `Table of Contents', `List of Figures', and `List of Tables' are  
+the pages before the document and are created by the commands:
+
+\begin{verbatim}
+      \tableofcontents
+      \listoffigures
+      \listoftables
+\end{verbatim}
+
+\section{Page Numbering}
+
+Preliminary pages must be numbered using roman numerals in lower case.  Pages in the main body of the document must be numbered using arabic numbers.
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 3
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[THE DOCUMENT]{THE DOCUMENT}
+
+In the following sections a sample of mathematical text is given
+using  {\AmSLaTeX}, 
+which incorporates
+the {\AmSTeX} commands inside {\LaTeX}. A
+comprehensive  users guide may
+be found in a file called \verb+{amslatex.tex}+ in
+the local system \TeX{} inputs directory.
+%...........................
+
+\section{A Mathematical Extract}
+The mathematical content of this sample paper has been extracted from
+published papers, with no effort made to retain any mathematical sense.
+It is intended only to illustrate the recommended manner of input.
+
+Mathematical symbols in text should always be input in math mode as
+illustrated in the following paragraph.
+
+A function is invertible in $C(X)$ if it is never zero, and in $C^*(X)$ if
+it is bounded away from zero. In an arbitrary $A(X)$, of course, there
+is no such description of invertibility which is independent of the 
+structure of the algebra. Thus in \S 2 we associate to each noninvertible
+$f\in A(X)$ a $z$-filter $\mathcal{Z} (f)$ that is a measure of where
+$f$ is ``locally'' invertible in $A(X)$. This correspondence extends to
+one between maximal ideals of $A(X)$ and $z$-ultrafilters on $X$.
+In \S 3 we use the filters $\mathcal{Z} (f)$ to describe the intersection of 
+the free maximal ideals in any algebra $A(X)$. Finally, our main result
+allows us to introduce the notion of $A(X)$-compactness of which 
+compactness and realcompactness are special cases. In \S 4 we show how
+the Banach-Stone theorem extends to $A(X)$-compact spaces.
+
+The \verb+\operatorname{}+ command is very useful in mathematical
+formula when abbrevations are used as operators, e.g. 
+$\operatorname{grad}(x)$.
+If frequently used, $\opgrad$ may be predefined in the {\it preamble\/} using 
+
+\begin{verbatim}
+\newcommand \opgrad{\operatorname{grad}}
+\end{verbatim}
+
+A standard set of operators are provided in {\AmSLaTeX}, e.g.:
+
+\begin{verbatim}
+\max, \min, \det, \sin, \cos, 
+\end{verbatim}
+\dots.
+
+\section{Theorems, Lemmas, and Other Proclamations}
+
+Theorems\hfill and\hfill lemmas\hfill are\hfill varieties\hfill of\hfill \verb+theorem+\hfill environments.\hfill  In\hfill this\hfill document,\hfill a\\\verb+theorem+ environment called \verb+lemma+ has been created,
+which is used below. Also, there is a  proof, which is in the predefined
+\verb+pf+ environment.  The lemma and proof below illustrate the use of 
+the \verb+enumerate+ environment. 
+
+\begin{lemma}
+Let $f, g\in  A(X)$ and let $E$, $F$ be cozero
+sets in $X$.
+\begin{enumerate}
+\item If $f$ is $E$-regular and $F\subseteq E$, then $f$ is $F$-regular.
+
+\item If $f$ is $E$-regular and $F$-regular, then $f$ is $E\cup F$-%
+regular.
+
+\item If $f(x)\ge c>0$ for all $x\in E$, then $f$ is $E$-regular.
+
+\end{enumerate}
+\end{lemma}
+
+\begin{pf}
+\begin{enumerate}
+
+\item  Obvious.
+
+\item Let $h, k\in A(X)$ satisfy $hf|_E=1$ and $kf|_F=1$. Let
+$w=h+k-fhk$. Then $fw|_{E\cup F}=1$.
+
+\item Let $h=\max\{c,f\}$. Then $h|_E=f|_E$ and $h\ge c$. So $0<h^{-1}
+\le c^{-1}$. Hence $h^{-1} \in C^*(X)\subseteq A(X)$, and 
+$h^{-1} f|_E=1$. \qed
+
+\end{enumerate}
+\renewcommand{\qed}{}  % see page 37 of the \AmS-\LaTeX User's Guide
+\end{pf}
+
+Another \verb+theorem+-type environment was defined at the beginning of this
+document, called \verb+definition+. Here is an example of it:
+
+\begin{definition}
+For $f\in A(X)$, we define
+\begin{equation}
+\mathcal{Z} (f)=\{E\in Z[X]\: \text{$f$ is $E^c$-regular}\}.
+\end{equation}
+\end{definition}
+
+\section{Regular Roman Font}
+
+Numbers, punctuation, (parentheses), [brackets], $\{$braces$\}$, and symbols used as tags should always be set in regular roman font (i.e. serif font such as Times not Italics).  The following sample theorem illustrates how to code for roman type within the statement of a theorem.
+
+\begin{theorem}
+Let $\mathcal{G}$ be a free nilpotent-of-class-$2$ group of rank
+$\ge 2$ with carrier $G$ and let
+$$m : G\times G \to Z$$
+satisfy \textup{(2.21)}, \textup{(2.22)}, and \textup{(2.24)}, and define
+$\kappa$ by \textup{(2.23)}.  Then this $\kappa$-group is $\kappa$-nilpotent
+of class $2$ and $\kappa$-metabelian, that is to say, it satisfies
+\textup{S2} and \textup{S3}, but it is $\kappa$-abelian if, and only if,
+\begin{equation}
+m(x,y) = -1\quad\text{for all $x, y \notin G'$}.
+\end{equation}
+\textup{(}Thus \textup{(3.1)} implies the trivial consequence
+\textup{(2.1)}.\textup{)}   Now \textup{I7$'$}, however,
+is equivalent to a condition similar to \textup{(2.25)}, namely
+\begin{equation}
+m(xz\sigma, yz\sigma) = m(x,y)\,.
+\end{equation}
+\end{theorem}
+
+Letters used as abbreviations rather than as variables or constants
+are set in roman type.  Use the control sequences \cite[p.~95]{SPI90}
+for common mathematical functions and operators like $\log$ and $\lim$.
+
+
+\section{Subsections and Subsubsections}
+
+\subsection{A subsection in small caps}  We conclude by noting that another characterization
+of $A$-compactness follows from Mandelker. We call a family $\mathcal{S}$ of closed
+sets in $X\ A$-stable if every $f\in A(X)$ is bounded on some member
+of $\mathcal{S}$. Then one can show that a space is $A$-compact if and only if  every  
+$A$-stable family of closed sets with the finite intersection property has
+nonempty intersection.
+
+\subsubsection{A second-level subheading}
+
+This paragraph is included only to illustrate the appearance of a
+sub-subsection.
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 4
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[FIGURES]{FIGURES}\label{ch:figures}
+
+Figures should be inserted within \LaTeX's \verb+figure+ environment using the \verb+graphicx+ package instruction:
+\begin{center}
+{\textbackslash}\texttt{includegraphics[scale=number]}\textbraceleft\texttt{path/file\_name}\textbraceright
+\end{center}
+where \texttt{number} is the scaling factor of the figure (0.0--$\infty$) and \texttt{file\_name} is the name of the figure in PostScript (.PS) or Encapsulated PostScript (.EPS) format.  For further details see the documentation of the \verb+graphicx+ package.
+
+\begin{remark}
+Note that:
+\begin{itemize}
+\item \AmSLaTeX{} recommends the use of the \verb+graphicx+ package.  The \AmSLaTeX{}  documentation recommends to avoid the use of other packages to include figures, such as \verb+epsfig+, because they may cause particular problems for \AmS{} production and because \verb+graphicx+ has superseded most other packages.  The use of \verb+epsfig+, has not shown however to produce any conflict with the \verb+pucthesis+ document class.
+\item  The positioning of figures may need to be changed to obtain the best possible page layout.  Thus it is important to label your figures and use the labels in the text when referring to figures.  The figure caption should be positioned below the figure.
+\end{itemize}
+\end{remark}
+
+This paragraph shows references to figures included in this chapter.  Fig.~\ref{fig:vitruvian} shows Leonardo da Vinci's Vitruvian Man, which was drawn circa 1490.  Other figures, such as fig.~\ref{fig:bs_eig} and fig.~\ref{fig:bsx} show the kind of graphs typically found in scientific articles.
+
+\begin{figure}[htbp]
+\parbox{0em}{\rule[0pt]{0pt}{\textheight}}
+\parbox{0.99\textwidth}{\centering 
+%\begin{center}
+%\psfig*{file=figs/vitruvian.ps,scale=6.0}
+\includegraphics*[scale=6.0]{figs/vitruvian.ps}
+%\end{center}
+\caption{Leonardo da Vinci's Vitruvian Man (c. 1490).} 
+\label{fig:vitruvian}}
+\end{figure}
+
+\begin{figure}[htpb]
+\begin{center}
+\begin{tabular}{cc}
+\parbox{0.45\textwidth}{
+\includegraphics*[scale=0.35]{figs/bsr3b2c_eig.ps}}&
+\parbox{0.45\textwidth}{
+\includegraphics*[scale=0.5]{figs/bsr3b2cfan.ps}}\\
+(a) \parbox[t]{.4\textwidth}{Eigenvalues of system $\Sigma$ versus a constant control input $u\in\mathbb{R}$.} &
+(b) \parbox[t]{.4\textwidth}{Eiegenvectors spanning the unstable subspace of system $\Sigma$ as the control input $u\in\mathbb{R}$ varies.}
+\end{tabular}
+\end{center}
+\caption{Eigenvectors of the bilinear system $\Sigma$ and its unstable subspace.}
+\label{fig:bs_eig}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\mbox{}\\[3em]
+\includegraphics*[scale=0.7]{figs/bsr3x.ps}
+\end{center}
+\caption[State trajectories versus time for the controlled bilinear system $\Sigma$.]{State trajectories versus time for the controlled bilinear system $\Sigma$.  Note that a shorter version of this caption can be placed in the Table of Figures (TOF) by including and optional title using the command {\textbackslash}\texttt{caption[Short title for TOF]}\{\texttt{Long title}\}.} 
+\label{fig:bsx}
+\end{figure}
+
+\begin{example}
+The basic way to include a figure involves the following lines of code:
+{\renewcommand{\baselinestretch}{1.0}
+\begin{verbatim}
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics*[scale=1.0]{path/filename.ps}
+  \end{center}
+  \caption[Short title for the Table of Figures]{Long title.}
+  \label{fig:name}
+\end{figure}
+\end{verbatim}
+}
+\end{example}
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 5
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[TABLES]{TABLES}
+
+Including tables is much like including figures. However, it is important noting that, unlike figures, tables must be preceded by their captions.  Tables are created using the \texttt{tabular} command within a \texttt{table} environment as shown by the following general code:
+{\renewcommand{\baselinestretch}{1}
+\begin{verbatim}
+\begin{table*}[htbp]
+\caption{Table title.}
+\label{tab:simresults}
+{\setstretch{1.5}
+\begin{tabular}{|a|a|...|a|}\hline
+ Row/Column & Column 1 & ... & Column N\\\hline
+    Row 1   &   1, 1   & ... &   1, N  \\\hline
+     ...    &    ...   & ... &    ...  \\\hline
+    Row M   &   M, 1   & ... &   M, N  \\\hline
+\end{tabular}
+}
+\end{table*}
+\end{verbatim}
+}
+In the previous code, \verb+|a|+, can be be either of \verb+|c|+, \verb+|l|+ or \verb+|r|+, in order to define the alignment of the text in the column as centered, left-aligned or right-aligned, respectively.  Another thing worth noting is the use of \verb+\setstretch+ to set the line spacing of the table.  This command is part of the \verb+setspace.sty+ package, which is automatically included by the \verb+pucthesis.cls+ document class.
+
+A simple table is shown in Table~\ref{tab:simresults}.  As shown next in the code for this table, note that:
+\begin{itemize}
+\item Elements spanning multiple columns can be created using the command:\\
+{\centering \verb+\multicolumn{n}{a}{Entry text}+}\\
+Here \verb+a+ can be any of \verb+c+, \verb+l+ or \verb+r+, and may be followed by \verb+|+ to draw a vertical line at the end of the multicolumn.
+\item Horizontal lines spanning multiple column elements can be created with the command:\\
+{\centering \verb+\cline{m-n}+}\\
+where \verb+m+ and \verb+n+ correspond to the number of the starting and ending column, respectively.
+\end{itemize}
+
+
+\begin{table*}[htbp]
+\caption{Simulation results.}
+\label{tab:simresults}
+{\setstretch{1.5}
+\begin{tabular}{|c|c|c|c|}\hline
+  Algorithm &\multicolumn{2}{c|}{Error}  & Efficiency\\\cline{2-3}
+            & Pos. [m] & Ang. [$^\circ$] &           \\\hline
+      KF    &   0.21   &       2.3       &    1.0    \\\hline
+     EKF    &   0.15   &       1.1       &    1.2    \\\hline
+      PF    &   0.12   &       0.9       &    9.8    \\\hline
+\end{tabular}
+}
+\end{table*}
+
+{\renewcommand{\baselinestretch}{1}
+\small
+\begin{verbatim}
+\begin{table*}[htbp]
+\caption{Simulation results.}
+\label{tab:simresults}
+{\setstretch{1.5}
+\begin{tabular}{|c|c|c|c|}\hline
+  Algorithm &\multicolumn{2}{c|}{Error}  & Efficiency\\\cline{2-3}
+            & Pos. [m] & Ang. [$^\circ$] &           \\\hline
+      KF    &   0.21   &       2.3       &    1.0    \\\hline
+     EKF    &   0.15   &       1.1       &    1.2    \\\hline
+      PF    &   0.12   &       0.9       &    9.8    \\\hline
+\end{tabular}
+}
+\end{table*}
+\end{verbatim}
+}
+
+More complicated tables can also be created as illustrated in Table~\ref{tab:motorspecs}.  In addition to entries spanning multiple columns and the use of \verb+c+, \verb+l+, \verb+r+ alignment commands note the following:
+\begin{itemize}
+\item  The \verb+@+ allows to:
+  \begin{itemize}
+   \item Supress the space before or after a column (\verb+@{}+).
+   \item Insert special column separators, e.g. \verb+@{.}+.
+   \item Modify the space between columns using \verb+@{\hspace{width}}+.
+  \end{itemize}
+\item Instead of the \verb+c+, \verb+l+, \verb+r+, it is also possible to use
+  any of the following paragraph making commands:
+  \begin{itemize}
+   \item \texttt{p\{width\}}: 
+                   paragraph column with text vertically aligned at the top.
+   %\item \texttt{m\{width\}}: 
+   %                paragraph column with text vertically aligned in the middle.
+   %\item \texttt{b\{width\}}: 
+   %                paragraph column with text vertically aligned at the bottom.
+  \end{itemize}
+\end{itemize}
+
+\begin{remark}\mbox{}\\[-\baselineskip]
+\begin{itemize}
+\item A\hfill package\hfill useful\hfill for\hfill creating\hfill table\hfill elements\hfill spanning\hfill several\hfill rows\hfill is\hfill the\\ \verb+multirow+ package.
+\item Table\hfill elements\hfill can\hfill be\hfill constrained\hfill and\hfill arbitrarily\hfill positioned\hfill using\hfill the\\ \verb+parbox+ environment.
+\end{itemize}
+\end{remark}
+
+\newpage
+\begin{table*}[htbp]
+\caption{Motronics Series M1 DC motor specifications.}
+\label{tab:motorspecs}
+{\setstretch{1.5}
+\small
+\begin{tabular}{r@{}llcccrrp{25mm}}\hline
+   &    & Parameter      && Symbol       & Units    
+                                                 & \multicolumn{2}{c}{Model}
+                                                 & Comments\\ 
+   &    &                &&              &       & \multicolumn{1}{c}{M1-6V} 
+                                                 & \multicolumn{1}{c}{M1-9V}
+                                                 &                     \\\hline
+ 1.&10  &Nominal Voltage && $V_a$        & V   & 6.00  & 9.00 
+                                               & This is a design parameter. \\
+ 1.&100 &Current & Nom. &  ${I_a}_{nom}$ & A   & 0.035 & 0.025
+                                               & This parameter depends on 
+                                                 the superconducting 
+                                                 properties of the material. \\
+   &    &        & Max. &  ${I_a}_{max}$ & A   & 1.90  & 1.30
+                                               & This paramter is limited
+                                                 by the heating constraints
+                                                 of the insultation.         \\
+ 2.&10 & Armature Resistance && $R_a$          & $\Omega$ & 0.85 & 2.15& --- \\
+ 2.&20 & Armature Inductance && $L_a$          & $\mu H$  & 45   & 90  & --- \\
+ 3.&700 & Speed      & Nom.   & $\omega_{nom}$ & RPM & 7000 & 7500 & ---     \\
+   &    &            & Max.   & $\omega_{max}$ & RPM & 8000 & 8000 & ---     \\
+ 4.&500 &Angular Acceleration 
+                     & Max.   & $\alpha_{max}$ & $rad/s^2$ 
+                                    & \multicolumn{2}{c}{$120\times 10^3$} 
+                                                                   & ---     \\
+ 4.&800 & Torque     & Max.   & ${T_m}_{max}$  & Nm  
+                                    & \multicolumn{2}{c}{0.01} 
+                                                 & Guaranteed.               \\
+50.&200 & Temperature & Nom. & $T_{op}$  & C & \multicolumn{2}{c}{-30--+85} 
+                                                 & Experimentally determined.\\
+   &    &             & Max. & $T_{max}$ & C & \multicolumn{2}{c}{+125}
+                                                 & Limited by insulation 
+                                                   properties.         \\\hline
+\end{tabular}
+}
+\end{table*}
+
+
+\newpage
+{\renewcommand{\baselinestretch}{1}
+\scriptsize
+\begin{verbatim}
+\begin{table*}[htbp]
+\caption{Motronics Series M1 DC motor specifications.}
+\label{tab:motorspecs}
+{\setstretch{1.5}
+\small
+\begin{tabular}{r@{}llcccrrp{25mm}}\hline
+   &    & Parameter      && Symbol       & Units    
+                                                 & \multicolumn{2}{c}{Model}
+                                                 & Comments\\ 
+   &    &                &&              &       & \multicolumn{1}{c}{M1-6V} 
+                                                 & \multicolumn{1}{c}{M1-9V}
+                                                 &                     \\\hline
+ 1.&10  &Nominal Voltage && $V_a$        & V   & 6.00  & 9.00 
+                                               & This is a design parameter. \\
+ 1.&100 &Current & Nom. &  ${I_a}_{nom}$ & A   & 0.035 & 0.025
+                                               & This parameter depends on 
+                                                 the superconducting 
+                                                 properties of the material. \\
+   &    &        & Max. &  ${I_a}_{max}$ & A   & 1.90  & 1.30
+                                               & This paramter is limited
+                                                 by the heating constraints
+                                                 of the insultation.         \\
+ 2.&10 & Armature Resistance && $R_a$          & $\Omega$ & 0.85 & 2.15& --- \\
+ 2.&20 & Armature Inductance && $L_a$          & $\mu H$  & 45   & 90  & --- \\
+ 3.&700 & Speed      & Nom.   & $\omega_{nom}$ & RPM & 7000 & 7500 & ---     \\
+   &    &            & Max.   & $\omega_{max}$ & RPM & 8000 & 8000 & ---     \\
+ 4.&500 &Angular Acceleration 
+                     & Max.   & $\alpha_{max}$ & $rad/s^2$ 
+                                    & \multicolumn{2}{c}{$120\times 10^3$} 
+                                                                   & ---     \\
+ 4.&800 & Torque     & Max.   & ${T_m}_{max}$  & Nm  
+                                    & \multicolumn{2}{c}{0.01} 
+                                                 & Guaranteed.               \\
+50.&200 & Temperature & Nom. & $T_{op}$  & C & \multicolumn{2}{c}{-30--+85} 
+                                                 & Experimentally determined.\\
+   &    &             & Max. & $T_{max}$ & C & \multicolumn{2}{c}{+125}
+                                                 & Limited by insulation 
+                                                   properties.         \\\hline
+\end{tabular}
+}
+\end{table*}
+\end{verbatim}
+}
+
+
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CHAPTER 6
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[ALGORITHMS AND PSEUDOCODE]{ALGORITHMS AND PSEUDOCODE}
+
+This\hfill section\hfill presents\hfill some\hfill examples\hfill of\hfill algorithms\hfill and\hfill pseudocode\hfill written\hfill with\hfill the\\ \verb|algorithm2e| package.  This package requires the \verb|float| and \verb|xspace| packages.  The \verb|fancybox| package may additionally be required if fancier frame boxes are desired.  Algorithm~\ref{firstalg} shows the standard \verb|ruled| style.  Algorithm~\ref{secondalg} shows an algorithm style based on the \verb|shadowbox| command of the \verb|fancybox| package and a modification of the \verb|ruled| algorithm style that has been added to the \verb|algorithm2e| package under the name of \verb|norule|.  For further information on this and other algorithm typesetting packages see:
+\begin{center}
+ \verb+http://www.tex.ac.uk/cgi-bin/texfaq2html?label=algorithms+.\\[3ex]
+\end{center}
+
+\restylealgo{ruled}
+\setlength{\algomargin}{.8em}
+\setalcaphskip{0.3em}
+%%\setalcapskip{-10em}
+%%\SetAlgoInsideSkip{}
+\SetAlgoSkip{}
+\begin{algorithm}[H]
+\caption{Euk's algorithm}\label{firstalg}
+  \SetLine
+  \KwData{this text}
+  \KwResult{how to write algorithms with \LaTeX{} $2_\varepsilon$}  
+  initialization\;
+  \While{not at end of this document}{
+    read current section\;
+    \eIf{understand}{
+      go to next section\;
+      current section becomes this one\;
+      }{
+      go back to the beginning of current section\;
+      }
+    }
+\end{algorithm}
+
+\mbox{}\\
+\rule[0em]{\textwidth}{1ex}\\
+\parbox[t]{\textwidth}{\centering Use this ruler to check the width of the frame boxes\\ relative to the page width.}\\
+\rule[0em]{\textwidth}{1ex}\\
+
+\mbox{}\\
+%
+\newlength{\algoh}   % Set width of the algorithm block.
+\newlength{\algohd}  % Set displacement of the algorithm block.
+\setlength{\algoh}{\textwidth}
+\setlength{\algohd}{1.342em}
+\addtolength{\algoh}{-.5\algohd}
+%
+\shadowbox{
+\parbox[t]{\algoh}{
+\hspace*{-\algohd}
+\restylealgo{noruled}
+\setlength{\algomargin}{.8em}
+\setalcaphskip{0.6em}
+%%\setalcapskip{-10em}
+%%\SetAlgoInsideSkip{}
+\SetAlgoSkip{}
+\begin{algorithm}[H]
+\caption{Euk's algorithm}\label{secondalg}
+  \SetLine
+  \KwData{this text}
+  \KwResult{how to write algorithm with \LaTeX{} $2_\varepsilon$}  
+  initialization\;
+  \While{not at end of this document}{
+    read current section\;
+    \eIf{understand}{
+      go to next section\;
+      current section becomes this one\;
+      }{
+      go back to the beginning of current section\;
+      }
+    }
+\end{algorithm}
+}
+\hspace*{-.5\algohd}
+}
+
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %    CHAPTER 7
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[REFERENCES]{REFERENCES}
+\section{Reference Style}
+References must employ the American Psychological Association (APA) citation convention; see the following SIBUC's URL address:
+\begin{center}
+\verb+http://www.puc.cl/sw_educ/gnosis/citas/citas.htm+
+\end{center}
+To this end, the \textsc{Bib}\TeX{} bibliography tool is used together with the \textsf{apacite} bibliography style, which requires the following files:
+\begin{itemize}
+\item \verb+apacite.sty+: must be placed where \TeX{} can find it, such us the directory which contains your \verb+.tex+ document.
+\item \verb+apacite.bst+: must be placed where \textsc{Bib}\TeX{} can find it, such us the directory which contains your \verb+.tex+ document.
+\item \verb+apacitex.bst+: must be placed where \textsc{Bib}\TeX{} can find it, such us the directory which contains your \verb+.tex+ document.
+\end{itemize}
+These files are included with the distribution of the \verb+pucthesis+ document class.  The latest version of the \textsf{apacite} files can be obtained from the CTAN's site:
+\begin{center}
+\verb+http://texcatalogue.sarovar.org/entries/apacite.html+
+\end{center}
+
+There are two primary forms of citation in the \textsf{apacite} style dependent upon whether the reference is used as a noun or parenthetically.  Additionally, those references with more than two authors are cited with all authors the first the citation occurs in the text and only with the first author's name followed by `et al.' in subsequent occurrences.  The following example illustrates this point:
+\begin{quote}
+\renewcommand{\baselinestretch}{1.0}
+\LaTeX{} is a system for typesetting documents developed in 1985 by a computer scientist named Leslie~\fullciteA{LAM94}.  \LaTeX{} is based on another piece of software called \TeX{}, written between the late 1970s and early 1980s by Donald E.~\fullciteA{KNU86}, a well-known computer scientist and mathematician at Stanford University.  \LaTeX{} is based on the principle that authors should concentrate on logical design rather than visual design when writing their documents.
+
+There are many handbooks that cover technical writing aspects involving style, structure and layout \cite{HIG98,KNU88,STR99}.  \citeauthor{HIG98}'s \citeyearNP{HIG98} book is to the technical writer what the work by \citeA{STR99} is to the liberal arts writer. Portions of the book by~\citeA{KNU88} are also available in his technical report STAN-CS-88-1193.
+\end{quote}
+
+The following aspects shown in the previous example are worth noting:
+\begin{itemize}
+\item The command \verb+\fullciteA+ (also \verb+\citeA+, \verb+\shortciteA+) is employed when the citation is used as a noun in the sentence, e.g. citations 1, 2, 7 and 8. This command is similar to the \verb+\citeasnoun+ command of the \textsf{harvard} citation style package.  However, the latter does not allow multiple citations.
+\item The commands \verb+\cite+, \verb+\fullcite+ and \verb+\shortcite+ are employed to produce parenthetical references and allow creating lists of citations, e.g. citations 3, 4 and 5.
+\item The command \verb+\citeyear+ produces the document's year within parenthesis.  Use \verb+\citeyearNP+ to cite the year without the parenthesis, e.g. citation 6.  The later is equivalent to \verb+\citeyear*+ of the \textsf{harvard} package.
+\item The first occurrence of a reference must include the last name of all authors separated by commas, except for the last one, which must be connected by an \&, e.g. citations 4 and 5.
+\item In the case of references with two authors, the second and following occurrences must include the lastname of the first author and second author seperated by an \&.
+\item In the case of references with three or more authors, the second and following occurrences must include the lastname of the first author followed by `et al.', which is an abbreviation of the latin expression `et alii' (masculine) `et ali\ae' (femenine) meaning `and others'.  See, for example, the last two citations (7, 8).
+\item Possessive citations can be made using the family of citation commands ending in \verb+NP+, such as \verb+\citeNP+, \verb+\citeyearNP+, as shown in citation 6.  These versions of the standard citation commands are useful for constructing complex citations within parenthetical material.  The \textsf{harvard} package handles this using the \verb+\possessivecite+ command.
+\end{itemize}
+
+In some situations it may be necessary to refer to certain pages within a book.  This can be done as in standard \LaTeX{} bibliographies using \verb+\cite[pp. 32--35]{Label}+.  For example, \verb+\cite[pp. 43--54]{KNU88}+ produces: \cite[pp. 43--54]{KNU88}.
+
+The following list demonstrates some of the main commands to produce citations:
+\begin{itemize}
+\item First occurrence of \verb+\cite{TAY03}+:\\ 
+\cite{TAY03}
+\item Second occurence of \verb+\cite{TAY03}+:\\
+\cite{TAY03}
+\item Forcing all authors in the third occurrence using \verb+\fullcite{TAY03}+:\\
+ \fullcite{TAY03}
+\item Forcing a short citation is achieved using \verb+\shortcite{TAY03}+:\\
+\shortcite{TAY03}
+\item Standard\hfill citation\hfill of\hfill the\hfill authors'\hfill names\hfill without\hfill parentheses\hfill using\\ \verb+\citeA{TAY03}+:\\
+\citeA{TAY03}
+\item Full\hfill citation\hfill of\hfill the\hfill authors'\hfill names\hfill without\hfill parentheses\hfill using\\ \verb+\fullciteA{TAY03}+:\\
+\fullciteA{TAY03}
+\item Short\hfill citation\hfill of\hfill the\hfill authors'\hfill names\hfill without\hfill parentheses\hfill using\\ \verb+\shortciteA{TAY03}+:\\
+\shortciteA{TAY03}
+\item Standard citation of the authors' names only (without publication year) using \verb+\citeauthor{TAY03}+:\\
+\citeauthor{TAY03}
+\item Full\hfill citation\hfill of\hfill the\hfill authors'\hfill names\hfill only\hfill (without\hfill publication\hfill year)\hfill using\\ \verb+\fullciteauthor{TAY03}+:\\
+\fullciteauthor{TAY03}
+\item Full\hfill citation\hfill of\hfill the\hfill authors'\hfill names\hfill only\hfill (without\hfill publication\hfill year)\hfill using\\ \verb+\shortciteauthor{TAY03}+:\\
+\shortciteauthor{TAY03}
+\item Citation of the publication year within parentheses using \verb+\citeyear{TAY03}+:\\
+\citeyear{TAY03}
+\item Citation\hfill of\hfill the\hfill publication\hfill year\hfill without\hfill parentheses\hfill using\\ \verb+\citeyearNP{TAY03}+:\\
+\citeyearNP{TAY03}
+\item Full citation without parentheses using \verb+\fullciteNP{TAY03}+:\\
+\fullciteNP{TAY03}
+\item First occurrence of a reference with two authors, such as \verb+\cite{TAL93}+:\\ 
+\cite{TAL93}
+\item Second occurrence of the previous reference with two authors, \verb+\cite{TAL93}+.  It is to be noted that the ampersand (\&) is used instead of the `et al.', unlike citations with three or more authors:\\ 
+\cite{TAL93}
+\end{itemize}
+
+For a full explanation of the many options supported by the \textsf{apacite} bibliography style package see~\cite{MEI05}.
+
+
+\section{Producing References}
+Producing the bibliography involves the following steps:
+\begin{enumerate}
+\item Creating one or more \verb+.bib+ files with the \textsc{Bib}\TeX{} entries for each reference.  See the examples below, the \textsc{Bib}\TeX{} documentation or the references in:
+\begin{center}
+\verb+http://en.wikipedia.org/wiki/BibTeX+
+\end{center}
+\item Including the following lines in the \verb+.tex+ document to insert the references contained in the \verb+.bib+ files, e.g. \verb+refs1.bib+, \verb+refs2.bib+, \verb+refs3.bib+, \ldots:
+\begin{verbatim}
+ \bibliographystyle{apacite} 
+ \bibliography{refs1,refs2,refs3,...}
+\end{verbatim}
+\item Compiling the \verb+.tex+ document using the command:
+\begin{verbatim}
+latex filename
+\end{verbatim}
+\item Compiling with the \verb+bibtex+ command the \verb+.aux+ file generated by the \verb+latex+ compiler.  The \verb+.aux+ file contains, among other information, the data about the \textsc{Bib}\TeX{} references collections stored in the \verb+.bib+ files. To carry out this step, execute the following command:
+\begin{verbatim}
+bibtex filename
+\end{verbatim}
+The \verb+bibtex+ compiler will produce a \verb+.bbl+ and \verb+.blg+ file that will be included in the final document, after compiling the \verb+.tex+ document twice in the next step.
+\item Execute:
+\begin{verbatim}
+latex filename
+latex filename
+\end{verbatim}
+\item If the document has an index of terms or authors, execute:
+\begin{verbatim}
+makeindex filename
+latex filename
+latex filename
+\end{verbatim}
+\end{enumerate}
+
+
+\section{\textsc{Bib}\TeX{} Reference Examples}
+One or more \verb+.bib+ files containing the references must be created following the \textsc{Bib}\TeX{} package documentation.  The references in a \textsc{Bib}\TeX{} file do not need to be alphabetical order because \textsc{Bib}\TeX{} will take care of arranging them for you depending on the bibliography style employed.  The following references have been chosen to illustrate the coding of the most common types of references.  It is to be noted that not all of the possible fields for the different types of references are employed.  If you wish to use the optional fields, you must remove the text \verb+ALT+ or \verb+OPT+ preceding the field identifier.  Use the abbreviations for journal names that are given in annual indexes of {\it Mathematical Reviews}:
+\begin{center}
+\texttt{http://www.ams.org/msnhtml/serials.pdf}
+\end{center}
+
+\subsection{Book Reference Example}
+See reference~\cite{STR99}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@Book{STR99,
+  author =       {W. Strunk and E. B. White and R. Angell},
+  ALTeditor =    {},
+  title =        {The Elements of Style},
+  publisher =    {Allyn \& Bacon},
+  year =         {1999},
+  OPTkey =       {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  edition =      {$4^{th}$},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Paper-in-Book Reference Example}
+See reference~\cite{TAL93}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@InBook{TAL93,
+  author =       {R. Talluri and J. Aggarwal},
+  editor =       {C. H. Chen, L. F. Pau, P. S. P. Wang},
+  title =        {Handbook of Pattern Recognition and Computer
+                  Vision},
+  chapter =      {Positional estimation techniques for an 
+                  autonomous mobile robot -- a review},
+  publisher =    {World Scientific Publishing Co.},
+  year =         {1993},
+  OPTkey =       {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTtype =      {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTpages =     {769--801},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Journal Paper Reference Example}
+See reference~\cite{MAN77}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@Article{MAN77,
+  author =       {C. F. Manski},
+  title =        {The structure of random utility models},
+  journal =      {Theory and Decisions},
+  year =         {1977},
+  OPTkey =       {},
+  volume =       {v. 8},
+  number =       {n. 3},
+  pages =        {229--254},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Conference Paper Reference Example}
+See reference~\cite{TAY03}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@InProceedings{TAY03,
+  author =       {D. W. Taylor and P. N. Johnson and W. T. Faulkner},
+  title =        {Local area radio navigation: a tool for GPS-denied 
+                  geolocation},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  booktitle =    {Proc. of the SPIE-Aerosense Conference, Orlando, 
+                  Florida, 24 April 2003},
+  pages =        {125--136},
+  year =         {2003},
+  OPTeditor =    {},
+  volume =       {v. 5084 - Location Services and Navigation
+                  Technologies},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTorganization = {},
+  OPTpublisher = {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Thesis Reference Example}
+See reference~\cite{CEC70}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@PhdThesis{CEC70,
+  author =       {S. O. Cecil},
+  title =        {Correlations of Rock Bolt Shotcrete Support and
+                  Rock Quality Parameters in Scandinavian Tunnels},
+  school =       {Departament of Civil Engineering, University of 
+                  Illinois at Urbana Champaign},
+  year =         {1970},
+  OPTkey =       {},
+  OPTtype =      {},
+  address =      {U.S.A.},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Technical Reports Reference Example}
+See reference~\cite{GOD97}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@TechReport{GOD97,
+  author =       {J.-M. Godhavn and A. Balluchi and L. S. Crawford 
+                  and S. S. Sastry},
+  title =        {Control of Nonholonomic Systems with Drift Terms},
+  institution =  {UC Berkeley-ERL},
+  year =         {1997},
+  OPTkey =       {},
+  type =         {Memorandum M97/01},
+  OPTnumber =    {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Technical Documentation/User's Guide Reference Example}
+See reference~\cite{CHAR91}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@Manual{CHAR91,
+  title =        {Maple {V} Language Reference Manual},
+  OPTkey =       {},
+  author =       {B. W. Char and K. O. Geddes and G. H. Gonnet 
+                  and B. Leong and M. B. Monagan and S. M. Watt},
+  OPTorganization = {},
+  OPTaddress =   {},
+  edition =      {Springer-Verlag},
+  OPTmonth =     {},
+  year =         {1991},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{An Example Using Abbreviations}
+The \verb+@String+ \textsc{Bib}\TeX{} entry provides an easy way to refer to text strings that are used frequently in references, such as the name of journals, conferences, publishers, among other.
+
+Consider for example a \verb+.bib+ file with the following entries:
+\begin{verbatim}
+@String{ PROCL = {{Proceedings of the}}}
+@String{ CDC = {{IEEE Conf. on Decision and Control}}}
+@String{ IEEEP = {{Proc. of the IEEE}}}
+\end{verbatim}
+It is to be noted that an extra pair of braces is used whenever the capital letters in the string must be preserved.  It is also worth pointing out that \verb+@String+ \textsc{Bib}\TeX{} entries are useful for creating comments within a \verb+.bib+ file since  \textsc{Bib}\TeX{} does not provide a command to create references like the \% command in \LaTeX.
+
+The following reference~\cite{CYB00} shows the use of the above abbreviations:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@InProceedings{CYB00,
+  author =       {Alfa Cyborg},
+  title =        {The Life in {U}nimatrix {O}ne},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  booktitle =    PROCL # { } # CDC,
+  pages =        {1001--1005},
+  year =         {3000},
+  OPTeditor =    {},
+  volume =       {III},
+  OPTnumber =    {},
+  OPTseries =    {},
+  address =      {Delta Quadrant},
+  month =        {December},
+  OPTorganization = {},
+  publisher = IEEP,
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+Notice that the abbreviations {\em are not enclosed by parentheses}.  Use the \# sign to concatenate strings.  Often a blank space must be inserted between abbreviations.  This can be achieved by inserting \verb+# { } #+ between abbreviations.
+
+See Appendix~\ref{ap:pucthesis} in page~\pageref{ap:pucthesis} for details about the coding of the references and citations.
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %    CHAPTER 8
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[GENERAL DOCUMENT PREPARATION TIPS]{GENERAL DOCUMENT PREPARATION TIPS}
+
+Some helpful hints on how to prepare a better document are briefly explained in this section.
+
+\section{Tips for Figures and Tables}
+\begin{itemize}
+\item Try to position figures and tables at the top or bottom of pages.  Avoid placing them in the middle a page.
+%\item Large figures and tables may span across both columns.
+\item Remember figure captions should be centered below the figures.
+\item Remember table captions should be centered above the tables.
+\item Avoid placing figures and tables before their first mention in the text.
+\item In some papers you may use the abbreviation ``Fig. \#'', even at the beginning of a sentence.
+\item Figure axis labels are often a source of confusion. Use words rather than symbols. For example, write ``Magnetization'', or ``Magnetization (M)'', not just ``M''.
+\item Put units in parentheses. Do not label axes only with units. For example, write ``Magnetization [A/m]'' or ``Magnetization [A m$^{-1}$]'', not just ``[A/m]'' o ``[A m$^{-1}$]''.
+\item Do not label axes with a ratio of quantities and units.  For example, write ``Temperature [K]'', not ``Temperature/K''.
+\item Multipliers can be very confusing.  Write ``Magnetization (kA/m)'' or ``Magnetization ($10^3$ A/m)''.
+\item Figure labels should be legible at 8-point type.
+\end{itemize}
+
+\section{Tips on Abbreviations and Acronyms}
+\begin{itemize}
+\item Define abbreviations and acronyms the first time they are used in the text, even if they have been defined in the abstract.
+\item Abbreviations such as IEEE, SI, MKS, CGS, ac, dc, and rms do not have to be defined. Do not use abbreviations in the title unless they are unavoidable.
+\end{itemize}
+
+\section{Tips on Equations and Numbers}
+\begin{itemize}
+\item Number equations consecutively with equation numbers in parentheses flushed with the right margin, as in~(\ref{eq:eq1}).
+\item To make your equations more compact, you may use the solidus ($/$) and the $\exp$ function, etc.
+\item Italicize Roman symbols for quantities and variables, but not Greek symbols.
+\item Use an en dash ``--'' rather than a hyphen ``-'' for a minus sign.
+\item Use parentheses to avoid ambiguities in denominators.
+\item Punctuate equations with commas or periods when they are part of a sentence, as in
+\begin{eqnarray}
+\frac{e^{ix}}{2}=\frac{\cos x+i\sin x}{2}\Rightarrow \exp(ix)/2 = (\cos x+i\sin x)/2.\label{eq:eq1}
+\end{eqnarray}
+\item Symbols in your equation should be defined before the equation appears or immediately following.
+\item Cite equations using ``(\ref{eq:eq1}),'' not ``Eq. (\ref{eq:eq1})'' or ``equation (\ref{eq:eq1})'', except at the beginning of a sentence, e.g. ``Equation (\ref{eq:eq1}) is \ldots''.
+\end{itemize}
+
+\section{Other Recommendations}
+\begin{itemize}
+%The Roman numerals used to number the section headings are optional.
+\item Do not number Acknowledgement and References chapters.% and begin Subheadings with letters.
+\item Use two spaces after periods (full stops). Use one space after abrevviation periods, commas, colons and semi-colons.
+\item Hyphenate complex modifiers: ``zero-field-cooled magnetization''.  
+\item Avoid dangling participles, such as, ``Using (\ref{eq:eq1}), the potential was calculated''.  Write instead, ``The potential was calculated using (\ref{eq:eq1})'' or ``Using (\ref{eq:eq1}), we calculated the potential''.
+\item Use a zero before decimal points: ``0.25'', not ``.25''.
+\item Use cm$^3$, not ``cc''.
+\item Do not mix complete spellings and abbreviations of units: ``Wb/m$^2$'' or ``Webers per square meter'', not ``Webers/m$^2$''.
+\item Spell units when they appear in text: ``a few Henries'', not ``a few H''.
+\item If your native language is not English, try to get a native English-speaking colleague to proofread your work.
+%Do not add page numbers.
+\end{itemize}
+
+\section{Tips on Units}
+\begin{itemize}
+\item Use either SI (MKS) or CGS as primary units. (SI units are encouraged).
+\item English units may be used as secondary units in parentheses.  An exception would be the use of English units as identifiers in trade, such as ``3.5-inch disk drive''.
+\item Avoid combining SI and CGS units, such as current in Amperes and magnetic field in Oersteds.  This often leads to confusion because equations do not balance dimensionally. If you must use mixed units, clearly state the units for each quantity that you use in an equation.
+\end{itemize}
+
+\section{Tips on Writing and the Use of Language}
+\begin{itemize}
+\item The word ``data'' is plural, not singular.
+\item In British English, periods and commas are outside quotation marks, like ``this comma'', while in American English, periods and commas are within quotation marks, like ``this period.''
+\item A parenthetical statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)  A graph within a graph is an ``inset'', not an insert.
+\item The word ``alternatively'' is preferred to the word ``alternately'' (unless you mean something that alternates).
+\item Do not use the word ``essentially'' to mean ``approximately'' or ``effectively''.
+\item Be aware of the different meanings of the homophones ``affect'' and ``effect'', ``complement'' and ``compliment'', ``discreet'' and ``discrete'', ``principal'' and ``principle''.
+\item Do not confuse ``imply'' and ``infer''.
+\item The prefix ``non'' is not a word; it should be joined to the word it modifies, usually without a hyphen.
+\item There is no period after the ``et'' in the Latin abbreviation ``et al.''.
+\item The abbreviation ``i.e.'' means ``that is'', and the abbreviation ``e.g.'' means ``for example''. 
+\item In the acknowledgements try to avoid the stilted expression, ``One of us (R. B. G.) thanks\ldots''.  Instead, try ``R.B.G. thanks\ldots''.
+%\item Put sponsor acknowledgements in the unnumbered footnote on the first page.
+
+\item An excellent style manual for science writers is the book by M. Young, {\em The Technical Writer’s Handbook}, Mill Valley, CA., University Science, 1989.  Check also the style manuals cited in the References.
+\end{itemize}
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %    CHAPTER 9
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[INSTALLING AND COMPILING]{INSTALLING AND COMPILING}
+
+\section{Installing \LaTeX}
+Obstain a \LaTeX{} compiler, such as MiK\TeX{} for Windows, available at:\\
+\verb+http://www.miktex.org/+\\
+All installations steps can be found at the developers' site.  It is also possible to find several places on the Internet with good summaries of all the steps needed to get your system up and running, see for example:\\
+\verb+http://www.math.aau.dk/~dethlef/Tips/introduction.html+
+
+Once the \LaTeX{} system is installed, you should install a text editor, such as:
+\begin{itemize}
+\item Emacs-Auc\TeX{}\\
+\verb+http://www.gnu.org/software/emacs/windows/ntemacs.html+,\\
+\verb+http://www.gnu.org/software/auctex/+
+\item LEd\\
+\verb+http://www.latexeditor.org/+
+\item LyX\\
+\verb+http://www.lyx.org/+
+\item EditPlus\\
+\verb+http://www.editplus.com/+
+\item WinEdt\\
+\verb+http://www.winedt.com/+
+\item Kile\\
+\verb+http://kile.sourceforge.net/+
+\item Vi/Vim\\
+\verb+http://www.vim.org/+
+\end{itemize}
+Front-end editors for \LaTeX{} come in many different flavours and is hard to recommend a particular one.  Some might have not very friendly command interfaces, some other have more intuitive user interfaces, but may be slower or less flexible.  Of all the previous editors, perhaps Emacs-Auc\TeX{} is the most powerful combination.  Emacs is a truly versitile system.  It can be a bit nasty to learn, but is very efficient, highly-costumizable, and light.  Learning to use it will pay-off in time if writings documents and coding is part of your dayly life.
+
+\section{Compiling and Generating PDF Files}
+The basic steps for compiling any \LaTeX{} files and generating PDF files are:
+\begin{enumerate}
+\item Generating a DVI file from a \LaTeX{} file (\verb+.tex+$\rightarrow$\verb+.dvi+):\\
+\verb+latex filename.tex+
+\item Generating a PS file from a DVI file (\verb+.dvi+$\rightarrow$\verb+.ps+):\\
+\verb+dvips -t letter filename.dvi+
+\item Generating a PDF file from a PS file (\verb+.ps+$\rightarrow$\verb+.pdf+):\\
+Install Ghostscrip/Ghostview and select the \verb+File/Convert+ option from the menu bar.  Then select the device \verb+pdfwrite+ and the output resolution.  Press \verb+Ok+ and give the file a name with extension \verb+.pdf+.  Alternatively, you can use Acrobat Distiller to convert PostScript files to PDF files.
+
+There are other PDF generators, such as \verb+dvipdfm+, \verb+pdflatex+, \verb+tex2pdf+.  However, some features are not fully supported by these converters, which may not produce adequate results.
+\end{enumerate}
+
+
+%----------------------------------------------------------------------%
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   REFERENCES 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\nocite{*} % To make all the uncited references to appear in the bibliography.
+\bibliographystyle{apacite} 
+\bibliography{abbrev,pucthesis_refs}
+
+%----------------------------------------------------------------------%
+
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   APPENDIX A 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\chapter{THESIS PACKAGE DISTRIBUTION}\label{ap:pucthesis}
+
+The thesis package distribution, \,\verb+{pucthesis.zip},+\, consists of the following files:
+
+{\renewcommand{\baselinestretch}{1}
+%\begin{verbatim}
+%      pucthesis.cls            % thesis style file
+%      pucthesis_template.tex   % template for thesis format
+%      pucthesis_sample.tex     % sample AMSLaTeX file 
+%                               % in thesis format
+%\end{verbatim}
+\verbinput{README.txt}
+}
+
+The  file,  \,\verb+{pucthesis_sample.tex},+\, 
+gives some samples of typical mathematics formatting in \AmSLaTeX.
+The template file,  \,\verb+{pucthesis_template.tex}+\,, 
+provides  the basic commands  to help
+prepare new thesis documents in the correct format. 
+The latter file may be duplicated and customized as needed.
+A listing of the template file is given in the section below.
+\newpage
+
+{\renewcommand{\baselinestretch}{1}
+\parindent 0em
+\verbinput{pucthesis_template.tex} 
+}
+
+\newpage
+The  files \,\verb+{abbrev.bib}+\, and  \,\verb+{pucthesis_refs.bib}+\ listed next provide an example of how to build \verb+.bib+ files.
+
+{\renewcommand{\baselinestretch}{.5}
+\parindent 0em
+\verbinputx[\tiny]{abbrev.bib} 
+}
+\newpage
+{\renewcommand{\baselinestretch}{.5}
+%\verbinput{pucthesis_refs.bib}
+\parindent 0em
+\verbinputx[\scriptsize]{pucthesis_refs.bib} 
+}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   APPENDIX B 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{RESOURCES ON THE INTERNET}
+
+Many resources about writing technical documents and \LaTeX{} can be found on the Internet.  Some recommended sites are:
+\begin{itemize}
+\item \TeX{} Resources on the Web - \TeX{} Users Group\\
+\verb+http://www.tug.org/interest.html+
+\item \LaTeX{} Tutorial\\
+Introducing \LaTeX, by Denise Moore, Department of Computer Science,\\
+Cornell University.\\
+\verb+http://www.cs.cornell.edu/Info/Misc/LaTeX-Tutorial/+\\
+\verb+Introduction.html+
+\item \LaTeX{} Guides and Links to Writing Style Tips\\
+Getting to grips with \LaTeX, by Andrew Roberts, School of Computing,\\ 
+University of Leeds\\
+\verb+http://www.andy-roberts.net/misc/latex/index.html+\\
+\verb+http://www.andy-roberts.net/misc/index.html+
+\item \LaTeX{} Packages\\
+The Comprehensive \TeX Archive Network\\
+\verb+http://www.ctan.org/+
+\item \LaTeX{} Packages\\
+The \TeX{} Catalogue OnLine, by Graham Williams\\
+\verb+http://texcatalogue.sarovar.org/+
+\item \TeX/\LaTeX{} Compiler for Windows\\
+The MiK\TeX{} Project, by Christian Schenk\\
+\verb+http://www.miktex.org/+
+\item The American Mathematical Society \AmS-\LaTeX{} Package and Resources\\
+\verb+http://www.ams.org/authors/+
+\item \TeX{} Frequently Asked Questions\\
+\verb+http://www.dillgroup.ucsf.edu/latex/index.html+
+\item Help on \LaTeX{}\\
+\verb+http://www-hermes.desy.de/latex/LaTeX.html+
+\item Tips on Structuring Thoughts and Communication by Jean-Luc Doumont\\
+\verb+http://www.jlconsulting.be/+\\
+\verb+http://www.principiae.be/+
+\end{itemize}
+
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   INDEX 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Uncomment the following lines to include an index.
+
+%% INSERT INDEX PAGE # IN TOC
+%%%\addtocounter{chapter}{1}
+%%%\addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}{Index}}
+%%\addcontentsline{toc}{chapter}{\protect\numberline{}{Index}}
+%% NOTE: Insert "\label{IDX}" in '.ind' file after compiling the index
+%% with makeindex.
+%%\index{ @\label{IDX}}
+%% The above NOTE is not really needed as can be achieved by the trick below.
+%\addtocounter{page}{1}
+%\label{IDX}
+%\addtocounter{page}{-1}
+%\printindex
+
+%----------------------------------------------------------------------%
+
+
+\end{document}
+%======================================================================%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Local Variables:
+%% TeX-command-default: "LaTeX"
+%% End:

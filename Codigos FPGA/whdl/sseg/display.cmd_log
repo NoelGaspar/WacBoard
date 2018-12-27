@@ -1,0 +1,1 @@
+vhdtdtfi -prj sseg -o "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/whdl/sseg/display.tfi" -module display -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work display.vhd 

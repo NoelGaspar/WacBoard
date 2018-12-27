@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+adcCtrl instance_name (
+    .clk_in(clk_in), 
+    .ctrl(ctrl), 
+    .sdo(sdo), 
+    .n(n), 
+    .data(data), 
+    .sync(sync), 
+    .sclk(sclk)
+    );
+
+

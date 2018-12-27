@@ -1,0 +1,34 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de bloques de The bean.\relax }}{10}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama general de los requisitos del IC.\relax }}{12}{figure.caption.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Bean V2 prototype layout.\relax }}{19}{figure.caption.7}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Circuito de inyección de carga en la tarjeta, para simular un detector.\relax }}{20}{figure.caption.8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The Bean V2 prototype layout.\relax }}{21}{figure.caption.9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Filter functionality simulation. $V_\textit {in}=0.1\tmspace +\thinmuskip {.1667em}V$ and $\text {gain}=0.25\tmspace +\thinmuskip {.1667em}V/V$.\relax }}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Filter step response for constant input for the 64 possible programmable gains.}}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SPICE-simulated weighting function. $\tau =8\tmspace +\thinmuskip {.1667em}\text {ns}$, $N=16$ and $T_s=19.25\tmspace +\thinmuskip {.1667em}\text {ns}$.\relax }}{22}{figure.caption.12}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de señales para las pruebas realizadas al filtro .\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de señales para las pruebas realizadas al CSA.\relax }}{24}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The Bean V2 prototype layout.\relax }}{29}{figure.caption.16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Filter Layout.\relax }}{30}{figure.caption.17}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Charge-sensitive amplifier layout. Feedback capacitors are not included here.\relax }}{33}{figure.caption.18}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Recycling folded cascode OTA layout.\relax }}{33}{figure.caption.19}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Rail-to-rail operational amplifier layout.\relax }}{34}{figure.caption.20}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Bode plot for the OTA open-loop response, with a $0.4\tmspace +\thinmuskip {.1667em}\text {pF}$ load capacitance.\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Bode plot for the buffer open-loop response, with a $8\tmspace +\thinmuskip {.1667em}\text {pF}$ load capacitance.\relax }}{35}{figure.caption.22}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Filter functionality simulation. $V_\textit {in}=0.1\tmspace +\thinmuskip {.1667em}V$ and $\text {gain}=0.25\tmspace +\thinmuskip {.1667em}V/V$.\relax }}{35}{figure.caption.24}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Filter step response for constant input for the 64 possible programmable gains.}}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Filter linearity simulation results, full-scale input range.\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Weighting function test circuit.\relax }}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces SPICE-simulated weighting function. $\tau =8\tmspace +\thinmuskip {.1667em}\text {ns}$, $N=16$ and $T_s=19.25\tmspace +\thinmuskip {.1667em}\text {ns}$.\relax }}{37}{figure.caption.28}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The Bean 2 prototype bonding diagram.\relax }}{48}{figure.caption.30}

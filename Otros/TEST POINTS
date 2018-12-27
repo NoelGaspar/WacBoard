@@ -1,0 +1,59 @@
+TEST POINTS
+TP1 y TP2 miden la corriente para vdd_supply_1
+TP3 y TP4 miden la corriente para vdd_supply_2
+
+TP5 mide el voltaje en VDD
+TP6 mide el voltaje para VDD2
+
+TP7 mide AVDD en the bean2
+TP8 mide DVDD en the bean2
+
+TP9  mide vout_csa en thebean2
+TP10 mide baseline en thebean2
+
+TP11 mide vicm a la salida del mux
+TP12 mide vicm a la salida del buffer
+
+TP13 mide vocm a la salida del mux
+TP14 mide vocm a la salida del buffer
+
+TP15 mide la referencia para el dac
+TP16 mide la referencia para los voltajes logicos de adc
+TP17 mide la referencia para el adc
+
+TP18 mide GND en la entrada del jumper 17
+TP19 mide AGND en la entrada del jumper 17
+TP20 mide vin_csa antes del chip
+TP21 mide v_ref_prechar antes del chip
+
+TP22 mide AGND cerca del chip
+TP23 mide DGND cerca del chip
+
+TP24 mide el voltaje a la salida del pot r4
+TP25 mide el voltaje a la salida del pot r5
+TP26 mide el voltaje a la salida del pot r6
+
+TP27 mide el voltaje a la salida del pot r1
+TP28 mide el voltaje a la salida del pot r2
+TP29 mide DGND en la entrada del chip.
+
+TP30 mide v_ref_prechar a la salida del mux
+
+TP31 mide GND cerca de REF_IN_DAC
+TP32 mide GND cerca del ADC1
+TP33 mide GND cerca del ADC2
+
+TP34 mide GND cerca de la linea de v_ref_prechar
+TP35 mide GND cerca de la linea de vicm
+TP36 mide GND cerca de la linea de vocm
+
+TP37 mide v_ref_prechar a la salida despues del jumper JP7
+TP38 mide GND cerca del DAC
+TP39 mide VSS a la entrada del jumper17
+TP40
+
+TP41 mide VDD_ref 1 para v_ref_prechar
+TP42 mide VDD_ref 2 para vicm
+TP43 mide VDD_ref 3 para vocm
+TP44 y TP2 miden la corriente en VDD_SUPPLIE 3 
+TP45 mide VDD3

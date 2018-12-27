@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Digitales\USB_test_v1\Top.ncd
+OUTFILE=D:\Digitales\USB_test_v1\Top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Digitales\USB_test_v1
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP/wacCtrl_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wacCtrl_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/wacCtrl_tb/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/clkBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkBram</obj_property>
+      <obj_property name="ObjectShortName">clkBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/dataStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataStb</obj_property>
+      <obj_property name="ObjectShortName">dataStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/stCur" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stCur[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stCur[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/stNext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stNext[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stNext[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/cont" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cont[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cont[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/adcWrWait" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adcWrWait[6:0]</obj_property>
+      <obj_property name="ObjectShortName">adcWrWait[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/adcRdWait" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adcRdWait[6:0]</obj_property>
+      <obj_property name="ObjectShortName">adcRdWait[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/msjRecived" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">msjRecived</obj_property>
+      <obj_property name="ObjectShortName">msjRecived</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/ctrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacCtrl_tb/uut/cnfgWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnfgWord[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cnfgWord[15:0]</obj_property>
+   </wvobject>
+</wave_config>

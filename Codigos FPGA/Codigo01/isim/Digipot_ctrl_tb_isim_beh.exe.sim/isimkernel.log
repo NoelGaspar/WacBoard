@@ -1,0 +1,29 @@
+Command line:
+   Digipot_ctrl_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49730
+
+Wed Oct 28 16:03:56 2015
+
+
+ Elaboration Time: 0.015601 sec
+
+ Current Memory Usage: 505.422 Meg
+
+ Total Signals          : 23
+ Total Nets             : 30
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 143
+Total Line Count : 79
+
+ Total Simulation Time: 0.015601 sec
+
+ Current Memory Usage: 505.422 Meg
+
+Wed Oct 28 16:05:26 2015
+

@@ -1,0 +1,531 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf constraints.ucf
+
+Design file:              Top.ncd
+Physical constraint file: Top.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.22 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 147 paths analyzed, 60 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.017ns.
+--------------------------------------------------------------------------------
+
+Paths for end point usb_interface/current_state_5 (SLICE_X1Y44.D3), 8 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     6.983ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_3 (FF)
+  Destination:          usb_interface/current_state_5 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.982ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_3 to usb_interface/current_state_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.BQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_3
+    SLICE_X3Y44.B1       net (fanout=12)       0.636   usb_interface/current_state<3>
+    SLICE_X3Y44.B        Tilo                  0.259   N18
+                                                       usb_interface/next_state<5>4_SW0
+    SLICE_X3Y44.A5       net (fanout=4)        0.193   N18
+    SLICE_X3Y44.A        Tilo                  0.259   N18
+                                                       usb_interface/next_state<5>4
+    SLICE_X1Y44.D3       net (fanout=1)        0.922   usb_interface/next_state<5>4
+    SLICE_X1Y44.CLK      Tas                   0.322   usb_interface/current_state<5>
+                                                       usb_interface/next_state<5>
+                                                       usb_interface/current_state_5
+    -------------------------------------------------  ---------------------------
+    Total                                      2.982ns (1.231ns logic, 1.751ns route)
+                                                       (41.3% logic, 58.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.084ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_6 (FF)
+  Destination:          usb_interface/current_state_5 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.876ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.005ns (0.151 - 0.156)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_6 to usb_interface/current_state_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y42.AQ       Tcko                  0.408   usb_interface/current_state<7>
+                                                       usb_interface/current_state_6
+    SLICE_X3Y44.B6       net (fanout=8)        0.513   usb_interface/current_state<6>
+    SLICE_X3Y44.B        Tilo                  0.259   N18
+                                                       usb_interface/next_state<5>4_SW0
+    SLICE_X3Y44.A5       net (fanout=4)        0.193   N18
+    SLICE_X3Y44.A        Tilo                  0.259   N18
+                                                       usb_interface/next_state<5>4
+    SLICE_X1Y44.D3       net (fanout=1)        0.922   usb_interface/next_state<5>4
+    SLICE_X1Y44.CLK      Tas                   0.322   usb_interface/current_state<5>
+                                                       usb_interface/next_state<5>
+                                                       usb_interface/current_state_5
+    -------------------------------------------------  ---------------------------
+    Total                                      2.876ns (1.248ns logic, 1.628ns route)
+                                                       (43.4% logic, 56.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.199ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_2 (FF)
+  Destination:          usb_interface/current_state_5 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.766ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_2 to usb_interface/current_state_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.AQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_2
+    SLICE_X3Y44.B5       net (fanout=9)        0.420   usb_interface/current_state<2>
+    SLICE_X3Y44.B        Tilo                  0.259   N18
+                                                       usb_interface/next_state<5>4_SW0
+    SLICE_X3Y44.A5       net (fanout=4)        0.193   N18
+    SLICE_X3Y44.A        Tilo                  0.259   N18
+                                                       usb_interface/next_state<5>4
+    SLICE_X1Y44.D3       net (fanout=1)        0.922   usb_interface/next_state<5>4
+    SLICE_X1Y44.CLK      Tas                   0.322   usb_interface/current_state<5>
+                                                       usb_interface/next_state<5>
+                                                       usb_interface/current_state_5
+    -------------------------------------------------  ---------------------------
+    Total                                      2.766ns (1.231ns logic, 1.535ns route)
+                                                       (44.5% logic, 55.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point usb_interface/current_state_0 (SLICE_X3Y42.A2), 7 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     7.010ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_4 (FF)
+  Destination:          usb_interface/current_state_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.935ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.282 - 0.302)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_4 to usb_interface/current_state_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.CQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_4
+    SLICE_X2Y42.A3       net (fanout=14)       0.743   usb_interface/current_state<4>
+    SLICE_X2Y42.A        Tilo                  0.203   usb_interface/next_state<1>3
+                                                       usb_interface/next_state<0>211
+    SLICE_X2Y42.B4       net (fanout=2)        0.383   usb_interface/next_state<0>21
+    SLICE_X2Y42.BMUX     Tilo                  0.261   usb_interface/next_state<1>3
+                                                       usb_interface/next_state<0>1
+    SLICE_X3Y42.A2       net (fanout=1)        0.632   usb_interface/next_state<0>1
+    SLICE_X3Y42.CLK      Tas                   0.322   usb_interface/current_state<1>
+                                                       usb_interface/next_state<0>3
+                                                       usb_interface/current_state_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.935ns (1.177ns logic, 1.758ns route)
+                                                       (40.1% logic, 59.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.052ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_3 (FF)
+  Destination:          usb_interface/current_state_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.893ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.282 - 0.302)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_3 to usb_interface/current_state_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.BQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_3
+    SLICE_X2Y42.A4       net (fanout=12)       0.701   usb_interface/current_state<3>
+    SLICE_X2Y42.A        Tilo                  0.203   usb_interface/next_state<1>3
+                                                       usb_interface/next_state<0>211
+    SLICE_X2Y42.B4       net (fanout=2)        0.383   usb_interface/next_state<0>21
+    SLICE_X2Y42.BMUX     Tilo                  0.261   usb_interface/next_state<1>3
+                                                       usb_interface/next_state<0>1
+    SLICE_X3Y42.A2       net (fanout=1)        0.632   usb_interface/next_state<0>1
+    SLICE_X3Y42.CLK      Tas                   0.322   usb_interface/current_state<1>
+                                                       usb_interface/next_state<0>3
+                                                       usb_interface/current_state_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.893ns (1.177ns logic, 1.716ns route)
+                                                       (40.7% logic, 59.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.115ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_0 (FF)
+  Destination:          usb_interface/current_state_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.850ns (Levels of Logic = 3)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_0 to usb_interface/current_state_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X3Y42.AQ       Tcko                  0.391   usb_interface/current_state<1>
+                                                       usb_interface/current_state_0
+    SLICE_X2Y42.A2       net (fanout=14)       0.658   usb_interface/current_state<0>
+    SLICE_X2Y42.A        Tilo                  0.203   usb_interface/next_state<1>3
+                                                       usb_interface/next_state<0>211
+    SLICE_X2Y42.B4       net (fanout=2)        0.383   usb_interface/next_state<0>21
+    SLICE_X2Y42.BMUX     Tilo                  0.261   usb_interface/next_state<1>3
+                                                       usb_interface/next_state<0>1
+    SLICE_X3Y42.A2       net (fanout=1)        0.632   usb_interface/next_state<0>1
+    SLICE_X3Y42.CLK      Tas                   0.322   usb_interface/current_state<1>
+                                                       usb_interface/next_state<0>3
+                                                       usb_interface/current_state_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.850ns (1.177ns logic, 1.673ns route)
+                                                       (41.3% logic, 58.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point usb_interface/current_state_0 (SLICE_X3Y42.A3), 7 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     7.270ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_2 (FF)
+  Destination:          usb_interface/current_state_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.675ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.282 - 0.302)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_2 to usb_interface/current_state_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.AQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_2
+    SLICE_X1Y42.C4       net (fanout=9)        0.519   usb_interface/current_state<2>
+    SLICE_X1Y42.C        Tilo                  0.259   N14
+                                                       usb_interface/next_state<7>1_SW0
+    SLICE_X3Y42.D5       net (fanout=2)        0.628   N14
+    SLICE_X3Y42.D        Tilo                  0.259   usb_interface/current_state<1>
+                                                       usb_interface/next_state<7>1
+    SLICE_X3Y42.A3       net (fanout=2)        0.297   usb_interface/next_state<0>3
+    SLICE_X3Y42.CLK      Tas                   0.322   usb_interface/current_state<1>
+                                                       usb_interface/next_state<0>3
+                                                       usb_interface/current_state_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.675ns (1.231ns logic, 1.444ns route)
+                                                       (46.0% logic, 54.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.397ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_3 (FF)
+  Destination:          usb_interface/current_state_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.548ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.282 - 0.302)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_3 to usb_interface/current_state_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.BQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_3
+    SLICE_X1Y42.C5       net (fanout=12)       0.392   usb_interface/current_state<3>
+    SLICE_X1Y42.C        Tilo                  0.259   N14
+                                                       usb_interface/next_state<7>1_SW0
+    SLICE_X3Y42.D5       net (fanout=2)        0.628   N14
+    SLICE_X3Y42.D        Tilo                  0.259   usb_interface/current_state<1>
+                                                       usb_interface/next_state<7>1
+    SLICE_X3Y42.A3       net (fanout=2)        0.297   usb_interface/next_state<0>3
+    SLICE_X3Y42.CLK      Tas                   0.322   usb_interface/current_state<1>
+                                                       usb_interface/next_state<0>3
+                                                       usb_interface/current_state_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.548ns (1.231ns logic, 1.317ns route)
+                                                       (48.3% logic, 51.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.916ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               usb_interface/current_state_5 (FF)
+  Destination:          usb_interface/current_state_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.029ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.020ns (0.282 - 0.302)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: usb_interface/current_state_5 to usb_interface/current_state_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.DQ       Tcko                  0.391   usb_interface/current_state<5>
+                                                       usb_interface/current_state_5
+    SLICE_X3Y42.D3       net (fanout=13)       0.760   usb_interface/current_state<5>
+    SLICE_X3Y42.D        Tilo                  0.259   usb_interface/current_state<1>
+                                                       usb_interface/next_state<7>1
+    SLICE_X3Y42.A3       net (fanout=2)        0.297   usb_interface/next_state<0>3
+    SLICE_X3Y42.CLK      Tas                   0.322   usb_interface/current_state<1>
+                                                       usb_interface/next_state<0>3
+                                                       usb_interface/current_state_0
+    -------------------------------------------------  ---------------------------
+    Total                                      2.029ns (0.972ns logic, 1.057ns route)
+                                                       (47.9% logic, 52.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point usb_interface/current_state_6 (SLICE_X0Y42.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.427ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               usb_interface/current_state_6 (FF)
+  Destination:          usb_interface/current_state_6 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.427ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: usb_interface/current_state_6 to usb_interface/current_state_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y42.AQ       Tcko                  0.200   usb_interface/current_state<7>
+                                                       usb_interface/current_state_6
+    SLICE_X0Y42.A6       net (fanout=8)        0.037   usb_interface/current_state<6>
+    SLICE_X0Y42.CLK      Tah         (-Th)    -0.190   usb_interface/current_state<7>
+                                                       usb_interface/next_state<6>4
+                                                       usb_interface/current_state_6
+    -------------------------------------------------  ---------------------------
+    Total                                      0.427ns (0.390ns logic, 0.037ns route)
+                                                       (91.3% logic, 8.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point usb_interface/current_state_7 (SLICE_X0Y42.C5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.470ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               usb_interface/current_state_7 (FF)
+  Destination:          usb_interface/current_state_7 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.470ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: usb_interface/current_state_7 to usb_interface/current_state_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y42.CQ       Tcko                  0.200   usb_interface/current_state<7>
+                                                       usb_interface/current_state_7
+    SLICE_X0Y42.C5       net (fanout=11)       0.080   usb_interface/current_state<7>
+    SLICE_X0Y42.CLK      Tah         (-Th)    -0.190   usb_interface/current_state<7>
+                                                       usb_interface/next_state<7>2
+                                                       usb_interface/current_state_7
+    -------------------------------------------------  ---------------------------
+    Total                                      0.470ns (0.390ns logic, 0.080ns route)
+                                                       (83.0% logic, 17.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point usb_interface/current_state_2 (SLICE_X1Y44.A4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.553ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               usb_interface/current_state_4 (FF)
+  Destination:          usb_interface/current_state_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.553ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: usb_interface/current_state_4 to usb_interface/current_state_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y44.CQ       Tcko                  0.198   usb_interface/current_state<5>
+                                                       usb_interface/current_state_4
+    SLICE_X1Y44.A4       net (fanout=14)       0.140   usb_interface/current_state<4>
+    SLICE_X1Y44.CLK      Tah         (-Th)    -0.215   usb_interface/current_state<5>
+                                                       usb_interface/_n0063<2>1
+                                                       usb_interface/current_state_2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.553ns (0.413ns logic, 0.140ns route)
+                                                       (74.7% logic, 25.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 8.270ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.730ns (578.035MHz) (Tbcper_I)
+  Physical resource: clk_BUFGP/BUFG/I0
+  Logical resource: clk_BUFGP/BUFG/I0
+  Location pin: BUFGMUX_X3Y13.I0
+  Clock network: clk_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 9.570ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: usb_interface/current_state<7>/CLK
+  Logical resource: usb_interface/current_state_6/CK
+  Location pin: SLICE_X0Y42.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.570ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: usb_interface/current_state<7>/CLK
+  Logical resource: usb_interface/current_state_7/CK
+  Location pin: SLICE_X0Y42.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.017|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 147 paths, 0 nets, and 132 connections
+
+Design statistics:
+   Minimum period:   3.017ns{1}   (Maximum frequency: 331.455MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Wed Jan 22 04:52:03 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 218 MB
+
+
+

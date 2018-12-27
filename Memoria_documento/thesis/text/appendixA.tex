@@ -1,0 +1,141 @@
+\chapter{Anexos}
+\section{Pinout de the Bean V2}
+ \label{appendix1}
+El prototipo de The Bean V2 tiene 48 pads y fue bonded a 64-lead package from \mbox{Kyocera} Corporation (KYO). The package KYO part number is QC064307WZ. Table \ref{pinout} shows the Bean V2 pinout.
+
+
+\begin{center}
+\begin{longtable}{|l|l|l|}\hline
+{\bf Pin number} & {\bf Pin name} & {\bf Description} \\ \hline\hline
+1 & \verb=AGnd= & Analog ground \\\hline
+2 & \verb=NC= & No connection \\\hline
+3 & \verb=NC= & No connection \\\hline
+4 & \verb=NC= & No connection \\\hline
+5 & \verb=NC= & No connection \\\hline
+6 & \verb=res_bias_ext= & IC bias external resistor \\\hline
+7 & \verb=V_ref_prechar= & Reference voltage CSA precharger \\\hline
+8 & \verb=NC= & No connection  \\\hline
+9 &  \verb=clk_prech1= & CSA precharger clk1  \\\hline
+10 & \verb=clk_prech2= & CSA precharger clk2  \\\hline
+11 & \verb=op_mode= & Operation mode select \\\hline
+12 & \verb=rst_csa= & CSA reset  \\\hline
+13 & \verb=NC= & No connection \\\hline
+14 & \verb=cap_precharge_ext= & CSA precharger external capacitor \\\hline
+15 & \verb=Vin_csa= & Vin CSA \\\hline
+16 & \verb=AGnd= & Analog ground \\\hline
+17 & \verb=AGnd= & Analog ground \\\hline
+18 & \verb=NC= & No connection \\\hline
+19 & \verb=NC= & No connection \\\hline
+20 & \verb=clk= & IC clock \\\hline
+21 & \verb=NC= & No connection \\\hline
+{\bf Pin number} & {\bf Pin name} & {\bf Description} \\ \hline\hline
+22 & \verb=Vi+_fil= & Filter Vi+ \\\hline
+23 & \verb=Vi-_fil= & Filter Vi- \\\hline
+24 & \verb=Vo+_bp_fil= & Filter bypass Vo+  \\\hline
+25 & \verb=Vo-_bp_fil= & Filter bypass Vo- \\\hline
+26 & \verb=NC= & No connection \\\hline
+27 & \verb=DVdd= & Digital Vdd \\\hline
+28 & \verb=DGnd= & Digital Gnd \\\hline
+29 & \verb=NC= & No connection \\\hline
+30 & \verb=Vo+_fil= & Filter Vo+ (buffered) \\\hline
+31 & \verb=Vo-_fil= & Filter Vo- (buffered) \\\hline
+32 & \verb=AGnd= & Analog ground \\\hline
+33 & \verb=AGnd= & Analog ground \\\hline
+34 & \verb=NC= & No connection \\\hline
+35 & \verb=out_s= & Filter output selection \\\hline
+36 & \verb=Vocm= & Filter Vocm \\\hline
+37 & \verb=hold= & Filter hold signal  \\\hline
+38 & \verb=rst= & Filter reset \\\hline
+39 & \verb=sgn= & Filter gain sign \\\hline
+40 & \verb=Vicm= & Filter Vicm \\\hline
+41 & \verb=CS_b0= & Filter CS capacitor bit 0 \\\hline
+42 & \verb=CS_b1= & Filter CS capacitor bit 1 \\\hline
+43 & \verb=CS_b2= & Filter CS capacitor bit 2 \\\hline
+44 & \verb=CS_b3= & Filter CS capacitor bit 3 \\\hline
+45 & \verb=CS_b4= & Filter CS capacitor bit 4 \\\hline
+46 & \verb=CS_b5= & Filter CS capacitor bit 5 \\\hline
+47 & \verb=NC= & No connection \\\hline
+{\bf Pin number} & {\bf Pin name} & {\bf Description} \\ \hline\hline
+48 & \verb=AGnd= & Analog ground \\\hline
+49 & \verb=AGnd= & Analog ground \\\hline
+50 & \verb=Vo+_ch= & Channel Vo+ (buffered) \\\hline
+51 & \verb=NC= & No connection \\\hline
+52 & \verb=Vo-_ch= & Channel Vo- (buffered)\\\hline
+53 & \verb=NC= & No connection \\\hline
+54 & \verb=Vout_csa= & CSA Vout (buffered) \\\hline
+55 & \verb=NC= & No connection \\\hline
+56 & \verb=baseline= & CSA baseline (buffered) \\\hline
+57 & \verb=NC= & No connection \\\hline
+58 & \verb=AGnd= & Analog ground \\\hline
+59 & \verb=NC= & No connection \\\hline
+60 & \verb=NC= & No connection \\\hline
+61 & \verb=NC= & No connection \\\hline
+62 & \verb=AVdd= & Analog Vdd \\\hline
+63 & \verb=NC= & No connection \\\hline
+64 & \verb=AGnd= & Analog ground \\\hline
+\caption{\label{pinout}The Bean 2 prototype pinout}
+\end{longtable}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\begin{center}
+\begin{longtable}{|l|l|l|l|}\hline
+{\bf Nombre} & {\bf FX02} & {\bf Verilog}&{\bf Módulo} \\ \hline\hline
+\verb=CLK_DAC= &A16&\verb+PIO10+& \verb+DAC_CTRL+ \\\hline
+\verb=SDI_DAC= &A15&\verb+PIO9+& \verb+DAC_CTRL+ \\\hline
+\verb=CLK_DAC= &A14&\verb+PIO8+& \verb+DAC_CTRL+ \\\hline
+\verb=SDI_REF= &A6&\verb+PIO0+& \verb+DigiPot_CTRL+ \\\hline
+\verb=CLK_REF= &A8&\verb+PIO2+& \verb+DigiPot_CTRL+ \\\hline
+\verb=CS1_REF= &A11&\verb+PIO5+& \verb+DigiPot_CTRL+ \\\hline
+\verb=CS2_REF= &A10&\verb+PIO4+& \verb+DigiPot_CTRL+ \\\hline
+\verb=CS3_REF= &A7&\verb+PIO1+& \verb+DigiPot_CTRL+ \\\hline
+\verb=MUX1_REF= &A12&\verb+PIO6+& \verb+MUX_CTRL+ \\\hline
+\verb=MUX2_REF= &A13&\verb+PIO7+& \verb+MUX_CTRL+ \\\hline
+\verb=MUX3_REF= &A9&\verb+PIO3+& \verb+MUX_CTRL+ \\\hline
+\verb=MUX_DAC_EN= &A22&\verb+PIO16+& \verb+MUX_CTRL+ \\\hline
+\verb=SDO_ADC2= &A18&\verb+PIO12+& \verb+ADC2_CTRL+ \\\hline
+\verb=CS_ADC2= &A19&\verb+PIO13+& \verb+ADC2_CTRL+ \\\hline
+\verb=CLK_ADC2= &A20&\verb+PIO14+& \verb+ADC2_CTRL+ \\\hline
+\verb=SDO_ADC1= &A43&\verb+PIO37+& \verb+ADC1_CTRL+ \\\hline
+\verb=CS_ADC1= &A44&\verb+PIO38+& \verb+ADC1_CTRL+ \\\hline
+\verb=CLK_ADC1= &A45&\verb+PIO39+& \verb+ADC1_CTRL+ \\\hline
+\verb=out_s= &A24&\verb+PIO18+& the\_bean\_config \\\hline
+\verb=hold= &A25&\verb+PIO19+& the\_bean\_config \\\hline
+\verb=rst= &A26&\verb+PIO20+& the\_bean\_config \\\hline
+\verb=sgn= &A27&\verb+PIO21+& the\_bean\_config \\\hline
+\verb=CS_B0= &A28&\verb+PIO22+& the\_bean\_config \\\hline
+\verb=CS_B1= &A30&\verb+PIO24+& the\_bean\_config \\\hline
+\verb=CS_B2= &A32&\verb+PIO26+& the\_bean\_config \\\hline
+\verb=clk= &A33&\verb+PIO27+& the\_bean\_config \\\hline
+{\bf Nombre} & {\bf FX02} & {\bf Verilog}&{\bf Módulo} \\ \hline\hline
+\verb=CS_B3= &A34&\verb+PIO28+& the\_bean\_config \\\hline
+\verb=rst_csa= &A35&\verb+PIO29+& the\_bean\_config \\\hline
+\verb=CS_B4= &A36&\verb+PIO30+& the\_bean\_config \\\hline
+\verb=op_mode= &A37&\verb+PIO31+& the\_bean\_config \\\hline
+\verb=CS_B5= &A38&\verb+PIO32+& the\_bean\_config \\\hline
+\verb=clk_pc_1= &A40&\verb+PIO34+& the\_bean\_config \\\hline
+\verb=clk_pc_2= &A42&\verb+PIO36+& the\_bean\_config \\\hline
+\verb=MUX_DAC_SEL= &A21&\verb+PIO15+& the\_bean\_config \\\hline
+\caption{\label{pinout2}Lista de distribución de pines para el controlador de la tarjeta.}
+\end{longtable}
+\end{center}
+
+
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=6in]{./Figures/bondpad.pdf}
+	\caption{The Bean 2 prototype bonding diagram.}\label{fig:bondpad}
+\end{figure}
+

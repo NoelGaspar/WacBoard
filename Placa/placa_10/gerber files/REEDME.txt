@@ -1,0 +1,14 @@
+Top layer: 			tarjeta-v10.cmp
+Inner layer 1: 		tarjeta-v10.ly2
+Inner layer 2: 		tarjeta-v10.l15
+Bottom layer:		tarjeta-v10.sol
+Solder stop mask top:  		tarjeta-v10.stc
+Solder stop mask bottom:  	tarjeta-v10.sts
+Silk top:			tarjeta-v10.plc
+Silk bottom:		tarjeta-v10.pls
+Drill:				tarjeta-v10.drd
+Drill station info: tarjeta-v10.dri
+Cream frame top:	tarjeta-v10.crc
+Cream frame bottom:	tarjeta-v10.crs
+
+No hay .GKO ni .DO pero las especificaciones de Dimension layer estan presentes en el Silk top y Silk bottom.

@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/Bram.v"
+verilog work "EppCtrl.v"
+verilog work "BramComCtrl.v"
+verilog work "Epp_top_prueba.v"

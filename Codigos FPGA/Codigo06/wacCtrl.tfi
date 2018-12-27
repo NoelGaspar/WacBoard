@@ -1,0 +1,35 @@
+
+
+
+// Instantiate the module
+wacCtrl instance_name (
+    .clk(clk), 
+    .SDOADC1(SDOADC1), 
+    .SDOADC2(SDOADC2), 
+    .ctrlWord(ctrlWord), 
+    .ctrlEn(ctrlEn), 
+    .confWord(confWord), 
+    .nAdc(nAdc), 
+    .CSDAC(CSDAC), 
+    .SDIDAC(SDIDAC), 
+    .CLKDAC(CLKDAC), 
+    .CSDPOT1(CSDPOT1), 
+    .CSDPOT2(CSDPOT2), 
+    .CSDPOT3(CSDPOT3), 
+    .SDIDPOT(SDIDPOT), 
+    .CLKDPOT(CLKDPOT), 
+    .MUXREF1(MUXREF1), 
+    .MUXREF2(MUXREF2), 
+    .MUXREF3(MUXREF3), 
+    .MUXDACEN(MUXDACEN), 
+    .MUXDACSEL(MUXDACSEL), 
+    .theBeanConf(theBeanConf), 
+    .dataAdc(dataAdc), 
+    .readyAdc(readyAdc), 
+    .CSADC1(CSADC1), 
+    .CLKADC1(CLKADC1), 
+    .CSADC2(CSADC2), 
+    .CLKADC2(CLKADC2)
+    );
+
+

@@ -1,0 +1,64 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Sun Jan 26 19:43:20 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rgLed<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "rgBtn<0>" LOCATE = SITE "C4" LEVEL 1;
+COMP "rgLed<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "rgBtn<1>" LOCATE = SITE "C9" LEVEL 1;
+COMP "rgLed<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "rgBtn<2>" LOCATE = SITE "D9" LEVEL 1;
+COMP "rgLed<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "dstb" LOCATE = SITE "K4" LEVEL 1;
+COMP "rgBtn<3>" LOCATE = SITE "A8" LEVEL 1;
+COMP "mclk" LOCATE = SITE "V10" LEVEL 1;
+COMP "rgLed<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "rgBtn<4>" LOCATE = SITE "B8" LEVEL 1;
+COMP "rgLed<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "rgLed<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "rgLed<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "pwr" LOCATE = SITE "F5" LEVEL 1;
+COMP "rgSwt<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "pdb<0>" LOCATE = SITE "E1" LEVEL 1;
+COMP "rgSwt<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "pdb<1>" LOCATE = SITE "F4" LEVEL 1;
+COMP "rgSwt<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "pdb<2>" LOCATE = SITE "F3" LEVEL 1;
+COMP "rgSwt<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "pdb<3>" LOCATE = SITE "D2" LEVEL 1;
+COMP "rgSwt<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "pdb<4>" LOCATE = SITE "D1" LEVEL 1;
+COMP "rgSwt<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "pdb<5>" LOCATE = SITE "H7" LEVEL 1;
+COMP "rgSwt<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "pdb<6>" LOCATE = SITE "G6" LEVEL 1;
+COMP "rgSwt<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "pdb<7>" LOCATE = SITE "E4" LEVEL 1;
+COMP "pwait" LOCATE = SITE "C2" LEVEL 1;
+COMP "astb" LOCATE = SITE "H1" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "stEppCur_0" BEL "stEppCur_1" BEL "stEppCur_2" BEL
+        "stEppCur_3" BEL "stEppCur_4" BEL "stEppCur_5" BEL "stEppCur_6" BEL
+        "stEppCur_7" BEL "regEppAdr_0" BEL "regEppAdr_1" BEL "regEppAdr_2" BEL
+        "regEppAdr_3" BEL "regData2_0" BEL "regData2_1" BEL "regData2_2" BEL
+        "regData2_3" BEL "regData2_4" BEL "regData2_5" BEL "regData2_6" BEL
+        "regData2_7" BEL "regData0_0" BEL "regData0_1" BEL "regData0_2" BEL
+        "regData0_3" BEL "regData0_4" BEL "regData0_5" BEL "regData0_6" BEL
+        "regData0_7" BEL "regData1_0" BEL "regData1_1" BEL "regData1_2" BEL
+        "regData1_3" BEL "regData1_4" BEL "regData1_5" BEL "regData1_6" BEL
+        "regData1_7" BEL "regData5_0" BEL "regData5_1" BEL "regData5_2" BEL
+        "regData5_3" BEL "regData5_4" BEL "regData5_5" BEL "regData5_6" BEL
+        "regData5_7" BEL "regData3_0" BEL "regData3_1" BEL "regData3_2" BEL
+        "regData3_3" BEL "regData3_4" BEL "regData3_5" BEL "regData3_6" BEL
+        "regData3_7" BEL "regData4_0" BEL "regData4_1" BEL "regData4_2" BEL
+        "regData4_3" BEL "regData4_4" BEL "regData4_5" BEL "regData4_6" BEL
+        "regData4_7" BEL "regLed_0" BEL "regLed_1" BEL "regLed_2" BEL
+        "regLed_3" BEL "regLed_4" BEL "regLed_5" BEL "regLed_6" BEL "regLed_7"
+        BEL "regData6_0" BEL "regData6_1" BEL "regData6_2" BEL "regData6_3"
+        BEL "regData6_4" BEL "regData6_5" BEL "regData6_6" BEL "regData6_7"
+        BEL "regData7_0" BEL "regData7_1" BEL "regData7_2" BEL "regData7_3"
+        BEL "regData7_4" BEL "regData7_5" BEL "regData7_6" BEL "regData7_7"
+        BEL "mclk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

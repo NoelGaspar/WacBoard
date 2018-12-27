@@ -1,0 +1,614 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Epp_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Epp_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Epp_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Epp_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ipcore_dir/BRAMAB.v" in library work
+Compiling verilog file "EppCtrl.v" in library work
+Module <BRAMAB> compiled
+Compiling verilog file "BramComCtrl.v" in library work
+Module <EppCtrl> compiled
+Compiling verilog file "Epp_top.v" in library work
+Module <BramComCtrl> compiled
+Module <Epp_top> compiled
+No errors in compilation
+Analysis of file <"Epp_top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Epp_top> in library <work>.
+
+Analyzing hierarchy for module <EppCtrl> in library <work>.
+
+Analyzing hierarchy for module <BramComCtrl> in library <work> with parameters.
+	adrBramAdrH = "10"
+	adrBramAdrL = "01"
+	adrBramDB = "00"
+	const = "0000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Epp_top>.
+WARNING:Xst:2211 - "ipcore_dir/BRAMAB.v" line 84: Instantiating black box module <BRAMAB>.
+Module <Epp_top> is correct for synthesis.
+ 
+Analyzing module <EppCtrl> in library <work>.
+Module <EppCtrl> is correct for synthesis.
+ 
+Analyzing module <BramComCtrl> in library <work>.
+	adrBramAdrH = 2'b10
+	adrBramAdrL = 2'b01
+	adrBramDB = 2'b00
+	const = 4'b0000
+WARNING:Xst:905 - "BramComCtrl.v" line 48: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <stbDataRE>, <busEppAdrIn>, <busEppIn>, <carryOutL>
+Module <BramComCtrl> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <EppCtrl>.
+    Related source file is "EppCtrl.v".
+    Found 8-bit tristate buffer for signal <DB>.
+    Found 8-bit register for signal <EppAdrAux>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   8 Tristate(s).
+Unit <EppCtrl> synthesized.
+
+
+Synthesizing Unit <BramComCtrl>.
+    Related source file is "BramComCtrl.v".
+WARNING:Xst:647 - Input <busEppAdrIn<6:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <ctrlEnBram> is never assigned. Tied to value 0.
+WARNING:Xst:646 - Signal <ctrlBram> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <carryOutL> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <carryOut> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regBramAdr_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8-bit adder for signal <$add0000> created at line 52.
+    Found 3-bit adder for signal <$add0001> created at line 59.
+    Found 3-bit register for signal <stbDatar>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <BramComCtrl> synthesized.
+
+
+Synthesizing Unit <Epp_top>.
+    Related source file is "Epp_top.v".
+WARNING:Xst:1780 - Signal <stbBramCtrl> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Epp_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 2
+ 3-bit register                                        : 1
+ 8-bit register                                        : 1
+# Latches                                              : 11
+ 1-bit latch                                           : 11
+# Tristates                                            : 1
+ 8-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/BRAMAB.ngc>.
+Loading core <BRAMAB> for timing and area information for instance <mod4>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 11
+ Flip-Flops                                            : 11
+# Latches                                              : 11
+ 1-bit latch                                           : 11
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Epp_top> ...
+
+Optimizing unit <BramComCtrl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Epp_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <Epp_top> :
+	Found 2-bit shift register for signal <mod2/stbDatar_1>.
+Unit <Epp_top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Epp_top.ngr
+Top Level Output File Name         : Epp_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 29
+
+Cell Usage :
+# BELS                             : 67
+#      GND                         : 3
+#      INV                         : 3
+#      LUT2                        : 3
+#      LUT3                        : 20
+#      LUT3_D                      : 1
+#      LUT4                        : 21
+#      LUT4_L                      : 4
+#      MUXF5                       : 11
+#      VCC                         : 1
+# FlipFlops/Latches                : 21
+#      FD                          : 2
+#      FDE_1                       : 8
+#      LDE                         : 11
+# RAMS                             : 1
+#      RAMB16_S9_S9                : 1
+# Shift Registers                  : 1
+#      SRL16                       : 1
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 28
+#      IBUF                        : 11
+#      IOBUF                       : 8
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       29  out of   4656     0%  
+ Number of Slice Flip Flops:             21  out of   9312     0%  
+ Number of 4 input LUTs:                 53  out of   9312     0%  
+    Number used as logic:                52
+    Number used as Shift registers:       1
+ Number of IOs:                          29
+ Number of bonded IOBs:                  29  out of    232    12%  
+ Number of BRAMs:                         1  out of     20     5%  
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------+---------------------------+-------+
+Clock Signal                                           | Clock buffer(FF name)     | Load  |
+-------------------------------------------------------+---------------------------+-------+
+EppDstb                                                | IBUF+BUFG                 | 1     |
+EppAstb                                                | IBUF+BUFG                 | 8     |
+mod2/regBramAdr_7_and0000(mod2/regBramAdr_7_and00001:O)| NONE(*)(mod2/regBramAdr_7)| 11    |
+clk                                                    | BUFGP                     | 3     |
+-------------------------------------------------------+---------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.919ns (Maximum Frequency: 203.293MHz)
+   Minimum input arrival time before clock: 5.781ns
+   Maximum output required time after clock: 9.131ns
+   Maximum combinational path delay: 6.985ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mod2/regBramAdr_7_and0000'
+  Clock period: 4.919ns (frequency: 203.293MHz)
+  Total number of paths / destination ports: 51 / 11
+-------------------------------------------------------------------------
+Delay:               4.919ns (Levels of Logic = 3)
+  Source:            mod2/regBramAdr_2 (LATCH)
+  Destination:       mod2/regBramAdr_5 (LATCH)
+  Source Clock:      mod2/regBramAdr_7_and0000 falling
+  Destination Clock: mod2/regBramAdr_7_and0000 falling
+
+  Data Path: mod2/regBramAdr_2 to mod2/regBramAdr_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              5   0.676   0.808  mod2/regBramAdr_2 (mod2/regBramAdr_2)
+     LUT3_D:I0->O          4   0.704   0.591  mod2/Madd__add0000_cy<2>11 (mod2/Madd__add0000_cy<2>)
+     LUT4:I3->O            1   0.704   0.424  mod2/regBramAdr_5_mux0000_SW0 (N01)
+     LUT4:I3->O            1   0.704   0.000  mod2/regBramAdr_5_mux0000 (mod2/regBramAdr_5_mux0000)
+     LDE:D                     0.308          mod2/regBramAdr_5
+    ----------------------------------------
+    Total                      4.919ns (3.096ns logic, 1.823ns route)
+                                       (62.9% logic, 37.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.014ns (frequency: 249.128MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               4.014ns (Levels of Logic = 0)
+  Source:            mod2/Mshreg_stbDatar_1 (FF)
+  Destination:       mod2/stbDatar_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: mod2/Mshreg_stbDatar_1 to mod2/stbDatar_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.706   0.000  mod2/Mshreg_stbDatar_1 (mod2/Mshreg_stbDatar_1)
+     FD:D                      0.308          mod2/stbDatar_1
+    ----------------------------------------
+    Total                      4.014ns (4.014ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'EppDstb'
+  Total number of paths / destination ports: 25 / 25
+-------------------------------------------------------------------------
+Offset:              4.527ns (Levels of Logic = 3)
+  Source:            EppWr (PAD)
+  Destination:       mod4/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram (RAM)
+  Destination Clock: EppDstb falling
+
+  Data Path: EppWr to mod4/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.932  EppWr_IBUF (EppWr_IBUF)
+     LUT4:I0->O            1   0.704   0.420  mod2/ctrlWeBram_and00001 (BramWeIn)
+     begin scope: 'mod4'
+     begin scope: 'U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr'
+     RAMB16_S9_S9:WEA          1.253          ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram
+    ----------------------------------------
+    Total                      4.527ns (3.175ns logic, 1.352ns route)
+                                       (70.1% logic, 29.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'EppAstb'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              4.268ns (Levels of Logic = 2)
+  Source:            EppWr (PAD)
+  Destination:       mod1/EppAdrAux_7 (FF)
+  Destination Clock: EppAstb falling
+
+  Data Path: EppWr to mod1/EppAdrAux_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.757  EppWr_IBUF (EppWr_IBUF)
+     INV:I->O             16   0.704   1.034  mod1/EppWr_inv1_INV_0 (mod1/EppWr_inv)
+     FDE_1:CE                  0.555          mod1/EppAdrAux_0
+    ----------------------------------------
+    Total                      4.268ns (2.477ns logic, 1.791ns route)
+                                       (58.0% logic, 42.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'mod2/regBramAdr_7_and0000'
+  Total number of paths / destination ports: 23 / 11
+-------------------------------------------------------------------------
+Offset:              5.781ns (Levels of Logic = 4)
+  Source:            EppWr (PAD)
+  Destination:       mod2/regBramAdr_4 (LATCH)
+  Destination Clock: mod2/regBramAdr_7_and0000 falling
+
+  Data Path: EppWr to mod2/regBramAdr_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.836  EppWr_IBUF (EppWr_IBUF)
+     LUT3:I1->O            5   0.704   0.808  mod2/regBramAdr_7_and00011 (mod2/regBramAdr_7_and0001)
+     LUT3:I0->O            1   0.704   0.499  mod2/regBramAdr_4_mux00008 (mod2/regBramAdr_4_mux00008)
+     LUT4:I1->O            1   0.704   0.000  mod2/regBramAdr_4_mux000050 (mod2/regBramAdr_4_mux0000)
+     LDE:D                     0.308          mod2/regBramAdr_4
+    ----------------------------------------
+    Total                      5.781ns (3.638ns logic, 2.143ns route)
+                                       (62.9% logic, 37.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.226ns (Levels of Logic = 1)
+  Source:            EppDstb (PAD)
+  Destination:       mod2/Mshreg_stbDatar_1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: EppDstb to mod2/Mshreg_stbDatar_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  EppDstb_IBUF (EppDstb_IBUF1)
+     SRL16:D                   0.421          mod2/Mshreg_stbDatar_1
+    ----------------------------------------
+    Total                      2.226ns (1.639ns logic, 0.587ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'EppAstb'
+  Total number of paths / destination ports: 53 / 8
+-------------------------------------------------------------------------
+Offset:              8.063ns (Levels of Logic = 4)
+  Source:            mod1/EppAdrAux_1 (FF)
+  Destination:       DB<7> (PAD)
+  Source Clock:      EppAstb falling
+
+  Data Path: mod1/EppAdrAux_1 to DB<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q           22   0.591   1.339  mod1/EppAdrAux_1 (mod1/EppAdrAux_1)
+     LUT3:I0->O            5   0.704   0.712  mod2/busEppOut<0>11 (mod2/N0)
+     LUT4:I1->O            1   0.704   0.000  mod1/busEpp<7>1 (mod1/busEpp<7>1)
+     MUXF5:I1->O           1   0.321   0.420  mod1/busEpp<7>_f5 (mod1/busEpp<7>)
+     IOBUF:I->IO               3.272          DB_7_IOBUF (DB<7>)
+    ----------------------------------------
+    Total                      8.063ns (5.592ns logic, 2.471ns route)
+                                       (69.4% logic, 30.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'EppDstb'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              9.131ns (Levels of Logic = 5)
+  Source:            mod4/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram (RAM)
+  Destination:       DB<2> (PAD)
+  Source Clock:      EppDstb falling
+
+  Data Path: mod4/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram to DB<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S9_S9:CLKA->DOA2    1   2.800   0.455  ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram (DOUTA<2>)
+     end scope: 'U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr'
+     end scope: 'mod4'
+     LUT4:I2->O            1   0.704   0.000  mod1/busEpp<2>58_SW0_F (N79)
+     MUXF5:I0->O           1   0.321   0.455  mod1/busEpp<2>58_SW0 (N61)
+     LUT3:I2->O            1   0.704   0.420  mod1/busEpp<2>58 (mod1/busEpp<2>)
+     IOBUF:I->IO               3.272          DB_2_IOBUF (DB<2>)
+    ----------------------------------------
+    Total                      9.131ns (7.801ns logic, 1.330ns route)
+                                       (85.4% logic, 14.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mod2/regBramAdr_7_and0000'
+  Total number of paths / destination ports: 11 / 8
+-------------------------------------------------------------------------
+Offset:              7.225ns (Levels of Logic = 4)
+  Source:            mod2/regBramAdr_1 (LATCH)
+  Destination:       DB<1> (PAD)
+  Source Clock:      mod2/regBramAdr_7_and0000 falling
+
+  Data Path: mod2/regBramAdr_1 to DB<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              6   0.676   0.673  mod2/regBramAdr_1 (mod2/regBramAdr_1)
+     LUT4:I3->O            1   0.704   0.000  mod1/busEpp<1>58_SW0_F (N75)
+     MUXF5:I0->O           1   0.321   0.455  mod1/busEpp<1>58_SW0 (N57)
+     LUT3:I2->O            1   0.704   0.420  mod1/busEpp<1>58 (mod1/busEpp<1>)
+     IOBUF:I->IO               3.272          DB_1_IOBUF (DB<1>)
+    ----------------------------------------
+    Total                      7.225ns (5.677ns logic, 1.548ns route)
+                                       (78.6% logic, 21.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 18 / 9
+-------------------------------------------------------------------------
+Delay:               6.985ns (Levels of Logic = 3)
+  Source:            EppWr (PAD)
+  Destination:       DB<7> (PAD)
+
+  Data Path: EppWr to DB<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.757  EppWr_IBUF (EppWr_IBUF)
+     INV:I->O             16   0.704   1.034  mod1/EppWr_inv1_INV_0 (mod1/EppWr_inv)
+     IOBUF:T->IO               3.272          DB_7_IOBUF (DB<7>)
+    ----------------------------------------
+    Total                      6.985ns (5.194ns logic, 1.791ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.65 secs
+ 
+--> 
+
+Total memory usage is 270516 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

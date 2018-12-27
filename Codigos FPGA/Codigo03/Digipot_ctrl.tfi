@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+Digipot_ctrl instance_name (
+    .clk(clk), 
+    .mux(mux), 
+    .ctrl(ctrl), 
+    .dato(dato), 
+    .cs1(cs1), 
+    .cs2(cs2), 
+    .cs3(cs3), 
+    .sdi(sdi), 
+    .clk_out(clk_out)
+    );
+
+

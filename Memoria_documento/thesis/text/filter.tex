@@ -1,0 +1,115 @@
+\chapter{DISEÑO DE LA PLATAFORMA}
+\label{chapter:filter}
+\hyphenation{topology simplicity}
+\section{Introducción}
+
+
+
+Para poder alcanzar los requerimientos indicados en el capítulo \ref{chapter:problem} se diseño una plataforma de prueba la cual consta de dos etapas las cuales implementan tanto el \textit{hardware} como el \textit{software}. La primera etapa consiste en una placa física implementada por medio de un circuito PCB multicapa, diseñada en el software Eagle. La segunda etapa implementa el software de la plataforma y consta de dos partes: La implementación de una máquina de estados en una FPGA\footnote{Filed programmable gate array} encargada tanto de implementar un protocolo de comunicación con el computador, como el control y el secuenciador del \textit{hardware}; La otra parte del sofware consiste en un código en el lenguaje C++ que permite enviar comandos de control a la tarjeta permitiendo un control y ajuste de parámetros \textit{online}.
+
+
+
+\section{La placa: WAC}
+ Las principales características con las que cuenta la placa son:
+\begin{itemize}
+\item Reguladores de voltaje, los cuales se encargan de implementar la alimentación de los integrados en la placa y de la correcta alimentación de the Bean V2
+\item Referencias de voltaje, las cuales proveen los voltajes para la correcta configuración del the Bean v2
+\item Potenciometros digitales y analógicos. Estos permiten ajustar el valor de las referencias. Dando la posibilidad de realizar variaciones según dispongan las pruebas deseadas.
+\item 1 modulo DAC de 12 bits de cuatro canales configurable via SPI. Este módulo tiene como fin generar las señales de entrada para estimular a the Bean V2.
+\item 2 ADC de 12 bits con entradas totalmente diferenciales, con comunicación SPI. Estos módulos permiten leer las salidas del integrado para luego enviarlas como datos de forma serial hacia la máquina de estados.
+\item Una versión de the Bean V2.
+\item Un conector FX2 el cual permite la conexión de forma directa con la FPGA por medio de la tarjeta NEXYS 2.
+\end{itemize}
+
+
+
+\subsection{Potenciometros digitales}
+De este modo la formula para obtener el voltaje a la salida del potenciometro en su configuración divisor de voltaje esta dado por la ecuación XX
+En donde 
+\begin{equation}
+R_{WB}(D)=\frac{D}{256}R_{AB} + R_W
+\end{equation}
+y
+\begin{equation}
+R_{WA}(D)=\frac{256-D}{256}R_{AB} + R_W
+\end{equation}
+
+En donde $R_{AB}$ y $R_W$ representan los valores de la resistencia entre los extremos y el valor del conector contribuido por la resistencia del switch interno respectivamente.
+Por lo tanto configurado en modo de divisor de voltaje conectando el pin B a tierra y el pin A a $V_{ref}$tendremos que el voltaje en el pin intermedio $W$ esta dado por la ecuación XX
+
+\begin{equation}
+V_{W}(D)= \frac{\frac{D}{256}R_{AB}+R_W}{R_{AB}+2R_W}V_A
+\end{equation}
+
+Dado que en este caso  $R_{AB} >> R_W$ la ecuación anterior se puede aproximar a 
+\begin{equation}
+V_{W}(D)=\frac{D}{256}V_{ref}
+\end{equation}
+De este modo dado un voltaje $V_W$ deseado la formula que debemos implementar esta dada por 
+
+\begin{equation}
+D= \frac{V_W 256}{V_{ref}}
+\end{equation}
+La forma en que se implementan los comandos esta dada por la siguiente estructura:
+\begin{description}
+\item[Ctrl:] 0x03
+\item[Conf:][[15:10]|[9:8] sel| [7:0] data]
+\end{description}
+
+\subsection{DAC}
+La formula entregada por el fabricante del voltaje del DAC esta dada por la ecuación XX
+\begin{equation}
+V_{out} =\frac{V_{ref,DAC}D}{4096}
+\end{equation}
+
+Por ende para un determinado voltaje $V_{out}$ deseado el valor digital que necesitamos corresponde a 
+\begin{equation}
+D =\frac{V_{out}4096}{V_{ref,DAC}}
+\end{equation}
+La estructura de los datos enviados es de la forma
+\begin{description}
+\item[ctrl:] 0x01
+\item[conf:] [L1 L0| S1 S0| [11:0] dato]
+\end{description}
+
+\subsection{Circuito de inyección de carga}
+El circuito de inyección de carga cumple la función de emular al detector según el esquema mostrado en XX. Para esto en la placa se implemento el circuito mostrado a continuación.
+
+Su funcionamiento es muy similar al del circuito de precarga presentado en la sección XX. De este modo se cumple que 
+\begin{equation}
+Q_{in}= \Delta V_{in}C_{in}
+\end{equation}
+
+\begin{equation}
+\Delta V_{out}=\frac{C_{pc}^{\prime}V_{ref}}{C_F}
+\end{equation}
+
+\begin{equation}
+C_{pc}^{\prime}=C_{pc}+ C_{ext}
+\end{equation}
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline 
+SDT & SDT & DCal \\ 
+\hline 
+\hline
+$Q_{in}$ & 36.9pC & 0.74pC \\ 
+\hline 
+$C_F$ & 45pF & 0.45pF \\ 
+\hline 
+$\Delta V_{in}^{max}$ & 1.3V & 1.3V \\ 
+\hline 
+$C_{in}$ & 27pF & 0.5pF \\ 
+\hline 
+$C_{ext}$ & 25pF & 0 \\ 
+\hline 
+$V_{ref}^{max}$ & 1.8V & 0.9V \\ 
+\hline 
+$\Delta V_{out}$ & 1V & 1V \\ 
+\hline 
+$C_{pc}$ & 0.5pF & 0.5pF \\ 
+\hline 
+\end{tabular} 
+\end{table}

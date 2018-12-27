@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/secuenciador_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="secuenciador_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/secuenciador_tb/theBeanConfig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">theBeanConfig[15:0]</obj_property>
+      <obj_property name="ObjectShortName">theBeanConfig[15:0]</obj_property>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[15]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[15]</obj_property>
+         <obj_property name="label">MUX_DAC_SEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[14]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[14]</obj_property>
+         <obj_property name="label">clk_pc_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[13]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[13]</obj_property>
+         <obj_property name="label">clk_pc_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[12]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[12]</obj_property>
+         <obj_property name="label">CS_B5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[11]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[11]</obj_property>
+         <obj_property name="label">op_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[10]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[10]</obj_property>
+         <obj_property name="label">CS_B4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[9]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[9]</obj_property>
+         <obj_property name="label">rst_csa</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[8]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[8]</obj_property>
+         <obj_property name="label">CS_B3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[7]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[7]</obj_property>
+         <obj_property name="label">clk_filter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[6]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[6]</obj_property>
+         <obj_property name="label">CS_B2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[5]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[5]</obj_property>
+         <obj_property name="label">CS_B1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[4]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[4]</obj_property>
+         <obj_property name="label">CS_B0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[3]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[3]</obj_property>
+         <obj_property name="label">sgn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[2]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[2]</obj_property>
+         <obj_property name="label">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[1]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[1]</obj_property>
+         <obj_property name="label">hold</obj_property>
+      </wvobject>
+      <wvobject fp_name="/secuenciador_tb/theBeanConfig[0]" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">theBeanConfig[0]</obj_property>
+         <obj_property name="label">out_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/seq_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seq_en</obj_property>
+      <obj_property name="ObjectShortName">seq_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/uut/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+</wave_config>

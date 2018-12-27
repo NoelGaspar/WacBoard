@@ -1,0 +1,103 @@
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\chapter{INTRODUCCIÓN}
+\label{chapter:introduction}
+\section{Experimentos de física de partículas}
+\blfootnote{Esta memoria fue financiada por la Comisión Nacional para la Investigación Científica y Tecnológica (CONICYT) de Chile, en virtud de la concesión del fondo FONDECYT  11110165.} 
+
+
+La física de partículas es una rama de la física que estudia la naturaleza de las partículas fundamentales que constituyen la materia y la radiación\citep{wiki}. El estudio de las partículas elementales ha permitido a la humanidad responder algunas de las preguntas más profundas de la físicas, lo cual ha impactado en nuestras vidas en diferentes maneras, desde avances en la comprensión del universo, la composición de la materia y la existencia de nuevas dimensiones, hasta aplicaciones en el desarrollo de tecnologías de uso cotidiano. 
+
+La principal herramienta utilizada en la física de partículas son los aceleradores de partículas. El principio básico de un acelerador consiste en concentrar partículas subatómicas en un haz y luego acelerarlas a velocidades cercanas a la velocidad de la luz por medio de campos electromagnéticos. Posteriormente, estos haces se hacen colisionar dentro de un detector, ya sea contra objetivos estacionarios u otro haz de partículas viajando en la dirección opuesta.  Como resultados de estas colisiones, se liberan subproductos que son dispersados desde el punto de la colisión. los detectores se encuentran compuestos por cientos de sensores que permiten medir distintos fenómenos a partir de las colisiones. El estudio y posterior procesamiento de los datos recopilados  provee a los científicos información sobre la naturaleza de las partículas elementales.
+
+En la actualidad se encuentran en curso dos proyectos que pretenden abrir las puertas a un nuevo mundo de investigación denominado el universo cuántico \citep{ilc101}. \textit{El Gran Colisionador de Hadrones} (LHC; Large Hadron Collider), desarrollado por la Organización Europea de Investigación Nuclear (CERN) actualmente en etapa de mejora. Y el \textit{Colisionador Lineal Internacional} (ILC; International Lineal Collider), un colisionador aun en desarrollo, pensado para estar operativo el 2010 - 2020, a cargo de esfuerzos conjuntos de diversos países coordinados mediante el \textit{Global Design Effort} (GDE) y el \textit{World Wide Study}. Se espera que la combinación de ambos aceleradores conducirán a grandes descubrimientos para la humanidad, como fue la confirmación de la existencia del campo de Higgs en esta década gracias al LHC, considerado uno de los logros más grandes de la ciencia del último medio siglo al contribuir a completar el modelo estándar.
+
+Para poder realizar las colisiones entre partículas, es necesario alcanzar altos niveles de energía cinética. Debido a que los aceleradores deben trabajar a estas grandes escalas de energía, la física de partículas también recibe el nombre de "física de altas energías". Como ejemplo, la nueva generación de instrumentos, que comprenden el LHC y el ILC, pretende trabajar en escalas de energía nunca antes utilizadas, denominada "escala tera" (1TeV), la cual permitirá replicar niveles de energía solo alcanzados en los orígenes del universo. 
+
+Con niveles de energía de energía cada vez más altos y sistemas de detección cada vez más precisos la construcción de un acelerador implica cada vez un desafío más grande. Para llevar a cabo tales metas son necesarias construcciones de algunas decenas de kilómetros de radio y esfuerzos colaborativos internacionales que involucran a cientos de científicos e ingenieros a lo largo de todo el mundo. Es por esto que los aceleradores son considerados como la obras de ingeniería más grande y ambiciosas jamás construida por la humanidad y representan desafíos que demandan tecnologías e ingeniería en el estado del arte.
+
+%%leer el archivo de internet para desarrollar de mejor manera este parrafo.
+La extremadamente elevada complejidad que implica el desarrollo de un acelerador de partículas representa una enorme y continua fuente de retos y desafíos, la cual, a llamado la atención de gran cantidad de científicos a lo largo de todo el mundo. Los conocimientos obtenidos en la búsqueda de soluciones para estos desafíos ha perneado a gran y pequeña escala en mejorar la calidad de vida de los humanos. Ejemplos concretos son la creación del internet, la cual fue creada por el CERN con la necesidad de poder compartir información entre distintos centros de investigación. O la creación de syncotrones los cuales utilizan un principio muy similar a los aceleradores para generar radiación y son utilizados altamente en la medicina moderna tanto para estudiar enfermedades como para desarrollar medicamentos para tratarlos \citep{tuttle101}.
+
+Esta tesis de pregrado trata sobre el diseño y la implementación de una plataforma de pruebas para el estudio y  la caracterización de un circuito integrado destinado a implementar los resultados expuestos en (tesis del diego) que forman parte de el trabajo colaborativo para desarrollar nuevas tecnologías que permitan mejorar el desempeño de la obtención de datos desde los detectores disminuyendo los efectos del ruido presente en la electrónica del front-end de los detectores.
+
+\section{Electrónica en detectores de partículas y the bean}
+
+ Un detector en física de partículas es un sistema dedicado a recolectar las pistas sobre la identidad de las partículas (como su masa, velocidad, carga entre otros) a partir de los distintos fenómenos sensables posterior a una colisión. Comúnmente son tres  los tipos de detectores utilizados en física de partícula: Los detectores de trayectoria, los cuales se encargan de reconstruir la trayectoria que dejan las partículas luego de una colisión (principalmente partículas que reaccionan poco con la materia como los muones o los neutrinos); los calorímetros, los cuales se encargan de medir la cantidad de energía al detener y absorber la energía de las partículas; y los detectores identificadores de partículas, los cuales se encargan de determinar la identidad de las partículas midiendo alguna propiedad específica (como la radiación de Cherenkov) o infiriéndola de balances respecto a otras mediciones \citep{cern101}.
+
+En la actualidad los detectores de partículas presentes en los colisionadores representan  grandes cámaras, comúnmente de forma cilíndrica coaxiales al eje de movimiento del haz de partículas, en donde se llevan a cabo las colisiones. Estos detectores de partículas se encuentran compuestos por capas de subdetectores, en donde cada capa tiene por objetivo obtener información de algún fenómeno específico. Cada una de estas capas se encuentra, a la vez, altamente segmentada por múltiples detectores que forman una unidad básica de detección (o pixel), permitiendo una mejor resolución espacial de las mediciones. Cada una de estas unidades básicas de detector en conjunto con su respectiva electrónica\footnote{Denominada en la literatura como \textit{front-end} del detector.}, conforman un canal. La estructura general de un canal esta constituida por: un detector, un pre amplificador, un filtro, un conversor análogo digital .(SPIELER 2005) La figura XX muestra un esquema altamente simplificado de un canal de un detector.
+
+La necesidad de generar continuamente sistemas de detección más complejos con mayor desempeño y mayor precisión, han motivado a grandes equipos de colaboración internacional para desarrollar nuevas tecnologías cada vez más avanzadas que permitan alcanzar los estándares requeridos. En el campo de la electrónica se desarrollan continuos esfuerzos para poder mejorar el desempeño de los sistemas involucrados: Reducción de componentes, ahorro de energía, minimización de ruido, aumento de ancho de banda, son algunos de los aspectos que encaminan nuevas investigaciones.
+
+
+%%hasta aca vamos bien
+%%OJOOOOO REVISAR EL SIGUIENTE PARRAFO!!
+Dentro de este contexto, la minimización del ruido representa en la actualidad uno de los limites fundamentales para la resolución de las mediciones. Diversas investigaciones se han llevado a cabo contribuir al entendimiento y solución de este problema. Uno de los resultados que motiva el desarrollo de esta tesis de pregrado fue presentado en (paper de diego). En este último, se ha entregado una nueva metodología de análisis del ruido en el dominio discreto del tiempo, la cual representa una importante herramienta de diseño para la electrónica de física de partículas y el análisis de ruido en general. 
+
+Esta metodología se basa en el analizar el fenómeno del ruido como un fenomeno discreto. De este modo la contribución en un determinado tiempo
+
+
+Con el objetivo de poner en práctica los resultados obtenidos en dicha investigación se diseño una segunda versión de \textbf{the bean}, un ASIC que implementa el front-end para BeamCal un detector destinado a formar parte del ILC. Este integrado  (thesis de angel)
+
+
+ 
+
+
+\section{Diseño de experimentos y Adquisición de datos en física de partículas}
+
+Una de las características interesantes de la física de partículas es el hecho de que las herramientas necesarias para lograr los objetivos propuestos, en la mayoría de los casos, aun no han sido creadas. Debido a que cada nuevo instrumento representa en si mismo un conjunto de desafíos únicos, es necesario desarrollar herramientas que permitan resolver dichos desafíos. De este modo, las necesidades por parte de la instrumentación de experimentos ha impulsado los limites de la ciencia y la tecnología en muchos aspectos y, a su vez, nuevos desarrollos en la instrumentación a menudo son posible gracias a los avances en la tecnología.  En este sentido, los experimentos en la física de partícula y la tecnología son dependientes el uno del otro. \citep{Attila}
+
+Existen muchos desafios.
+Muchos cientificos proponen muchas soluciones.
+Como cada solución implementa una
+
+
+
+La inagotable oferta de desafios llama a cientos de cientificos a lo largo del mundo para proponer y desarrollar continuamente nuevas teorias y prototipos hasta poder desarrollar en conjunto una solución que este a la altura de dichos desafíos. Estos sistemas representan comúnmente soluciones especificas. Debido a lo complejo y especifico de estas soluciones 
+
+
+
+ncluso el desarrollo de prototipos demanda el desarrollo de complejos sistemas que permitan recrear condiciones existentes en los 
+
+
+
+
+
+
+
+ Los desarrollos de nuevas tecnologías para mejorar los experimentos en física de partículas han promovido el desarrollo de los Circuitos Integrados (IC integrated circuit). Estos presentan grandes ventajas a que integran muchas funciones en un mismo chip. La mayoría de estos integrados son de aplicación especifica o ASIC (Application Specific Integrated Circuit). Sin embargo, pese a que los ASIC poseen bajos costos cuando se producen en pasa, poseen  ASIC un alto costo de fabricación  y un altos tiempos de manufactura y diseño. 
+Sin embargo en aplicaciones como el desarrollo de instrumentación es deseable crear ICs con nuevas funionalidades en limitadas cantidades y relativamente cortos tiempos, es por eso que las FPGA aparecen como una mejor solución gracias a su gran cantidad de compuertas lógicas programables. Lo que permite implementar nuevas diseños digitales por un bajo costo y en cortos tiempos. 
+Las FPGA poseen gran flexibilidad comparados con los ASICs. Su principal característica es la posibilidad de reprogramarlas permitiendo implementar casi cualquier aplicación especifica, a su vez permiten corregir cualquier error de diseño simplemente cargando un nuevo firmware en el dispositivo.
+
+
+
+
+
+
+
+
+
+
+La física de partícula requiriere de avanzados instrumentos que utilizan las ultimas tecnologías. Por otro lado, la necesidad de implementar soluciones innovadoras y personalizadas fuerza al desarrollo de constantes investigaciones y la creación de nuevas herramientas, implementaciones electrónicas y métodos de instrumentación.
+En este aspecto los Arreglos de compuertas de campo programable (FPGA, Field programmable Gate Arrays) aparecen en el mercado como soluciones muy tentadoras debido a su alto desempeño, amplia versatilidad, sus capacidades de procesamiento de señales, ancho de banda y programabilidad. 
+
+
+
+
+
+
+
+El desarrollo de aplicaciones en FPGA debido a que poseen una programación orientada al hardware o también llamado lenguaje de descripción de hardware (HDL Hardware Description Language). permiten implementar diseño pipeline de alta velocidad, reduciendo los tiempos de procesamiento de datos contra su contra-parte los micro-controladores. Esto las vuelve en soluciones ideales para la implementación  de soluciones personalizadas para la adquisición y  análisis  de datos asi como para el desarrollo de softwares con el propósito de diagnostico.
+ 
+ 
+
+
+
+
+\section{Contenido de esta tesis}
+El capítulo 2 comienza con una introducción al proyecto que inspira el trabajo presentado en esta memoria, el desarrollo de una plataforma de pruebas para la segunda iteración de the Bean, un circuito integrado de aplicación especifica (ASIC, por sus siglas en inglés) el cual forma parte de una propuesta para el ILC. A continuación se presentan los principales desafíos de este trabajo, haciendo hincapié en cada una de las limitantes y requisitos necesarios. En el capítulo 3 se presenta un detalle de the Bean V2, tanto sus especificaciones físicas como un detalle de sus especificaciones funcionales. Junto con lo anterior, se entrega el diseño de las principales pruebas a considerar con el fin de poder corroborar el correcto funcionamiento del integrado. En el capítulo 4 se presenta un detalle de la plataforma implementada, detallándose como fueron abordados cada uno de los requerimientos estipulados en el capítulo 2. También se entregan los layout finales desarrollados en el software EAGLE y la metodología utilizada para poder implementar una comunicación \textit{on line} con un computador. En el capitulo 5 se presentan los resultados obtenidos analizando el resultado de la plataforma desarrollada, del software implementado y los principales resultados de la implementación de la plataforma así como los resultados de las pruebas realizadas a the Bean V2. Finalmente, en el capítulo 6 se entregan las principales conclusiones de este trabajo, analizando los resultados y la contribución de este trabajo y se presentan ideas para futuras contribuciones.  

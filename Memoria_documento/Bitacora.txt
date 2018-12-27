@@ -1,0 +1,60 @@
+Cosas que faltan por revisar en grado 1:
+	- Punto 1.2: 	-Completar la idea. 
+					-agregar los avances realizados por diego Avila y angel abusleme.
+
+	- Punto 1.3: 	-Concluir mejor la idea. 
+					-Hacer mas incapie en los sistemas de adquisicion y la necesidad de desarrollarlos para la fisica de particulas
+
+
+Cambiar el concepto: el IC que prueba esta tesis es un prototipo de the bean V2
+
+INTRODUCCION:
+Experimentos de fisica de particulas:
+- fisica de particulas = fisica de altas energias
+- permiten entender de mejor manera la naturaleza de la materia. y aplican esos conocimientos para el desarrollo de tecnologias
+
+- se necesita cada vez mayores cantidades de energia:
+		- explorar mas profundo en la materia.
+		- mejorar las tecnologia de deteccion para encontrar particulas elusivas.
+		- recontruir su trayectoria presisamente para una mejor identificación y entendimiento.
+obs: quizas es mejor describir como es un acelerador primero y como funcionan los distintos tipos de detectores o que cosas detectan.
+
+-para alcanzar esos niveles de energia los aceleradores cada vez tienen mayor escala, siendo los proyectos de ingenieria mas ambiciosos jamas contruidos.
+
+- asi como aumenta la cantidad de energia, se vuelve necesario mejorar los sistemas de instrumentación mejorando su sensibilidad, tasas, resolucion y capacidades de procesamiento. Con el objetivo de: permitir medir mas información, con mas presicion, y en tiempos mas cortos. 
+
+- El gran salto fue de los 80 gracias a la tecnologia CMOS, que permitio cambiar de los PCB a circuitos integrados de aplicacion especifica ASIC. Mejorando la integración de sistemas y permitiendo implementar mas electronica conminima cantidad de masa agregada.
+
+
+
+
+-la tendencia actual es a mejorar: mas canales incrementar capacidad de prosecasmiento, disminuir el ruido y mejorar la resistencia a la radiacion, sujetandose al presupuesto de energia disponible.
+
+- describir como es un detector: forma cilindrica.coaxial. capas para distintos detectores.
+
+- solo una pequeña parte de las colisiones producen las mas elusivas particulas. Es por esto que se realizan colisiones a grandes tasas (MHz) para mejorar las probabilidades. los datos son recopilados y procesados en redes de computadores.
+
+-El principal objetivo de esta tesis es:
+ this thesis deal with 
+
+obs: uno de los aspectos mas importantes en la fisica de párticulas es la necesidad de desarrollar e implementar nuevas tecnologías que no existen. el desarrollo de estas nuevas y complejas tecnologías promueve el entrenamiento de nuevos scientificos, quienes deben enfrentarse a nuevos desafios para
+"Over the decades, particle physics has developed the technologies needed to very accurately track particles as they collide and transform into hundreds of other particles. This same type of tracking is now essential for the computer tomography, MRIs and PET scans that allow a doctor to peer inside the human body to see what’s wrong." tuttle, K (2013). Why particle physics matters.
+
+
+tratamientos de enfermedades basados en radiacion, el descubriumiento de nuevos medicamentos, analisis y mejorando el entendimiento del funcionamiento de las celulas. Desarrollando nuevas estrategias y herramientas para el analisis de grandes cantidades de datos en el area de computación
+La fisica de particula representa una de las areas que esta empujando las fronteras del conocimiento en la actualidad.
+
+
+ Electronica en experimentos de fisica de particulas:
+
+
+
+
+
+
+
+
+------------------------------------------------------
+7/6/2017
+
+Buscar alguna fuente para referenciar la frase que dice: " la estructura de estos detectores para el ilc aun permance en estudio, sin embargo existen dos propuestas validas como candidatas"

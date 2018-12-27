@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/prueba_envio__mem_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="prueba_envio__mem_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="69" />
+   <wvobject fp_name="/prueba_envio__mem_tb/EppWait" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EppWait</obj_property>
+      <obj_property name="ObjectShortName">EppWait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/SDIDAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDIDAC</obj_property>
+      <obj_property name="ObjectShortName">SDIDAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CSDAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSDAC</obj_property>
+      <obj_property name="ObjectShortName">CSDAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CLKDAC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKDAC</obj_property>
+      <obj_property name="ObjectShortName">CLKDAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CSREF1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSREF1</obj_property>
+      <obj_property name="ObjectShortName">CSREF1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CSREF2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSREF2</obj_property>
+      <obj_property name="ObjectShortName">CSREF2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CSREF3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSREF3</obj_property>
+      <obj_property name="ObjectShortName">CSREF3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/SDIREF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDIREF</obj_property>
+      <obj_property name="ObjectShortName">SDIREF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CLKREF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKREF</obj_property>
+      <obj_property name="ObjectShortName">CLKREF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/MUXREF1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXREF1</obj_property>
+      <obj_property name="ObjectShortName">MUXREF1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/MUXREF2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXREF2</obj_property>
+      <obj_property name="ObjectShortName">MUXREF2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/MUXREF3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXREF3</obj_property>
+      <obj_property name="ObjectShortName">MUXREF3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/MUXDACEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXDACEN</obj_property>
+      <obj_property name="ObjectShortName">MUXDACEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/theBeanConf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">theBeanConf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">theBeanConf[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CSADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSADC1</obj_property>
+      <obj_property name="ObjectShortName">CSADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CLKADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKADC1</obj_property>
+      <obj_property name="ObjectShortName">CLKADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CSADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSADC2</obj_property>
+      <obj_property name="ObjectShortName">CSADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/CLKADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKADC2</obj_property>
+      <obj_property name="ObjectShortName">CLKADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/stbAddr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stbAddr</obj_property>
+      <obj_property name="ObjectShortName">stbAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/stbData" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stbData</obj_property>
+      <obj_property name="ObjectShortName">stbData</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/ctrlWr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWr</obj_property>
+      <obj_property name="ObjectShortName">ctrlWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/busEppAddrIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busEppAddrIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busEppAddrIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/SDOADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDOADC1</obj_property>
+      <obj_property name="ObjectShortName">SDOADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/SDOADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDOADC2</obj_property>
+      <obj_property name="ObjectShortName">SDOADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/busEppIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busEppIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busEppIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/wr_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_seq</obj_property>
+      <obj_property name="ObjectShortName">wr_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/stbData" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stbData</obj_property>
+      <obj_property name="ObjectShortName">stbData</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/stbAddr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stbAddr</obj_property>
+      <obj_property name="ObjectShortName">stbAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/ctrlWr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWr</obj_property>
+      <obj_property name="ObjectShortName">ctrlWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/busEppIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busEppIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busEppIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/busEppAddrIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busEppAddrIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busEppAddrIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/stmBusy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stmBusy</obj_property>
+      <obj_property name="ObjectShortName">stmBusy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/busEppOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busEppOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busEppOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/ctrlWeBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWeBram</obj_property>
+      <obj_property name="ObjectShortName">ctrlWeBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/clkBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkBram</obj_property>
+      <obj_property name="ObjectShortName">clkBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/dato_seq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato_seq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato_seq[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aux</obj_property>
+      <obj_property name="ObjectShortName">aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/wr_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_seq</obj_property>
+      <obj_property name="ObjectShortName">wr_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/regBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">regBramAddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/addrBramDB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrBramDB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrBramDB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/addrBramAddrL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrBramAddrL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrBramAddrL[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/addrBramAddrH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrBramAddrH[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrBramAddrH[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/ctrlMode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlMode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlMode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/confModeL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">confModeL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">confModeL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/confModeH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">confModeH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">confModeH[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/adcMode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adcMode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">adcMode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/adcReset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adcReset[3:0]</obj_property>
+      <obj_property name="ObjectShortName">adcReset[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/WR_SEQ_MEM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WR_SEQ_MEM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_SEQ_MEM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod2/const" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">const[3:0]</obj_property>
+      <obj_property name="ObjectShortName">const[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/seq_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seq_en</obj_property>
+      <obj_property name="ObjectShortName">seq_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/dato" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/datoStb_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">datoStb_seq</obj_property>
+      <obj_property name="ObjectShortName">datoStb_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/Stb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Stb</obj_property>
+      <obj_property name="ObjectShortName">Stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/theBeanConfig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">theBeanConfig[15:0]</obj_property>
+      <obj_property name="ObjectShortName">theBeanConfig[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/mem1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem1[0:31,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem1[0:31,15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/mem2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem2[0:31,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem2[0:31,15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/mem3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem3[0:31,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem3[0:31,15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/counter_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_r[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/counter_w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_w[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_w[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/config_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">config_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">config_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_envio__mem_tb/uut/mod5/seq/dato_temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dato_temp[15:0]</obj_property>
+   </wvobject>
+</wave_config>

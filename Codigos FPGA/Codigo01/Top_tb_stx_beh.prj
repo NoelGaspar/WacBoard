@@ -1,0 +1,5 @@
+verilog isim_temp "Digipot_ctrl.v"
+verilog isim_temp "Clk_div.v"
+verilog isim_temp "Top.v"
+verilog isim_temp "Top_tb.v"
+verilog isim_temp "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

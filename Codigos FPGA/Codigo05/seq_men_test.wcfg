@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/secuenciador_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="secuenciador_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/secuenciador_tb/Stb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Stb</obj_property>
+      <obj_property name="ObjectShortName">Stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/theBeanConfig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">theBeanConfig[15:0]</obj_property>
+      <obj_property name="ObjectShortName">theBeanConfig[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/seq_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seq_en</obj_property>
+      <obj_property name="ObjectShortName">seq_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/dato" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/datoStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">datoStb</obj_property>
+      <obj_property name="ObjectShortName">datoStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/uut/dato_temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dato_temp[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/secuenciador_tb/uut/mem3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem3[0:31,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem3[0:31,15:0]</obj_property>
+   </wvobject>
+</wave_config>

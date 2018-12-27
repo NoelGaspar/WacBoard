@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Codigo01 -o "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo01/Dac_ctrl.tfi" -lib work "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo01//Dac_ctrl.v" -module Dac_ctrl -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror 

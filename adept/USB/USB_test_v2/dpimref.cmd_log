@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "D:/Digitales/USB_test_v2/dpimref.xst" -ofn "D:/Digitales/USB_test_v2/dpimref.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 dpimref.ngc dpimref.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dpimref_map.ncd dpimref.ngd dpimref.pcf 
+par -w -intstyle ise -ol high -mt off dpimref_map.ncd dpimref.ncd dpimref.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dpimref.twx dpimref.ncd -o dpimref.twr dpimref.pcf 
+bitgen -intstyle ise -f dpimref.ut dpimref.ncd 
+xst -intstyle ise -ifn "D:/Digitales/USB_test_v2/dpimref.xst" -ofn "D:/Digitales/USB_test_v2/dpimref.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx16-csg324-3 dpimref.ngc dpimref.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dpimref_map.ncd dpimref.ngd dpimref.pcf 
+par -w -intstyle ise -ol high -mt off dpimref_map.ncd dpimref.ncd dpimref.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dpimref.twx dpimref.ncd -o dpimref.twr dpimref.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f dpimref.ut dpimref.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx16-csg324-3 dpimref.ngc dpimref.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dpimref_map.ncd dpimref.ngd dpimref.pcf 
+par -w -intstyle ise -ol high -mt off dpimref_map.ncd dpimref.ncd dpimref.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dpimref.twx dpimref.ncd -o dpimref.twr dpimref.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f dpimref.ut dpimref.ncd 

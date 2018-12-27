@@ -1,0 +1,178 @@
+EN LA LIBRERIA: 			ESTA EL COMPONENTE:
+CONTROLLER-MICRO_ATEML_JD   CHIP CUSTOM
+ANALOG-DEVICE				ADG3248(MUX 2:1)
+TW							CONECTOR VHDCI68
+resistor					rtrim 3224X
+
+
+
+
+
+Obs: trabajo dia lunes 12 
+	- finalmente todos los componentes quedaron en la libreria wac.
+	- Se ha actualiado el componente The_Beam2 actualizando el simbolo y el pinout.
+	- Se conectaron los primeros componentes, completando los voltajes de referencia:
+		FALTA:	- ver cuales son los voltajes de alimentacion tanto para los mux como para los digipot.		<------HECHO ;)
+				- Tb falta poner los estabilizadores de voltaje y decidir la alimentaciones 				<------HECHO ;)
+				- falta elegir el adc y el dac.																<------HECHO ;)
+
+
+Dia dos:
+-Encontramos el pin header a usa. este tiene tres pies PREGUNTAR QUE ES LA UNIDAD DE PITCH Y CUAL ES LA DE MEETING. el modelo se saco de la libreria de jumper. link de la pieza:http://www.digikey.com/product-detail/en/68000-103HLF/609-3461-ND/2023309
+FALTA: buscarla en samptec.
+
+Terminamos el arrelgo en el modelo del bean2 sobre el pin de res_bias_ext.
+los potenciometros se alimentan con 3.3 volts
+
+DIA tres:
+- se sigui avanzando en las alimentaciones:FALTA revisar quien es vdd_reff.
+- Tarea siguiente :	configurar adc.
+					agregar switch y test points.		<------HECHO ;)
+					agregar bloques de conectores.		<------HECHO ;)
+
+
+
+
+
+Tareas: 
+1)buscar el shift logic voltage. 				<------HECHO ;)
+2) corregir el diagrama del ADC 				<------HECHO ;)
+3) colocar los TP 								<------HECHO ;)
+
+
+
+PREGUNTAS:
+
+1) buffers: que parametros debe tener el filtro a su salida.
+			que señales deben ser bufereadas.
+
+2) TP que señales son necesarias  tener acceso.
+
+3) Clocks, cual es el tiempo de establecimiento de todas las señales del chip?
+
+4) Que conector de entrada es necesario utilizar
+
+5) Es necesario medir corriente en algun punto?
+
+6) el bypass de los tres capacitores es necesario ponerlo cerca del chip?
+
+7) Como se distribuyen las señales en la placa
+
+------------------------------------------------------------------------------
+
+
+comunmente el VHDC es conectado a 2.5V, pero puede ser a 3.3V.
+
+------------------------------------------------------------------------------
+
+29/07/2014
+Ojo falta revisar las referencias del dac
+					  referencias y configuracion de los multiplexores
+					  referencias logicas del adc a 3.3 en vez de 1.8
+
+
+
+--------------------------------------------------------------------------------------
+Dia 7 de 10
+	Cosas que faltan por revisar con detalle
+		1) Ver si se puede reducir el tamaño de la placa
+		2) Arreglar el footprint del conector VHCI                       <------HECHO ;)
+		3) Ordenar el orden de los pines del conector en el esquematico  <------HECHO ;)
+		4) Cambiar el footprint de los jumpers
+		5) agregar los tesponint 18 y 19
+		6) revisar los condensadores y el orden de la placa              <------HECHO ;)
+		7) Rehacer la lista de compras.
+		8) Conseguirse la fpga y empezar a probar cosas.                 <-----------(tarea paralela y urgente) ECHO ;)
+
+
+
+Dia 29 del 10
+Hoy se revisaron uno a uno los silk de los capacitores.
+
+1) Falta agregar los condensadores a la salida para IC10 y IC13		 <------HECHO ;)
+2) revisar los valores de los condensadores del ADC 				 <------HECHO ;)
+3) Revisar los valores de los condensadores de la entrada VIN_CSA
+					  
+
+Dia 13/11 
+Se revisaron uno a uno los silk de las resistencias y los IC
+
+1)falta revisar los valores de las referencias logicas del adc y el dac.
+2)falta revisar el layout del chip.								     <------HECHO ;)
+
+
+---------------------------------------------------------------------------------------
+dia 19/11/2014
+La placa esta terminada en su evrsion V04. se han detectados algunos errores de diseño por lo tanto es necesario rehacer algunas partes.
+Junto con esto se revisaron todas las tareas anteriores y se creo una lista unica.
+
+
+
+1. TAREA1: es necesario cambiar los foot prints de los jumpers. listo!!
+2. TAREA2: las entradas deben tener la posibilidad de ser accedidas por medio de  jumpers. junto con esto deben tener la posibilidad de ser leidas por test points. Estas entradas son:
+  			- vi_+ salidas del dac.
+  			- vi_- salidas del dac.
+  			- vo-_bp_fil actualmente no conectadas a nada.
+  			- vo+_bp_fil actualmente no conectadas a nada.
+  			- vin_csa 	   procedentes del dac.
+  			- cap_prechar  procedentes del dac.
+Para esta tarea sera necesior generar una nueva version de la placa y que se debe desplazar demasiadas cosas conectadas, por seguridad se realizara en una nueva placa.
+ listo!!
+3. TAREA3: Agregar test points para las tierras Analogicas Digitales y generales. listo!!
+4. TAREA4: Revisar los valores de los condensadores de la entrada VIN_CSA.
+5. TAREA5: Falta revisar los valores de las referencias logicas del adc y el dac. junto con esto de deben revisar los valores logicos de la placa y el conector.
+6. TAREA6: Revisar los componentes faltantes y rehacer la lista de materiales.
+
+---------------------------------------------------------------------------------------
+dia 1/12/14
+
+ se arreglaron los filtros rc a la salida de los buffer dejando la resistencia y el condensador en tecnologia 0603 disponible en el lab en casod e querer cambiarlos.
+ se revisara el DRC
+ -Clarence
+
+
+conectar las tierras del conector. y las resistencias de 1k y 0603.
+
+------------------------------------------------------------------------------------------------------------------
+Ojo: el capacitor C5 y C40 deben estar conectados a tierra digital DGND
+C41 y C7 deben tener tierra analogica.                                     HECHO!!
+
+-----------------------------------------------------------------------------------------------------------------
+30-03-2015
+
+- se reemplazaron las reisistencias  de tierra por jumpers
+- Los filtros para los buffers se han cambiado por condensadores a tierra (se eliminaron las resistencias)
+- Se agregaron filtros a la entrada de los buffers
+- Se separaron los clocks de los ADC.
+- Se agregaron capacitores a las señales de los dac. y a la salida del mux del dac.
+- Se agrego una bypass al buffer.
+
+Cosas que falta por hacer:
+- HAY que preguntarle a DIEGO por la ruta de res_bias: 	1) como funciona la ruta res_bias
+														2) Ver cuanto tiene que alimentarse si es a 1.8 o 3.3
+														3) El tamaño de los potenciometros debe ser de 10k.
+- HAY que preguntarle a DIEGO por las señales de salida del chip.
+	Si se pueden leer directamente con adc o es necesario bufferarlas.  HECHO
+
+
+- Leer los datasheets del ADC y ver si necesitan las resistencias pull up en las señales de SPI  HECHO
+- Leer los datasheets de los buffers y entender como funcionan sus rangos de operación para ver si necesitan alimentacion bipolar. HECHO
+- Agregar un conector para darle entradas a las señales  entregadas  por el dac 
+- Agregar Test Point para las tierras de todos los chips importantes HECHO
+
+
+
+---------------------------------------------------------------------------------------
+Notas rapidas de cosas importantes
+
+Se genero una nueva version de la placa atendiendo el tema de los adc*
+para esto es necesario revisar la siguiente lista de tareas:
+
+- conectar la nueva referencia (RLV) y alimentar correctamente todos los voltajes de 5V
+- Revisar todos los TestPoints y actualizar la lista. Agregar los que faltan.
+- Revisar nuevamente los componentes y actualizar la lista de compra.
+
+
+
+*Los adc necesitan ser capaces de aguantar un rango de entrada de +1.8 a -1.8 en diferencia. por lo que se opto por cambiar
+el adc visto y utilizar uno de referencia externa con alimentacion de 5 volts

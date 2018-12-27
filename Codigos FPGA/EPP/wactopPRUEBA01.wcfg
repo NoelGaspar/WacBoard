@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP/wac_top_tb2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wac_top_tb2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/wac_top_tb2/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/syncDac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">syncDac</obj_property>
+      <obj_property name="ObjectShortName">syncDac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/sdiDac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdiDac</obj_property>
+      <obj_property name="ObjectShortName">sdiDac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/sclkDac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclkDac</obj_property>
+      <obj_property name="ObjectShortName">sclkDac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/csDpot1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">csDpot1</obj_property>
+      <obj_property name="ObjectShortName">csDpot1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/csDpot2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">csDpot2</obj_property>
+      <obj_property name="ObjectShortName">csDpot2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/csDpot3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">csDpot3</obj_property>
+      <obj_property name="ObjectShortName">csDpot3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/sdiDpot" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdiDpot</obj_property>
+      <obj_property name="ObjectShortName">sdiDpot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/clkDpot" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkDpot</obj_property>
+      <obj_property name="ObjectShortName">clkDpot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/dataStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataStb</obj_property>
+      <obj_property name="ObjectShortName">dataStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/uut/confWac" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">confWac[15:0]</obj_property>
+      <obj_property name="ObjectShortName">confWac[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wac_top_tb2/uut/ctrlWac" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWac[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlWac[7:0]</obj_property>
+   </wvobject>
+</wave_config>

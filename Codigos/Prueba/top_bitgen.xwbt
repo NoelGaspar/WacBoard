@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Wac\Desktop\1_2014\Memoria\codigos\Prueba\top.ncd
+OUTFILE=C:\Users\Wac\Desktop\1_2014\Memoria\codigos\Prueba\top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Wac\Desktop\1_2014\Memoria\codigos\Prueba
+LICENSE=WebPack
+USER_INFO=210765149_0_0_318

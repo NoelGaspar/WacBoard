@@ -1,0 +1,49 @@
+###########
+# NEXYS 3 #
+###########
+
+# Clock signal
+NET "mclk"            LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+Net "mclk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+# onBoard USB controller
+# NOTE: DEPP and DSTM net names use some of the same pins, if trying to use both DEPP and DSTM use a signle net name for each shared pin.
+
+# Data bus for both the DEPP and DSTM interfaces uncomment lines 15-22 if using either one
+NET "pdb<0>"          LOC = "E1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L50N_M3BA2,                     Sch name = U-FD0
+NET "pdb<1>"          LOC = "F4"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L51P_M3A10,                     Sch name = U-FD1
+NET "pdb<2>"          LOC = "F3"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L51N_M3A4,                      Sch name = U-FD2
+NET "pdb<3>"          LOC = "D2"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L52P_M3A8,                      Sch name = U-FD3
+NET "pdb<4>"          LOC = "D1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L52N_M3A9,                      Sch name = U-FD4
+NET "pdb<5>"          LOC = "H7"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L53P_M3CKE,                     Sch name = U-FD5
+NET "pdb<6>"          LOC = "G6"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L53N_M3A12,                     Sch name = U-FD6
+NET "pdb<7>"          LOC = "E4"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L54P_M3RESET,                   Sch name = U-FD7
+
+# If using the DEPP interface uncomment lines 25-28
+NET "pwr"       LOC = "F5"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L55N_M3A14,                     Sch name = U-FLAGC
+NET "astb"        LOC = "H1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L41N_GCLK26_M3DQ5,              Sch name = U-FLAGA
+NET "dstb"        LOC = "K4"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L42P_GCLK25_TRDY2_M3UDM,        Sch name = U-FLAGB
+NET "pwait"        LOC = "C2"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L83P,                           Sch name = U-SLRD
+
+NET "rgLed<0>"  LOC = "U16";
+NET "rgLed<1>"  LOC = "V16";
+NET "rgLed<2>"  LOC = "U15";
+NET "rgLed<3>"  LOC = "V15";
+NET "rgLed<4>"  LOC = "M11";
+NET "rgLed<5>"  LOC = "N11";
+NET "rgLed<6>"  LOC = "R11";
+NET "rgLed<7>"  LOC = "T11";
+NET "rgSwt<0>" LOC = "T10";
+NET "rgSwt<1>" LOC = "T9";
+NET "rgSwt<2>" LOC = "V9";
+NET "rgSwt<3>" LOC = "M8";
+NET "rgSwt<4>" LOC = "N8";
+NET "rgSwt<5>" LOC = "U8";
+NET "rgSwt<6>" LOC = "V8";
+NET "rgSwt<7>" LOC = "T5";
+NET "rgbtn<0>" LOC = "C4";
+NET "rgbtn<1>" LOC = "C9";
+NET "rgbtn<2>" LOC = "D9";
+NET "rgbtn<3>" LOC = "A8";
+NET "rgbtn<4>" LOC = "B8";

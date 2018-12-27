@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/EPP/dac_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dac_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/dac_tb/sync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sync</obj_property>
+      <obj_property name="ObjectShortName">sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/sdi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdi</obj_property>
+      <obj_property name="ObjectShortName">sdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/ctrl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrl</obj_property>
+      <obj_property name="ObjectShortName">ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/uut/count_clk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count_clk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_clk[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/uut/count_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/uut/ctrlReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlReg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlReg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_tb/dato" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dato[15:0]</obj_property>
+   </wvobject>
+</wave_config>

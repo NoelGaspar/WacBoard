@@ -1,0 +1,601 @@
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo03/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo04/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 
+xst -intstyle ise -ifn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo05/Epp_top.xst" -ofn "C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo05/Epp_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top.ngc" Epp_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_map.ncd Epp_top.ngd Epp_top.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_map.ncd Epp_top.ncd Epp_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top.ut Epp_top.ncd 

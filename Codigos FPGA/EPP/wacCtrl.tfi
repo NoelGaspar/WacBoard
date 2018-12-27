@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+wacCtrl instance_name (
+    .clk(clk), 
+    .dataStb(dataStb), 
+    .busBramAddr(busBramAddr), 
+    .busBramIn(busBramIn), 
+    .busBramOut(busBramOut), 
+    .ctrlWeBram(ctrlWeBram), 
+    .clkBram(clkBram), 
+    .ctrlWac(ctrlWac), 
+    .confWac(confWac), 
+    .adcWacEn(adcWacEn), 
+    .confWacEn(confWacEn), 
+    .busWacIn(busWacIn)
+    );
+
+

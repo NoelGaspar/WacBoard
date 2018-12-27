@@ -1,0 +1,7 @@
+verilog isim_temp "Digipot_ctrl.v"
+verilog isim_temp "Dac_ctrl.v"
+verilog isim_temp "wacCtrl.v"
+verilog isim_temp "wac.v"
+verilog isim_temp "wac_top.v"
+verilog isim_temp "wac_top_tb2.v"
+verilog isim_temp "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

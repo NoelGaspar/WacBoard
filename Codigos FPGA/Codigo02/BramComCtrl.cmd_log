@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Codigo02 -o "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo02/BramComCtrl.tfi" -lib work "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo02//BramComCtrl.v" -module BramComCtrl -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror 

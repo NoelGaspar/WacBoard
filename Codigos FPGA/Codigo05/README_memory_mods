@@ -1,0 +1,22 @@
+README
+Lista de memorias y su función:
+Nombre 		Descripción
+obs: out_select. debe estar en 1
+mod1  		Prueba el modulo CSA. El filtro esta en estado de rst. Modo de operacipon SDT. No cuenta con el circuito de precarga. La ventana observada es de 80ns (4tseq)
+mod1_2		Prueba el modulo CSA. El filtro esta en estado de rst. Modo de operacipon SDT. No cuenta con el circuito de precarga. La ventana observada es de 320ns (16tseq)
+mod2 		Prueba el funcionamiento del filtro. El modulo CSA esta en estado de rst y modo de operación SDT. El valor de CS=3f. La ventana de integracion es de 40ns(2tseq)
+mod2_2 		variacion del modo mod2. Prueba dos ventanas de integración. ventana 1:El valor de CS=3f  y Largo de 80ns(4tseq). ventana 2: CS =02,04,08,10 y largo 320ns(16tseq)
+mod3		Prueba el funcionamiento de ambos bloques al mismo tiempo.
+mod4		Pruena el funcionamiento del circuito de precarga. No hay pulso de entrada. El filtro esta en estado de rst. EL largo de phi1 es de 40ns y el largo de phi2 es de 40ns. La ventana total de integracion es de 120ns.
+mod4_2		variacion del modo mod4. la unica diferencia es que los largos de los clks phi1 y phi2 es la mitad.
+mod5		Prueba el modulo CSA completo incluyendo tanto el pulso a la entrada como el circuito de precarga. La ventana de integración es de 80ns
+mod6		Prueba el funcionamiento de ambos bloques al mismo tiempo. utiliza los parametros del mod1 y mod2 ajustando los intervalo para que calzen correctamente.
+mod7 		
+
+mod8		variación de la memoria mod6 para fines de prueba. csbx se cambian en otros instantes de tiempo.
+mod9		variación de la memoria mod3_2 para fines de prueba. csbx se cambian en otros instantes de tiempo.
+mod10		variación de la memoria mod3 para fines de prueba. csbx se cambian en otros instantes de tiempo.
+
+mod11      variacion de 3_2 para calcular CF. se probaran varias iteracions con un valor de csbx constante con el objetivo de calcular CF.
+mod11_2
+mod11_3

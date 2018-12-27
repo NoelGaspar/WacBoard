@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.xst" -ofn "C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo03/Epp_top_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys2_prueba.ucf -p xc3s500e-fg320-4 "Epp_top_prueba.ngc" Epp_top_prueba.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Epp_top_prueba_map.ncd Epp_top_prueba.ngd Epp_top_prueba.pcf 
+par -w -intstyle ise -ol high -t 1 Epp_top_prueba_map.ncd Epp_top_prueba.ncd Epp_top_prueba.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Epp_top_prueba.twx Epp_top_prueba.ncd -o Epp_top_prueba.twr Epp_top_prueba.pcf -ucf nexys2_prueba.ucf 
+bitgen -intstyle ise -f Epp_top_prueba.ut Epp_top_prueba.ncd 

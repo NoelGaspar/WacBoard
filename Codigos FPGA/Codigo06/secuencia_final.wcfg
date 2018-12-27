@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/lenovo/Desktop/temp/Memoria/Codigos FPGA/Codigo06/wacTest_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wacTest_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/wacTest_tb/busBramAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramAddr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/busBramOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/ctrlWeBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWeBram</obj_property>
+      <obj_property name="ObjectShortName">ctrlWeBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/clkBram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkBram</obj_property>
+      <obj_property name="ObjectShortName">clkBram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/contData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">contData[2:0]</obj_property>
+      <obj_property name="ObjectShortName">contData[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/ctrlWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrlWord[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlWord[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/confWord" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">confWord[15:0]</obj_property>
+      <obj_property name="ObjectShortName">confWord[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/n_seq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n_seq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">n_seq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/cont_seq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cont_seq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cont_seq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/controlEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">controlEn</obj_property>
+      <obj_property name="ObjectShortName">controlEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/ADC_En" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC_En</obj_property>
+      <obj_property name="ObjectShortName">ADC_En</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/seq_En" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seq_En</obj_property>
+      <obj_property name="ObjectShortName">seq_En</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/seq_mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seq_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/instance_name/seq/mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/readyAdc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">readyAdc</obj_property>
+      <obj_property name="ObjectShortName">readyAdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/flag_adc_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">flag_adc_seq</obj_property>
+      <obj_property name="ObjectShortName">flag_adc_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/stTest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stTest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stTest[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/uut/COM/dummy_cont" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dummy_cont[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dummy_cont[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/theBeanConf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">theBeanConf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">theBeanConf[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSADC1</obj_property>
+      <obj_property name="ObjectShortName">CSADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CLKADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKADC1</obj_property>
+      <obj_property name="ObjectShortName">CLKADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CSADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CSADC2</obj_property>
+      <obj_property name="ObjectShortName">CSADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/CLKADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLKADC2</obj_property>
+      <obj_property name="ObjectShortName">CLKADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/dataStb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataStb</obj_property>
+      <obj_property name="ObjectShortName">dataStb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/addrEpp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrEpp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrEpp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/busBramIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busBramIn[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/SDOADC1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDOADC1</obj_property>
+      <obj_property name="ObjectShortName">SDOADC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/SDOADC2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SDOADC2</obj_property>
+      <obj_property name="ObjectShortName">SDOADC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/wr_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_seq</obj_property>
+      <obj_property name="ObjectShortName">wr_seq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/dato_seq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato_seq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato_seq[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wacTest_tb/datoStb_seq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">datoStb_seq</obj_property>
+      <obj_property name="ObjectShortName">datoStb_seq</obj_property>
+   </wvobject>
+</wave_config>

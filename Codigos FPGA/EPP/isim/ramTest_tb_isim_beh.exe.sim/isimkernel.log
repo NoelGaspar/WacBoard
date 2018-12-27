@@ -1,0 +1,29 @@
+Command line:
+   ramTest_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51264
+
+Mon Nov 30 18:43:42 2015
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 505.455 Meg
+
+ Total Signals          : 169
+ Total Nets             : 482
+ Total Signal Drivers   : 72
+ Total Blocks           : 20
+ Total Primitive Blocks : 15
+ Total Processes        : 88
+ Total Traceable Variables  : 338
+ Total Scalar Nets and Variables : 66488
+Total Line Count : 429
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 505.455 Meg
+
+Mon Nov 30 20:07:54 2015
+

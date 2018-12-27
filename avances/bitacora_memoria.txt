@@ -1,0 +1,44 @@
+dia uno:
+	- solde los pin headers de la entrada.
+	- tp: 1,2,3,4,18,19,39,29,44, tp5,tp6,tp45.
+	- IC11 	UA78M33 CIN 0.033uF COUT 0.1uF
+	- IC9	UA78M33 CIN 0.470uF COUT 0.1uF
+	- IC15	UA78M5  CIN 0.470uF COUT 0.1uF
+	- IC5   LM4128 1.8 CIN 1uF COUT 1uF
+	- IC6	LM4128-1.8 CIN 1uF COUT 1uF
+	- IC7	LM4128-1.8 CIN 1uF COUT 1uF
+	- IC16	LM4128-3.3 CIN 1uF COUT 1uF
+	- IC8	LM4128-3.3 CIN 1uF COUT 1uF
+	- IC13	LM4128-1.8 CIN 1uF COUT 1uF
+	- IC10	LM4128-1.8 CIN 1uF COUT 1uF
+	- tp:
+dia dos:
+
+dia 4:
+	- se soldaron los buffers IC12 y IC14
+	- solde resistencias de 1k a la salida del buffers y condensadores de 470nf
+	R12: 1K
+	C34:470nF
+	R10: 1k
+	R11: 1k 
+	C33:470nF
+	C32:470nF
+
+dia 5:
+	-se soldaron los jumpers JP21 JP15, JP16, JP22
+	-se soldaron los condensadores c10 c9 c13 y c12 todos de 0.1uF
+	-se soldaron los consensadores c6 y c11 de tantalio 1uF con la marca como el positivo.
+	-se soldaron los integrados IC23 y IC21 (hay que revisarle que no esten cortocircuitados los pines!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+	-c39  0.1uf
+	-C42 1nF
+	-R8 1M
+	-C19 0.01uF
+	-C23 0.01uF C24 4.7uF
+	-C21 0.01uF
+	-C15 C8 Y C17 0.01uF
+	-C14 C16 C22 C20 10uF
+	-C18 4.7uF
+	- AMBOS ADC IC22 IC24
+	-JP12 JP11
+	-JP18 JP3 JP13 JP14
+	-

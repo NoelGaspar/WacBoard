@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+SPI2 instance_name (
+    .clk(clk), 
+    .SCK(SCK), 
+    .SIMO(SIMO), 
+    .CS(CS), 
+    .data_out(data_out), 
+    .SOMI(SOMI), 
+    .data_in(data_in)
+    );
+
+

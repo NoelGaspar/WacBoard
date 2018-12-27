@@ -1,0 +1,30 @@
+Command line:
+   secuenciador_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50583
+
+Thu Aug 25 18:46:13 2016
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 843.465 Meg
+
+ Total Signals          : 22
+ Total Nets             : 43
+ Total Signal Drivers   : 12
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 22
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 1717
+Total Line Count : 103
+Total Line Count : 103
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 371.606 Meg
+
+Thu Aug 25 22:16:02 2016
+

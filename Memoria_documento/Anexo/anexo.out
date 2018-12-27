@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.2}{Configuraci\363n inicial}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{VIA}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Creaci\363n de un componente nuevo}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Package}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Symbol}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Device}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Componentes con arreglo de pines y uso de scripts en eagle}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Scripts en Eagle}{section.4}% 9
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Lista de comandos}{subsection.4.1}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Ejemplo pr\341ctico}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Consejos de dise\361o}{}% 12

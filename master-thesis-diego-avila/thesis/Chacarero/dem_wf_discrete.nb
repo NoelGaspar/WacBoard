@@ -1,0 +1,583 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     21959,        574]
+NotebookOptionsPosition[     20528,        530]
+NotebookOutlinePosition[     20886,        546]
+CellTagsIndexPosition[     20843,        543]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Tau]", "=", "0.5"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607378841610531*^9, 3.607378847779488*^9}, {
+  3.6073790053531017`*^9, 3.607379016087929*^9}, {3.607379242683278*^9, 
+  3.607379243889904*^9}, {3.6073835433850803`*^9, 3.607383544070835*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"tf", "=", " ", "10"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607378944896057*^9, 3.607378946345744*^9}, {
+  3.607378987921975*^9, 3.607378999048437*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Amp", "=", "1"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607379148502977*^9, 3.607379149811555*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Ns", "=", "20"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607379764291121*^9, 3.607379769141898*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Ts", " ", "=", " ", 
+   RowBox[{"tf", "/", "Ns"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6073797993202877`*^9, 3.607379807768505*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"y", "[", "t_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      RowBox[{"Exp", "[", 
+       RowBox[{
+        RowBox[{"-", "t"}], "/", "\[Tau]"}], "]"}]}], ")"}], 
+    RowBox[{"UnitStep", "[", "t", "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6073788239530287`*^9, 3.607378857947624*^9}, {
+  3.6073798907898417`*^9, 3.6073798938997297`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"yo", "[", 
+    RowBox[{"t_", ",", "ti_"}], "]"}], ":=", 
+   RowBox[{"-", " ", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"-", "1"}], ")"}], " ", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           RowBox[{"Floor", "[", 
+            RowBox[{"i", "/", "11"}], "]"}]}], "+", "2"}], ")"}]}], 
+       RowBox[{"y", "[", 
+        RowBox[{
+         RowBox[{"i", " ", "Ts"}], "-", "ti"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Floor", "[", 
+         RowBox[{"t", "/", "Ts"}], "]"}]}], "}"}]}], "]"}]}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.607380285357168*^9, 3.607380438258402*^9}, {
+   3.607380483128764*^9, 3.6073804897201023`*^9}, {3.607380584037878*^9, 
+   3.6073805842163677`*^9}, {3.607381771026486*^9, 3.607381778081912*^9}, {
+   3.607382554051173*^9, 3.607382557177144*^9}, {3.607382629042808*^9, 
+   3.607382646585343*^9}, 3.607382758263556*^9, {3.607382918479377*^9, 
+   3.6073830133658752`*^9}, {3.607383068805752*^9, 3.607383070853457*^9}, {
+   3.607383122936565*^9, 3.6073831715029383`*^9}, {3.607383224301112*^9, 
+   3.607383224604987*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"w", "[", "t_", "]"}], " ", ":=", 
+   RowBox[{"-", " ", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"-", "1"}], ")"}], " ", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           RowBox[{"Floor", "[", 
+            RowBox[{"i", "/", "11"}], "]"}]}], "+", "2"}], ")"}]}], 
+       RowBox[{"y", "[", 
+        RowBox[{
+         RowBox[{"i", " ", "Ts"}], "-", "t"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", "Ns"}], "}"}]}], "]"}]}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.607383435762272*^9, 3.607383462066436*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"GraphicsGrid", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"Plot", "[", 
+        RowBox[{
+         RowBox[{"y", "[", 
+          RowBox[{"t", "-", "ti"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"t", ",", "0", ",", "tf"}], "}"}], ",", 
+         RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+         RowBox[{"PlotRange", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", 
+              RowBox[{"tf", "+", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "Amp"}], "}"}]}], "}"}]}], ",", 
+         RowBox[{"PlotPoints", "\[Rule]", "200"}], ",", 
+         RowBox[{"Epilog", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+            RowBox[{"Point", "[", 
+             RowBox[{"Table", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"t", ",", 
+                 RowBox[{"y", "[", 
+                  RowBox[{"t", "-", "ti"}], "]"}]}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"t", ",", "0.25", ",", " ", "tf", ",", "Ts"}], 
+                "}"}]}], "]"}], "]"}]}], "}"}]}]}], "]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Plot", "[", 
+         RowBox[{
+          RowBox[{"yo", "[", 
+           RowBox[{
+            RowBox[{"t", "+", "0.25"}], ",", "ti"}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"t", ",", "0", ",", "tf"}], "}"}], ",", 
+          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+          RowBox[{"PlotRange", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", 
+               RowBox[{"tf", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
+          RowBox[{"PlotPoints", "\[Rule]", "200"}], ",", 
+          RowBox[{"Epilog", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+             RowBox[{"Point", "[", 
+              RowBox[{"{", 
+               RowBox[{"tf", ",", 
+                RowBox[{"yo", "[", 
+                 RowBox[{
+                  RowBox[{"tf", "+", "0.25"}], ",", "ti"}], "]"}]}], "}"}], 
+              "]"}]}], "}"}]}]}], "]"}], ",", 
+        RowBox[{"Plot", "[", 
+         RowBox[{
+          RowBox[{"w", "[", "t", "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"t", ",", "0", ",", "tf"}], "}"}], ",", 
+          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+          RowBox[{"PlotRange", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", 
+               RowBox[{"tf", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
+          RowBox[{"PlotPoints", "\[Rule]", "200"}], ",", 
+          RowBox[{"Axes", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"True", ",", "False"}], "}"}]}], ",", 
+          RowBox[{"Epilog", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+             RowBox[{"Point", "[", 
+              RowBox[{"{", 
+               RowBox[{"ti", ",", 
+                RowBox[{"yo", "[", 
+                 RowBox[{
+                  RowBox[{"tf", "+", "0.25"}], ",", "ti"}], "]"}]}], "}"}], 
+              "]"}]}], "}"}]}]}], "]"}]}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"ti", ",", "0", ",", "tf"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJwdxUEoQ3EAB+B/VmorKSPN4WmXHeym5B1cLNEORi8sbNSMheGgzYvDyGp7
+5TQpJg5vFy7eIkrhIAtbkqe1thxsyph6yZa2w2K/d/j6tLYFZrKKENJUgZPF
+RofvNdc5vbolX++4duGjBLeMLzO8Bwv+v3XMid4AZk0Tm7juo3ob77dLQSzm
+13h88JwPYaLThDFPjOdYKVqj+Gdp5QFHR0kc9/LhJO7Jprr9lROsy4ipp98+
+TJsiDFY6G2K4dZB6wTnr3RvmT2xZ/FlWFPC37qaIvQNfZdxRG6jhKo+00Bps
+tggUnk/TNL4dMsgHnfp+fLUzLq96bBvD9jgrX1LofdijDsl3aQO7+LBE9vCx
++v0US7MbZ5gxz1xgUbUoL1nc9ziTskdxrFlIYKoYSeOpOT6Ph52GAv4He5r1
+DQ==
+  "]],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`ti$$ = 0.96, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`ti$$], 0, 10}}, Typeset`size$$ = {291., {143., 148.}},
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`ti$185670$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`ti$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`ti$$, $CellContext`ti$185670$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> GraphicsGrid[{{
+          Plot[
+           $CellContext`y[$CellContext`t - $CellContext`ti$$], \
+{$CellContext`t, 0, $CellContext`tf}, AspectRatio -> 1, 
+           PlotRange -> {{0, $CellContext`tf + 1}, {0, $CellContext`Amp}}, 
+           PlotPoints -> 200, Epilog -> {
+             PointSize[Medium], 
+             Point[
+              Table[{$CellContext`t, 
+                $CellContext`y[$CellContext`t - $CellContext`ti$$]}, \
+{$CellContext`t, 0.25, $CellContext`tf, $CellContext`Ts}]]}]}, {
+          Plot[
+           $CellContext`yo[$CellContext`t + 
+            0.25, $CellContext`ti$$], {$CellContext`t, 0, $CellContext`tf}, 
+           AspectRatio -> 1, 
+           PlotRange -> {{0, $CellContext`tf + 1}, {-10, 10}}, PlotPoints -> 
+           200, Epilog -> {
+             PointSize[Medium], 
+             Point[{$CellContext`tf, 
+               $CellContext`yo[$CellContext`tf + 0.25, $CellContext`ti$$]}]}], 
+          Plot[
+           $CellContext`w[$CellContext`t], {$CellContext`t, 
+            0, $CellContext`tf}, AspectRatio -> 1, 
+           PlotRange -> {{0, $CellContext`tf + 1}, {-10, 10}}, PlotPoints -> 
+           200, Axes -> {True, False}, Epilog -> {
+             PointSize[Medium], 
+             Point[{$CellContext`ti$$, 
+               $CellContext`yo[$CellContext`tf + 
+                0.25, $CellContext`ti$$]}]}]}}], 
+      "Specifications" :> {{$CellContext`ti$$, 0, 10}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{336., {187., 192.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.607383798334753*^9, 3.60738382271848*^9}, 
+   3.607383970530758*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, tf, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550914909358*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509150323277`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915074107*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915113008*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Plot :: \
+plln\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.61455091513739*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, tf, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509153036633`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915341105*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509153789167`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915418269*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Plot :: \
+plln\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915448653*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921778264*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.61455092181358*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921856079*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Table :: \
+iterb\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921875032*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "prng"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Value of option PlotRange -> \[NoBreak]\\!\\({\\(\\({0, \
+11}\\)\\), \\(\\({0, Amp}\\)\\)}\\)\[NoBreak] is not All, Full, Automatic, a \
+positive machine number, or an appropriate list of range specifications. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/Plot\\\", ButtonNote -> \
+\\\"Plot::prng\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921970845*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509244708853`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.61455092450554*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509245969543`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Table :: \
+iterb\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550924598023*^9}]
+}, Open  ]]
+},
+WindowSize->{456, 455},
+WindowMargins->{{359, Automatic}, {25, Automatic}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 288, 5, 28, "Input"],
+Cell[848, 27, 189, 4, 28, "Input"],
+Cell[1040, 33, 135, 3, 28, "Input"],
+Cell[1178, 38, 135, 3, 28, "Input"],
+Cell[1316, 43, 172, 4, 28, "Input"],
+Cell[1491, 49, 417, 12, 28, "Input"],
+Cell[1911, 63, 1251, 32, 28, "Input"],
+Cell[3165, 97, 686, 22, 28, "Input"],
+Cell[CellGroupData[{
+Cell[3876, 123, 4242, 109, 369, "Input"],
+Cell[8121, 234, 2874, 60, 396, "Output"],
+Cell[10998, 296, 471, 10, 41, "Message"],
+Cell[11472, 308, 503, 10, 42, "Message"],
+Cell[11978, 320, 501, 10, 42, "Message"],
+Cell[12482, 332, 501, 10, 42, "Message"],
+Cell[12986, 344, 526, 11, 41, "Message"],
+Cell[13515, 357, 473, 10, 41, "Message"],
+Cell[13991, 369, 501, 10, 42, "Message"],
+Cell[14495, 381, 503, 10, 42, "Message"],
+Cell[15001, 393, 501, 10, 42, "Message"],
+Cell[15505, 405, 527, 11, 41, "Message"],
+Cell[16035, 418, 471, 10, 41, "Message"],
+Cell[16509, 430, 470, 10, 24, "Message"],
+Cell[16982, 442, 471, 10, 24, "Message"],
+Cell[17456, 454, 529, 11, 41, "Message"],
+Cell[17988, 467, 567, 11, 76, "Message"],
+Cell[18558, 480, 473, 10, 24, "Message"],
+Cell[19034, 492, 470, 10, 24, "Message"],
+Cell[19507, 504, 473, 10, 24, "Message"],
+Cell[19983, 516, 529, 11, 24, "Message"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

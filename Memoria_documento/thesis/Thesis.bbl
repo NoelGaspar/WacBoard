@@ -1,0 +1,337 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Anvar%
+, Gachelin%
+, Kestener%
+, Provost%
+\BCBL {}\ \BBA {} Mandjavidze%
+}{%
+Anvar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+1644925}
+\APACinsertmetastar {%
+1644925}%
+\begin{APACrefauthors}%
+Anvar, S.%
+, Gachelin, O.%
+, Kestener, P.%
+, Provost, H\BPBI L.%
+\BCBL {}\ \BBA {} Mandjavidze, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {FPGA-based system-on-chip designs for real-time
+  applications in particle physics} {Fpga-based system-on-chip designs for
+  real-time applications in particle physics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Nuclear Science}{53}{3}{682-687}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\'Avila%
+}{%
+\'Avila%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+diegothesis}
+\APACinsertmetastar {%
+diegothesis}%
+\begin{APACrefauthors}%
+\'Avila, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\unskip\
+\newblock
+\APACrefbtitle {{Discrete-Time Noise Filtering for Pulse-Processing in Particle
+  Physics Experiments}} {{Discrete-Time Noise Filtering for Pulse-Processing in
+  Particle Physics Experiments}}\ \APACtypeAddressSchool {\BUMTh}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Pontificia Universidad Cat\'olica de Chile}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Avila%
+, Alvarez%
+\BCBL {}\ \BBA {} Abusleme%
+}{%
+Avila%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+avila101}
+\APACinsertmetastar {%
+avila101}%
+\begin{APACrefauthors}%
+Avila, D.%
+, Alvarez, E.%
+\BCBL {}\ \BBA {} Abusleme, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Noise Analysis in Pulse-Processing Discrete-Time
+  Filters} {Noise analysis in pulse-processing discrete-time filters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nuclear Science, IEEE Transactions
+  on}{60}{6}{4634-4640}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+CERN%
+}{%
+CERN%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+cern101}
+\APACinsertmetastar {%
+cern101}%
+\begin{APACrefauthors}%
+CERN.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\APACrefbtitle {{H}ow {D}etectors {W}orks.} {{H}ow {D}etectors {W}orks.}
+\newblock
+\begin{APACrefURL} \url{http://home.web.cern.ch/about/how-detector-works/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guzman%
+\ \protect \BOthers {.}}{%
+Guzman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+guzman101}
+\APACinsertmetastar {%
+guzman101}%
+\begin{APACrefauthors}%
+Guzman, D.%
+, Abusleme, A.%
+, Guarini, M.%
+, Alessandri, C.%
+, Avila, D.%
+, Alvarez, E.%
+\BCBL {}\ \BBA {} Oberli, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Theoretical considerations, early results and plans for
+  an {ASIC} to implement weighted multiple sampling in scientific {CCDs}}
+  {Theoretical considerations, early results and plans for an {ASIC} to
+  implement weighted multiple sampling in scientific {CCDs}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{Proceedings of the Scientific Detectors
+  Workshop}}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hidvégi%
+}{%
+Hidvégi%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Attila}
+\APACinsertmetastar {%
+Attila}%
+\begin{APACrefauthors}%
+Hidvégi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\unskip\
+\newblock
+\APACrefbtitle {{FPGA-based Instrumentation for Advanced Physics Experiments}}
+  {{FPGA-based Instrumentation for Advanced Physics Experiments}}\
+  \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Stckholm University}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ILC%
+}{%
+ILC%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+ilc101}
+\APACinsertmetastar {%
+ilc101}%
+\begin{APACrefauthors}%
+ILC.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\APACrefbtitle {The International Linear Collider - Getway to the Quantum
+  Universe.} {The international linear collider - getway to the quantum
+  universe.}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.linearcollider.org/ILC/Publications/Getway-to-the-Quantum-Universe}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Kuehn%
+, Lu%
+\BCBL {}\ \BBA {} Jantsch%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+4669290}
+\APACinsertmetastar {%
+4669290}%
+\begin{APACrefauthors}%
+Liu, M.%
+, Kuehn, W.%
+, Lu, Z.%
+\BCBL {}\ \BBA {} Jantsch, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{Sept}{}.
+\newblock
+{\BBOQ}\APACrefatitle {System-on-an-FPGA Design for Real-time Particle Track
+  Recognition and Reconstruction in Physics Experiments} {System-on-an-fpga
+  design for real-time particle track recognition and reconstruction in physics
+  experiments}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2008 11th EUROMICRO Conference on Digital System Design
+  Architectures, Methods and Tools} {2008 11th euromicro conference on digital
+  system design architectures, methods and tools}\ (\BPG~599-605).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/DSD.2008.97} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Spieler%
+}{%
+Spieler%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+spieler2005semiconductor}
+\APACinsertmetastar {%
+spieler2005semiconductor}%
+\begin{APACrefauthors}%
+Spieler, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Semiconductor Detector Systems} {Semiconductor detector
+  systems}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tuttle%
+}{%
+Tuttle%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+tuttle101}
+\APACinsertmetastar {%
+tuttle101}%
+\begin{APACrefauthors}%
+Tuttle, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Why particle physics matters} {Why particle physics
+  matters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Symmetry Magazine}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ugurdag%
+, Basaran%
+, Akdogan%
+, Güney%
+\BCBL {}\ \BBA {} Gören%
+}{%
+Ugurdag%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+6341473}
+\APACinsertmetastar {%
+6341473}%
+\begin{APACrefauthors}%
+Ugurdag, H\BPBI F.%
+, Basaran, A.%
+, Akdogan, T.%
+, Güney, V\BPBI U.%
+\BCBL {}\ \BBA {} Gören, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{July}{}.
+\newblock
+{\BBOQ}\APACrefatitle {FPGA Based Particle Identification in High Energy
+  Physics Experiments} {Fpga based particle identification in high energy
+  physics experiments}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2012 IEEE 23rd International Conference on
+  Application-Specific Systems, Architectures and Processors} {2012 ieee 23rd
+  international conference on application-specific systems, architectures and
+  processors}\ (\BPG~181-184).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ASAP.2012.22} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wikipedia%
+}{%
+Wikipedia%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+wiki}
+\APACinsertmetastar {%
+wiki}%
+\begin{APACrefauthors}%
+Wikipedia.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Particle physics.} {Particle physics.}
+\newblock
+\begin{APACrefURL} \url{http://en.wikipedia.org/wiki/Particle_physics}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

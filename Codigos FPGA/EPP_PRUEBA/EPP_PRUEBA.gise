@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="EPP_PRUEBA.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="BramComCtrl.tfi"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="EppCtrl.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="EppCtrl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EppCtrl.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="EppCtrl.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="EppCtrl.syr"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="EppCtrl.tfi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="EppCtrl.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="EppCtrl_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="EppCtrl_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Epp_top.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Epp_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Epp_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Epp_top.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Epp_top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Epp_top.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Epp_top.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Epp_top.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Epp_top.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Epp_top.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Epp_top.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Epp_top.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Epp_top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Epp_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Epp_top.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Epp_top.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Epp_top.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Epp_top.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Epp_top.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Epp_top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Epp_top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Epp_top_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Epp_top_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Epp_top_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Epp_top_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Epp_top_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Epp_top_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Epp_top_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Epp_top_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Epp_top_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Epp_top_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Epp_top_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Epp_top_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Epp_top_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Epp_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="epp_top.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="epp_top.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="epp_top.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447708821" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1447708821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447708968" xil_pn:in_ck="1468011070388391420" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1447708968">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BramComCtrl.v"/>
+      <outfile xil_pn:name="Clk_div.v"/>
+      <outfile xil_pn:name="EppCtrl.v"/>
+      <outfile xil_pn:name="EppCtrl_tb.v"/>
+      <outfile xil_pn:name="Epp_top.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="hx2ss.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447708821" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1122980185615531110" xil_pn:start_ts="1447708821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447708821" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1703292567462093352" xil_pn:start_ts="1447708821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447708821" xil_pn:in_ck="8165795769848197790" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1984788880652740426" xil_pn:start_ts="1447708821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/BRAMAB.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/BRAMAB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447708968" xil_pn:in_ck="4912433911909361300" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1447708968">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BramComCtrl.v"/>
+      <outfile xil_pn:name="Clk_div.v"/>
+      <outfile xil_pn:name="EppCtrl.v"/>
+      <outfile xil_pn:name="EppCtrl_tb.v"/>
+      <outfile xil_pn:name="Epp_top.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="hx2ss.v"/>
+      <outfile xil_pn:name="ipcore_dir/BRAMAB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447708971" xil_pn:in_ck="-592542728717320142" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2932692659963042771" xil_pn:start_ts="1447708968">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447097422" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1447097422">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447109765" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7466328647313699920" xil_pn:start_ts="1447109765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447704898" xil_pn:in_ck="8165795769848197790" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1984788880652740426" xil_pn:start_ts="1447704898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/BRAMAB.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/BRAMAB.v"/>
+      <outfile xil_pn:name="ipcore_dir/BlockRam.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/BlockRam.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447097422" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1447097422">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447109766" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8247781411519550638" xil_pn:start_ts="1447109766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447097422" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1447097422">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447109766" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7017972431299673216" xil_pn:start_ts="1447109766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447704909" xil_pn:in_ck="8262459761257886111" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="3501677618623949321" xil_pn:start_ts="1447704898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="Epp_top.lso"/>
+      <outfile xil_pn:name="Epp_top.ngc"/>
+      <outfile xil_pn:name="Epp_top.ngr"/>
+      <outfile xil_pn:name="Epp_top.prj"/>
+      <outfile xil_pn:name="Epp_top.stx"/>
+      <outfile xil_pn:name="Epp_top.syr"/>
+      <outfile xil_pn:name="Epp_top.xst"/>
+      <outfile xil_pn:name="Epp_top_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1447705114" xil_pn:in_ck="-7824674185610353849" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981223575954521" xil_pn:start_ts="1447705114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447705120" xil_pn:in_ck="-2697231564198739522" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-9185677344093967975" xil_pn:start_ts="1447705114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Epp_top.bld"/>
+      <outfile xil_pn:name="Epp_top.ngd"/>
+      <outfile xil_pn:name="Epp_top_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1447705124" xil_pn:in_ck="-492923608456162395" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1447705120">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Epp_top.pcf"/>
+      <outfile xil_pn:name="Epp_top_map.map"/>
+      <outfile xil_pn:name="Epp_top_map.mrp"/>
+      <outfile xil_pn:name="Epp_top_map.ncd"/>
+      <outfile xil_pn:name="Epp_top_map.ngm"/>
+      <outfile xil_pn:name="Epp_top_map.xrpt"/>
+      <outfile xil_pn:name="Epp_top_summary.xml"/>
+      <outfile xil_pn:name="Epp_top_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1447705141" xil_pn:in_ck="-1342659464617161890" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1447705124">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Epp_top.ncd"/>
+      <outfile xil_pn:name="Epp_top.pad"/>
+      <outfile xil_pn:name="Epp_top.par"/>
+      <outfile xil_pn:name="Epp_top.ptwx"/>
+      <outfile xil_pn:name="Epp_top.unroutes"/>
+      <outfile xil_pn:name="Epp_top.xpi"/>
+      <outfile xil_pn:name="Epp_top_pad.csv"/>
+      <outfile xil_pn:name="Epp_top_pad.txt"/>
+      <outfile xil_pn:name="Epp_top_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1447705180" xil_pn:in_ck="111038757042503962" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1447705141">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Epp_top.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="epp_top.bgn"/>
+      <outfile xil_pn:name="epp_top.bit"/>
+      <outfile xil_pn:name="epp_top.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1447705141" xil_pn:in_ck="-8472973064018421599" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1447705137">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Epp_top.twr"/>
+      <outfile xil_pn:name="Epp_top.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

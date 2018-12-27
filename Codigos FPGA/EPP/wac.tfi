@@ -1,0 +1,34 @@
+
+
+
+// Instantiate the module
+wac instance_name (
+    .clk(clk), 
+    .ctrlWac(ctrlWac), 
+    .confWac(confWac), 
+    .adcWacEn(adcWacEn), 
+    .confWacEn(confWacEn), 
+    .adcOut(adcOut), 
+    .syncDac(syncDac), 
+    .sdiDac(sdiDac), 
+    .sclkDac(sclkDac), 
+    .csDpot1(csDpot1), 
+    .csDpot2(csDpot2), 
+    .csDpot3(csDpot3), 
+    .sdiDpot(sdiDpot), 
+    .clkDpot(clkDpot), 
+    .muxDacEn(muxDacEn), 
+    .muxDacSel(muxDacSel), 
+    .muxRef1(muxRef1), 
+    .muxRef2(muxRef2), 
+    .muxRef3(muxRef3), 
+    .theBeanConf(theBeanConf), 
+    .sdoAdc1(sdoAdc1), 
+    .clkAdc1(clkAdc1), 
+    .csAdc1(csAdc1), 
+    .sdoAdc2(sdoAdc2), 
+    .clkAdc2(clkAdc2), 
+    .csAdc2(csAdc2)
+    );
+
+

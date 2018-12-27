@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+EppCtrl instance_name (
+    .clk(clk), 
+    .EppAstb(EppAstb), 
+    .EppDstb(EppDstb), 
+    .EppWr(EppWr), 
+    .DB(DB), 
+    .EppWait(EppWait), 
+    .cs(cs), 
+    .stbData(stbData), 
+    .ctrlWr(ctrlWr), 
+    .busIn(busIn), 
+    .busOut(busOut), 
+    .outEppAdr(outEppAdr)
+    );
+
+

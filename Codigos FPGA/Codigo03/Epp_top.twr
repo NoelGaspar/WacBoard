@@ -1,0 +1,238 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Epp_top.twx Epp_top.ncd -o Epp_top.twr Epp_top.pcf -ucf
+Nexys2_500General.ucf
+
+Design file:              Epp_top.ncd
+Physical constraint file: Epp_top.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock EppAstb
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DB<0>       |   -0.503(F)|    2.406(F)|EppAstb_IBUF      |   0.000|
+DB<1>       |   -0.795(F)|    2.639(F)|EppAstb_IBUF      |   0.000|
+DB<2>       |   -1.084(F)|    2.868(F)|EppAstb_IBUF      |   0.000|
+DB<3>       |   -1.148(F)|    2.919(F)|EppAstb_IBUF      |   0.000|
+DB<4>       |   -1.451(F)|    3.165(F)|EppAstb_IBUF      |   0.000|
+DB<5>       |   -1.374(F)|    3.103(F)|EppAstb_IBUF      |   0.000|
+DB<6>       |   -0.590(F)|    2.483(F)|EppAstb_IBUF      |   0.000|
+DB<7>       |   -0.910(F)|    2.738(F)|EppAstb_IBUF      |   0.000|
+EppWr       |    3.240(R)|    1.671(R)|mod2/aux          |   0.000|
+            |    0.745(F)|    2.451(F)|EppAstb_IBUF      |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock EppDstb
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DB<0>       |    1.102(R)|    1.809(R)|BramClkIn         |   0.000|
+DB<1>       |    0.323(R)|    2.432(R)|BramClkIn         |   0.000|
+DB<2>       |    1.280(R)|    1.666(R)|BramClkIn         |   0.000|
+DB<3>       |   -0.213(R)|    2.861(R)|BramClkIn         |   0.000|
+DB<4>       |   -0.046(R)|    2.695(R)|BramClkIn         |   0.000|
+DB<5>       |    0.131(R)|    2.553(R)|BramClkIn         |   0.000|
+DB<6>       |   -1.362(R)|    3.748(R)|BramClkIn         |   0.000|
+DB<7>       |   -1.341(R)|    3.731(R)|BramClkIn         |   0.000|
+EppWr       |    2.966(R)|    0.644(R)|BramClkIn         |   0.000|
+            |    3.254(R)|    1.653(R)|mod2/aux          |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+sw<0>       |    2.805(R)|    0.500(R)|clk_BUFGP         |   0.000|
+sw<1>       |    3.379(R)|    0.597(R)|clk_BUFGP         |   0.000|
+sw<2>       |    3.998(R)|    0.575(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock EppAstb to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+DB<0>       |   14.168(F)|EppAstb_IBUF      |   0.000|
+            |   13.910(R)|mod2/aux          |   0.000|
+DB<1>       |   13.922(F)|EppAstb_IBUF      |   0.000|
+            |   14.011(R)|mod2/aux          |   0.000|
+DB<2>       |   14.172(F)|EppAstb_IBUF      |   0.000|
+            |   13.927(R)|mod2/aux          |   0.000|
+DB<3>       |   13.746(F)|EppAstb_IBUF      |   0.000|
+            |   14.254(R)|mod2/aux          |   0.000|
+DB<4>       |   12.301(R)|mod2/aux          |   0.000|
+            |   13.218(F)|EppAstb_IBUF      |   0.000|
+DB<5>       |   11.993(R)|mod2/aux          |   0.000|
+            |   12.852(F)|EppAstb_IBUF      |   0.000|
+DB<6>       |   11.708(R)|mod2/aux          |   0.000|
+            |   13.474(F)|EppAstb_IBUF      |   0.000|
+DB<7>       |   13.237(F)|EppAstb_IBUF      |   0.000|
+            |   11.625(R)|mod2/aux          |   0.000|
+------------+------------+------------------+--------+
+
+Clock EppDstb to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+DB<0>       |   18.179(R)|BramClkIn         |   0.000|
+            |   13.892(R)|mod2/aux          |   0.000|
+DB<1>       |   18.565(R)|BramClkIn         |   0.000|
+            |   13.993(R)|mod2/aux          |   0.000|
+DB<2>       |   18.363(R)|BramClkIn         |   0.000|
+            |   13.909(R)|mod2/aux          |   0.000|
+DB<3>       |   18.854(R)|BramClkIn         |   0.000|
+            |   14.236(R)|mod2/aux          |   0.000|
+DB<4>       |   17.383(R)|BramClkIn         |   0.000|
+            |   12.283(R)|mod2/aux          |   0.000|
+DB<5>       |   16.909(R)|BramClkIn         |   0.000|
+            |   11.975(R)|mod2/aux          |   0.000|
+DB<6>       |   17.266(R)|BramClkIn         |   0.000|
+            |   11.690(R)|mod2/aux          |   0.000|
+DB<7>       |   17.480(R)|BramClkIn         |   0.000|
+            |   11.607(R)|mod2/aux          |   0.000|
+------------+------------+------------------+--------+
+
+Clock clk to Pad
+---------------+------------+------------------+--------+
+               | clk (edge) |                  | Clock  |
+Destination    |   to PAD   |Internal Clock(s) | Phase  |
+---------------+------------+------------------+--------+
+CLKADC1        |    9.740(R)|clk_BUFGP         |   0.000|
+CLKADC2        |    8.647(R)|clk_BUFGP         |   0.000|
+CLKDAC         |    8.715(R)|clk_BUFGP         |   0.000|
+CLKREF         |    8.697(R)|clk_BUFGP         |   0.000|
+CSADC1         |    9.146(R)|clk_BUFGP         |   0.000|
+CSADC2         |    8.721(R)|clk_BUFGP         |   0.000|
+CSDAC          |    8.423(R)|clk_BUFGP         |   0.000|
+CSREF1         |   13.715(R)|clk_BUFGP         |   0.000|
+CSREF2         |   13.647(R)|clk_BUFGP         |   0.000|
+CSREF3         |   14.428(R)|clk_BUFGP         |   0.000|
+Led<0>         |    7.729(R)|clk_BUFGP         |   0.000|
+Led<1>         |    7.890(R)|clk_BUFGP         |   0.000|
+Led<2>         |    8.408(R)|clk_BUFGP         |   0.000|
+Led<3>         |    8.443(R)|clk_BUFGP         |   0.000|
+Led<4>         |    8.475(R)|clk_BUFGP         |   0.000|
+Led<5>         |    8.756(R)|clk_BUFGP         |   0.000|
+Led<6>         |    9.298(R)|clk_BUFGP         |   0.000|
+Led<7>         |    9.289(R)|clk_BUFGP         |   0.000|
+MUXDACEN       |    8.369(R)|clk_BUFGP         |   0.000|
+MUXREF1        |    8.375(R)|clk_BUFGP         |   0.000|
+MUXREF2        |    8.307(R)|clk_BUFGP         |   0.000|
+MUXREF3        |    8.542(R)|clk_BUFGP         |   0.000|
+theBeanConf<1> |    7.162(R)|clk_BUFGP         |   0.000|
+theBeanConf<2> |    8.161(R)|clk_BUFGP         |   0.000|
+theBeanConf<3> |    7.479(R)|clk_BUFGP         |   0.000|
+theBeanConf<4> |    8.070(R)|clk_BUFGP         |   0.000|
+theBeanConf<5> |    8.744(R)|clk_BUFGP         |   0.000|
+theBeanConf<6> |    7.788(R)|clk_BUFGP         |   0.000|
+theBeanConf<7> |    8.285(R)|clk_BUFGP         |   0.000|
+theBeanConf<8> |    8.352(R)|clk_BUFGP         |   0.000|
+theBeanConf<9> |    8.691(R)|clk_BUFGP         |   0.000|
+theBeanConf<10>|    8.171(R)|clk_BUFGP         |   0.000|
+theBeanConf<11>|    6.145(R)|clk_BUFGP         |   0.000|
+theBeanConf<12>|    8.913(R)|clk_BUFGP         |   0.000|
+theBeanConf<15>|    8.313(R)|clk_BUFGP         |   0.000|
+---------------+------------+------------------+--------+
+
+Clock to Setup on destination clock EppAstb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+EppAstb        |    6.361|    7.980|         |         |
+EppDstb        |    6.361|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock EppDstb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+EppAstb        |    6.361|    7.980|         |         |
+EppDstb        |    6.361|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+EppAstb        |         |    6.373|         |         |
+EppDstb        |    2.291|    2.291|         |         |
+clk            |    9.121|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+EppAstb        |DB<0>          |    9.692|
+EppAstb        |DB<1>          |    9.182|
+EppAstb        |DB<2>          |    9.396|
+EppAstb        |DB<3>          |    9.010|
+EppAstb        |DB<4>          |    9.253|
+EppAstb        |DB<5>          |    9.094|
+EppAstb        |DB<6>          |    9.170|
+EppAstb        |DB<7>          |    9.109|
+EppAstb        |EppWait        |    7.961|
+EppDstb        |EppWait        |    7.918|
+EppWr          |DB<0>          |    5.427|
+EppWr          |DB<1>          |    5.704|
+EppWr          |DB<2>          |    5.275|
+EppWr          |DB<3>          |    5.287|
+EppWr          |DB<4>          |    5.852|
+EppWr          |DB<5>          |    5.593|
+EppWr          |DB<6>          |    6.411|
+EppWr          |DB<7>          |    6.250|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Aug 03 18:13:07 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 196 MB
+
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wac/Desktop/1_2014/Memoria/Codigos FPGA/Codigo02/BramComCtrl_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="BramComCtrl_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/BramComCtrl_tb/epp_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">epp_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">epp_out[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/bram_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bram_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr[11:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/bram_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bram_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_out[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/we_bram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we_bram</obj_property>
+      <obj_property name="ObjectShortName">we_bram</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/clk_bram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_bram</obj_property>
+      <obj_property name="ObjectShortName">clk_bram</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/stb_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stb_data</obj_property>
+      <obj_property name="ObjectShortName">stb_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/ctrl_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrl_wr</obj_property>
+      <obj_property name="ObjectShortName">ctrl_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/uut/stb_d_re" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stb_d_re</obj_property>
+      <obj_property name="ObjectShortName">stb_d_re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/uut/addr_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_next[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_next[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/epp_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">epp_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">epp_in[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/epp_addr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">epp_addr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">epp_addr_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BramComCtrl_tb/bram_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bram_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_in[7:0]</obj_property>
+   </wvobject>
+</wave_config>

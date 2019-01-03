@@ -1,9 +1,9 @@
 \contentsline {chapter}{\tocchapter {}{}{AGRADECIMIENTOS}}{iv}{chapter*.1}
 \contentsline {chapter}{\tocchapter {}{}{TABLA DE CONTENIDOS}}{v}{chapter*.2}
 \contentsline {chapter}{\tocchapter {}{}{LISTA DE FIGURAS}}{vii}{chapter*.3}
-\contentsline {chapter}{\tocchapter {}{}{LISTA DE TABLAS}}{ix}{chapter*.4}
-\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{x}{chapter*.5}
-\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{xi}{chapter*.6}
+\contentsline {chapter}{\tocchapter {}{}{LISTA DE TABLAS}}{viii}{chapter*.4}
+\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{ix}{chapter*.5}
+\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{x}{chapter*.6}
 \contentsline {chapter}{\tocchapter {}{1}{INTRODUCCI\IeC {\'O}N}}{1}{chapter.1}
 \contentsline {section}{\tocsection {}{1.1}{Experimentos de f\IeC {\'\i }sica de part\IeC {\'\i }culas}}{1}{section.1.1}
 \contentsline {section}{\tocsection {}{1.2}{Electr\IeC {\'o}nica en detectores de part\IeC {\'\i }culas}}{3}{section.1.2}

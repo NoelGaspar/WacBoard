@@ -2,7 +2,11 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: ./text/introduction.aux
 A level-1 auxiliary file: ./text/problem.aux
 A level-1 auxiliary file: ./text/filter.aux
+A level-1 auxiliary file: ./text/results.aux
+A level-1 auxiliary file: ./text/conclusion.aux
 The style file: apacite.bst
 A level-1 auxiliary file: ./text/appendixA.aux
 Database file #1: ./library.bib
+Warning--I didn't find a database entry for "radeka104"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
+(There was 1 warning)

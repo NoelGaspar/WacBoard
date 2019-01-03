@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.28)  27 DEC 2018 03:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2019.1.3)  3 JAN 2019 00:23
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2018-04-01> patch level 5
 (XPucThesis.cls
 Document Class: XPucThesis 2008/10/01 v1.2 LaTeX Thesis Class for the PUC and t
 he X
@@ -14,14 +13,14 @@ he X
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -32,15 +31,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count79
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
@@ -51,12 +42,12 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \sidemargin=\dimen104
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsbook.cls"
-Document Class: amsbook 2015/03/04 v2.20.2
+Document Class: amsbook 2017/10/31 v2.20.4
 \linespacing=\dimen105
 \normalparindent=\dimen106
 \normaltopskip=\skip41
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip42
 
 For additional information on amsmath, use the `?' option.
@@ -76,20 +67,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count80
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count81
 \leftroot@=\count82
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count83
 \DOTSCASE@=\count84
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen109
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count85
 \c@MaxMatrixCols=\count86
 \dotsspace@=\muskip10
@@ -110,10 +101,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip43
 \multlinetaggap=\skip44
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 367.
+LaTeX Font Info:    Try loading font information for U+msa on input line 377.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -173,327 +164,20 @@ LaTeX Info: Redefining \BBA on input line 170.
 \c@chapter*=\count103
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
-Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
 
 Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                All fixes are now in the LaTeX kernel.
 (fixltx2e)                See the latexrelease package for details.
 
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
 )
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -508,16 +192,17 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip59
-\f@ncyO@elh=\skip60
-\f@ncyO@erh=\skip61
-\f@ncyO@olh=\skip62
-\f@ncyO@orh=\skip63
-\f@ncyO@elf=\skip64
-\f@ncyO@erf=\skip65
-\f@ncyO@olf=\skip66
-\f@ncyO@orf=\skip67
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -531,11 +216,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen118
 \captionmargin@=\dimen119
 \captionwidth=\dimen120
@@ -545,55 +230,62 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@hangindent=\dimen124
 )
 Package caption Info: AMS or SMF document class.
-\c@ContinuedFloat=\count105
+\c@caption@flags=\count105
+\c@ContinuedFloat=\count106
 Package caption Info: float package is loaded.
 )
-\c@KVtest=\count106
+\c@KVtest=\count107
 \sf@farskip=\skip68
 \sf@captopadj=\dimen125
 \sf@capskip=\skip69
 \sf@nearskip=\skip70
-\c@subfigure=\count107
-\c@subfigure@save=\count108
-\c@lofdepth=\count109
-\c@subtable=\count110
-\c@subtable@save=\count111
-\c@lotdepth=\count112
+\c@subfigure=\count108
+\c@subfigure@save=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@subtable@save=\count112
+\c@lotdepth=\count113
 \sf@top=\skip71
 \sf@bottom=\skip72
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
-Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
-\c@r@tfl@t=\count113
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count114
 \rotFPtop=\skip73
 \rotFPbot=\skip74
 \rot@float@box=\box31
 \rot@mess@toks=\toks30
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count114
-\calc@Bcount=\count115
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count115
+\calc@Bcount=\count116
 \calc@Adimen=\dimen126
 \calc@Bdimen=\dimen127
 \calc@Askip=\skip75
 \calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count116
+\calc@Ccount=\count117
 \calc@Cskip=\skip77
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -616,21 +308,23 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pageheight=\dimen129
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box32
 \AM@global@opts=\toks31
 \AM@toc@title=\toks32
-\c@AM@survey=\count117
+\c@AM@survey=\count118
 \AM@templatesizebox=\box33
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen130
+\ar@mcellbox=\box34
 \extrarowheight=\dimen131
 \NC@list=\toks33
 \extratabsurround=\skip78
 \backup@length=\skip79
+\ar@cellbox=\box35
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\SIstyle\sistyle.sty"
 Package: sistyle 2008/07/16 v2.3a SI units and numbers (DNJ Els)
@@ -649,23 +343,23 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip84
 \LTpre=\skip85
 \LTpost=\skip86
-\LTchunksize=\count118
+\LTchunksize=\count119
 \LTcapwidth=\dimen132
-\LT@head=\box34
-\LT@firsthead=\box35
-\LT@foot=\box36
-\LT@lastfoot=\box37
-\LT@cols=\count119
-\LT@rows=\count120
-\c@LT@tables=\count121
-\c@LT@chunks=\count122
+\LT@head=\box36
+\LT@firsthead=\box37
+\LT@foot=\box38
+\LT@lastfoot=\box39
+\LT@cols=\count120
+\LT@rows=\count121
+\c@LT@tables=\count122
+\c@LT@chunks=\count123
 \LT@p@ftn=\toks36
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks37
 \footnotemargin=\dimen133
-\c@pp@next@reset=\count123
+\c@pp@next@reset=\count124
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -682,7 +376,7 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen134
 \epsfysize=\dimen135
 )
@@ -717,7 +411,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -727,12 +421,12 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -775,58 +469,57 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen136
-\Hy@linkcounter=\count124
-\Hy@pagecounter=\count125
+\Hy@linkcounter=\count125
+\Hy@pagecounter=\count126
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count126
+\Hy@SavedSpaceFactor=\count127
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4362.
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count127
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count128
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5141.
 \XeTeXLinkMargin=\dimen137
-\Fld@menulength=\count128
+\Fld@menulength=\count129
 \Field@Width=\dimen138
 \Fld@charsize=\dimen139
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count129
-\c@Item=\count130
-\c@Hfootnote=\count131
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count130
+\c@Item=\count131
+\c@Hfootnote=\count132
 )
-
-Package hyperref Message: Driver: hpdftex.
+Package hyperref Info: Driver: hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count132
-\c@bookmark@seq@number=\count133
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count133
+\c@bookmark@seq@number=\count134
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -839,29 +532,19 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 56.
 Package hyperref Info: Option `plainpages' set `false' on input line 56.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 56.
 Package hyperref Info: Option `verbose' set `true' on input line 56.
-\c@definition=\count134
-\c@property=\count135
-\c@claim=\count136
-\c@lemma=\count137
-\c@proposition=\count138
-\c@theorem=\count139
-\c@corollary=\count140
-\c@pf=\count141
-\c@example=\count142
-\c@remark=\count143
+\c@definition=\count135
+\c@property=\count136
+\c@claim=\count137
+\c@lemma=\count138
+\c@proposition=\count139
+\c@theorem=\count140
+\c@corollary=\count141
+\c@pf=\count142
+\c@example=\count143
+\c@remark=\count144
 
-(Thesis.aux (text/introduction.aux) (text/problem.aux) (text/theoretical.aux)
-(text/filter.aux) (text/results.aux
-
-LaTeX Warning: Label `fig:test_filter_after_omni' multiply defined.
-
-
-LaTeX Warning: Label `fig:gain_curves' multiply defined.
-
-
-LaTeX Warning: Label `fig:sim_wf' multiply defined.
-
-) (text/conclusion.aux) (text/appendixA.aux))
+(Thesis.aux (text/introduction.aux) (text/problem.aux) (text/filter.aux)
+(text/results.aux) (text/conclusion.aux) (text/appendixA.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
@@ -886,16 +569,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
+\scratchcounter=\count145
 \scratchdimen=\dimen140
-\scratchbox=\box38
-\nofMPsegments=\count145
-\nofMParguments=\count146
+\scratchbox=\box40
+\nofMPsegments=\count146
+\nofMParguments=\count147
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count147
+\MPscratchCnt=\count148
 \MPscratchDim=\dimen141
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
 \everyMPtoPDFconversion=\toks39
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 117.
@@ -917,7 +600,7 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 117.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-\c@maskedRefs=\count150
+\c@maskedRefs=\count151
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\english.apc"
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -930,11 +613,11 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box39
+\AtBeginShipoutBox=\box41
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -948,7 +631,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count151
+\c@section@level=\count152
 )
 LaTeX Info: Redefining \ref on input line 117.
 LaTeX Info: Redefining \pageref on input line 117.
@@ -959,14 +642,11 @@ LaTeX Info: Redefining \nameref on input line 117.
 \openout3 = `Thesis.out'.
 
 Package hyperref Info: Anchor `Doc-Start' on input line 117.
- <Figures/LogoUC.pdf, id=182, 614.295pt x 794.97pt>
+<Figures/LogoUC.pdf, id=150, 614.295pt x 794.97pt>
 File: Figures/LogoUC.pdf Graphic file (type pdf)
-
 <use Figures/LogoUC.pdf>
-Package pdftex.def Info: Figures/LogoUC.pdf used on input line 161.
+Package pdftex.def Info: Figures/LogoUC.pdf  used on input line 161.
 (pdftex.def)             Requested size: 65.45203pt x 86.45848pt.
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ç in font ptmr7t!
 
 Overfull \hbox (2.61955pt too wide) in paragraph at lines 161--161
 | $[]$  $[]$ 
@@ -1028,14 +708,12 @@ Overfull \hbox (13.66109pt too wide) in paragraph at lines 161--161
 Package hyperref Info: Anchor `page.i' on input line 161.
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/LogoUC.pdf>]
+{C:/Users/maite/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/L
+ogoUC.pdf>]
 File: Figures/LogoUC.pdf Graphic file (type pdf)
-
 <use Figures/LogoUC.pdf>
-Package pdftex.def Info: Figures/LogoUC.pdf used on input line 161.
+Package pdftex.def Info: Figures/LogoUC.pdf  used on input line 161.
 (pdftex.def)             Requested size: 65.45203pt x 86.45848pt.
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ç in font ptmr7t!
 
 Overfull \hbox (2.61955pt too wide) in paragraph at lines 161--161
 | $[]$  $[]$ 
@@ -1142,14 +820,13 @@ Package hyperref Info: Reference (link) `section.2.3' on input line 15.
 Package hyperref Info: Reference (link) `section.2.4' on input line 16.
 Package hyperref Info: Reference (link) `chapter.3' on input line 17.
 Package hyperref Info: Reference (link) `section.3.1' on input line 18.
-Package hyperref Info: Reference (link) `subsection.3.1.1' on input line 19.
-Package hyperref Info: Reference (link) `subsection.3.1.2' on input line 20.
-Package hyperref Info: Reference (link) `subsection.3.1.3' on input line 21.
-Package hyperref Info: Reference (link) `section.3.2' on input line 22.
-Package hyperref Info: Reference (link) `subsection.3.2.1' on input line 23.
-Package hyperref Info: Reference (link) `subsection.3.2.2' on input line 24.
-Package hyperref Info: Reference (link) `chapter.4' on input line 25.
-Package hyperref Info: Anchor `page.v' on input line 26.
+Package hyperref Info: Reference (link) `section.3.2' on input line 19.
+Package hyperref Info: Reference (link) `subsection.3.2.1' on input line 20.
+Package hyperref Info: Reference (link) `subsection.3.2.2' on input line 21.
+Package hyperref Info: Reference (link) `subsection.3.2.3' on input line 22.
+Package hyperref Info: Reference (link) `chapter.4' on input line 23.
+Package hyperref Info: Reference (link) `section.4.1' on input line 24.
+Package hyperref Info: Anchor `page.v' on input line 25.
  [5
 
 
@@ -1173,60 +850,45 @@ Package `hyperref' Info: End of reference (link) `section.2.3', line 15.
 Package `hyperref' Info: End of reference (link) `section.2.4', line 16.
 Package `hyperref' Info: End of reference (link) `chapter.3', line 17.
 Package `hyperref' Info: End of reference (link) `section.3.1', line 18.
-Package `hyperref' Info: End of reference (link) `subsection.3.1.1', line 19.
-Package `hyperref' Info: End of reference (link) `subsection.3.1.2', line 20.
-Package `hyperref' Info: End of reference (link) `subsection.3.1.3', line 21.
-Package `hyperref' Info: End of reference (link) `section.3.2', line 22.
-Package `hyperref' Info: End of reference (link) `subsection.3.2.1', line 23.
-Package `hyperref' Info: End of reference (link) `subsection.3.2.2', line 24.
+Package `hyperref' Info: End of reference (link) `section.3.2', line 19.
+Package `hyperref' Info: End of reference (link) `subsection.3.2.1', line 20.
+Package `hyperref' Info: End of reference (link) `subsection.3.2.2', line 21.
+Package `hyperref' Info: End of reference (link) `subsection.3.2.3', line 22.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 23.
 ]
-Package hyperref Info: Reference (link) `section.4.1' on input line 26.
-Package hyperref Info: Reference (link) `section.4.2' on input line 27.
-Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 28.
-Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 29.
-Package hyperref Info: Reference (link) `subsection.4.2.3' on input line 30.
+Package hyperref Info: Reference (link) `section.4.2' on input line 25.
+Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 26.
+Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 27.
+Package hyperref Info: Reference (link) `subsection.4.2.3' on input line 28.
+Package hyperref Info: Reference (link) `subsection.4.2.4' on input line 29.
+Package hyperref Info: Reference (link) `subsection.4.2.5' on input line 30.
 Package hyperref Info: Reference (link) `chapter.5' on input line 31.
 Package hyperref Info: Reference (link) `section.5.1' on input line 32.
 Package hyperref Info: Reference (link) `section.5.2' on input line 33.
-Package hyperref Info: Reference (link) `subsection.5.2.1' on input line 34.
-Package hyperref Info: Reference (link) `subsection.5.2.2' on input line 35.
-Package hyperref Info: Reference (link) `subsection.5.2.3' on input line 36.
-Package hyperref Info: Reference (link) `subsection.5.2.4' on input line 37.
-Package hyperref Info: Reference (link) `subsection.5.2.5' on input line 38.
-Package hyperref Info: Reference (link) `chapter.6' on input line 39.
-Package hyperref Info: Reference (link) `section.6.1' on input line 40.
-Package hyperref Info: Reference (link) `section.6.2' on input line 41.
-Package hyperref Info: Reference (link) `chapter*.7' on input line 42.
-Package hyperref Info: Reference (link) `chapter*.7' on input line 43.
-Package hyperref Info: Reference (link) `appendix.A' on input line 44.
-Package hyperref Info: Reference (link) `section.A.1' on input line 45.
+Package hyperref Info: Reference (link) `chapter*.7' on input line 34.
+Package hyperref Info: Reference (link) `chapter*.7' on input line 35.
+Package hyperref Info: Reference (link) `appendix.A' on input line 36.
+Package hyperref Info: Reference (link) `section.A.1' on input line 37.
 )
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
 Package hyperref Info: Anchor `page.vi' on input line 179.
  [6
-Package `hyperref' Info: End of reference (link) `chapter.4', line 25.
-Package `hyperref' Info: End of reference (link) `section.4.1', line 26.
-Package `hyperref' Info: End of reference (link) `section.4.2', line 27.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 28.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 29.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.3', line 30.
+Package `hyperref' Info: End of reference (link) `section.4.1', line 24.
+Package `hyperref' Info: End of reference (link) `section.4.2', line 25.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 26.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 27.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.3', line 28.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.4', line 29.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.5', line 30.
 Package `hyperref' Info: End of reference (link) `chapter.5', line 31.
 Package `hyperref' Info: End of reference (link) `section.5.1', line 32.
 Package `hyperref' Info: End of reference (link) `section.5.2', line 33.
-Package `hyperref' Info: End of reference (link) `subsection.5.2.1', line 34.
-Package `hyperref' Info: End of reference (link) `subsection.5.2.2', line 35.
-Package `hyperref' Info: End of reference (link) `subsection.5.2.3', line 36.
-Package `hyperref' Info: End of reference (link) `subsection.5.2.4', line 37.
-Package `hyperref' Info: End of reference (link) `subsection.5.2.5', line 38.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 39.
-Package `hyperref' Info: End of reference (link) `section.6.1', line 40.
-Package `hyperref' Info: End of reference (link) `section.6.2', line 41.
-Package `hyperref' Info: End of reference (link) `chapter*.7', line 42.
-Package `hyperref' Info: End of reference (link) `chapter*.7', line 43.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 44.
-Package `hyperref' Info: End of reference (link) `section.A.1', line 45.
+Package `hyperref' Info: End of reference (link) `chapter*.7', line 34.
+Package `hyperref' Info: End of reference (link) `chapter*.7', line 35.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 36.
+Package `hyperref' Info: End of reference (link) `section.A.1', line 37.
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 180.
 Package hyperref Info: bookmark on input line 180:
@@ -1241,7 +903,6 @@ LISTA DE FIGURAS
 (Thesis.lof
 Package hyperref Info: Reference (link) `figure.caption.4' on input line 6.
 Package hyperref Info: Reference (link) `figure.caption.6' on input line 7.
-Package hyperref Info: Reference (link) `figure.caption.7' on input line 9.
 Package hyperref Info: Reference (link) `figure.caption.8' on input line 10.
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 11.
 Package hyperref Info: Reference (link) `figure.caption.10' on input line 12.
@@ -1249,19 +910,12 @@ Package hyperref Info: Reference (link) `figure.caption.11' on input line 13.
 Package hyperref Info: Reference (link) `figure.caption.12' on input line 14.
 Package hyperref Info: Reference (link) `figure.caption.13' on input line 15.
 Package hyperref Info: Reference (link) `figure.caption.14' on input line 16.
-Package hyperref Info: Reference (link) `figure.caption.16' on input line 19.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 20.
-Package hyperref Info: Reference (link) `figure.caption.18' on input line 21.
-Package hyperref Info: Reference (link) `figure.caption.19' on input line 22.
-Package hyperref Info: Reference (link) `figure.caption.20' on input line 23.
-Package hyperref Info: Reference (link) `figure.caption.21' on input line 24.
+Package hyperref Info: Reference (link) `figure.caption.16' on input line 17.
+Package hyperref Info: Reference (link) `figure.caption.17' on input line 18.
+Package hyperref Info: Reference (link) `figure.caption.18' on input line 19.
+Package hyperref Info: Reference (link) `figure.caption.19' on input line 20.
+Package hyperref Info: Reference (link) `figure.caption.20' on input line 21.
 Package hyperref Info: Reference (link) `figure.caption.22' on input line 25.
-Package hyperref Info: Reference (link) `figure.caption.24' on input line 26.
-Package hyperref Info: Reference (link) `figure.caption.25' on input line 27.
-Package hyperref Info: Reference (link) `figure.caption.26' on input line 28.
-Package hyperref Info: Reference (link) `figure.caption.27' on input line 29.
-Package hyperref Info: Reference (link) `figure.caption.28' on input line 30.
-Package hyperref Info: Reference (link) `figure.caption.30' on input line 34.
 )
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
@@ -1272,7 +926,6 @@ Package hyperref Info: Anchor `page.vii' on input line 180.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.4', line 6.
 Package `hyperref' Info: End of reference (link) `figure.caption.6', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.7', line 9.
 Package `hyperref' Info: End of reference (link) `figure.caption.8', line 10.
 Package `hyperref' Info: End of reference (link) `figure.caption.9', line 11.
 Package `hyperref' Info: End of reference (link) `figure.caption.10', line 12.
@@ -1280,22 +933,12 @@ Package `hyperref' Info: End of reference (link) `figure.caption.11', line 13.
 Package `hyperref' Info: End of reference (link) `figure.caption.12', line 14.
 Package `hyperref' Info: End of reference (link) `figure.caption.13', line 15.
 Package `hyperref' Info: End of reference (link) `figure.caption.14', line 16.
-Package `hyperref' Info: End of reference (link) `figure.caption.16', line 19.
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 20.
-Package `hyperref' Info: End of reference (link) `figure.caption.18', line 21.
-Package `hyperref' Info: End of reference (link) `figure.caption.19', line 22.
-Package `hyperref' Info: End of reference (link) `figure.caption.20', line 23.
-Package `hyperref' Info: End of reference (link) `figure.caption.21', line 24.
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 17.
+Package `hyperref' Info: End of reference (link) `figure.caption.17', line 18.
+Package `hyperref' Info: End of reference (link) `figure.caption.18', line 19.
+Package `hyperref' Info: End of reference (link) `figure.caption.19', line 20.
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 21.
 Package `hyperref' Info: End of reference (link) `figure.caption.22', line 25.
-Package `hyperref' Info: End of reference (link) `figure.caption.24', line 26.
-Package `hyperref' Info: End of reference (link) `figure.caption.25', line 27.
-Package `hyperref' Info: End of reference (link) `figure.caption.26', line 28.
-Package `hyperref' Info: End of reference (link) `figure.caption.27', line 29.
-Package `hyperref' Info: End of reference (link) `figure.caption.28', line 30.
-]
-Package hyperref Info: Anchor `page.viii' on input line 180.
- [8
-Package `hyperref' Info: End of reference (link) `figure.caption.30', line 34.
 ]
 Package hyperref Info: Anchor `chapter*.4' on input line 181.
 Package hyperref Info: bookmark on input line 181:
@@ -1309,21 +952,21 @@ e }{\@secnumber }{\listtablename }}
 LISTA DE TABLAS
 (Thesis.lot
 Package hyperref Info: Reference (link) `table.caption.5' on input line 6.
-Package hyperref Info: Reference (link) `table.caption.23' on input line 10.
-Package hyperref Info: Reference (link) `table.A.1' on input line 14.
-Package hyperref Info: Reference (link) `table.A.2' on input line 15.
+Package hyperref Info: Reference (link) `table.caption.15' on input line 9.
+Package hyperref Info: Reference (link) `table.A.1' on input line 13.
+Package hyperref Info: Reference (link) `table.A.2' on input line 14.
 )
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
-Package hyperref Info: Anchor `page.ix' on input line 181.
- [9
+Package hyperref Info: Anchor `page.viii' on input line 181.
+ [8
 
 
 Package `hyperref' Info: End of reference (link) `table.caption.5', line 6.
-Package `hyperref' Info: End of reference (link) `table.caption.23', line 10.
-Package `hyperref' Info: End of reference (link) `table.A.1', line 14.
-Package `hyperref' Info: End of reference (link) `table.A.2', line 15.
+Package `hyperref' Info: End of reference (link) `table.caption.15', line 9.
+Package `hyperref' Info: End of reference (link) `table.A.1', line 13.
+Package `hyperref' Info: End of reference (link) `table.A.2', line 14.
 ]
 Package hyperref Info: Anchor `chapter*.2' on input line 189.
 pdfTeX warning (ext4): destination with the same identifier (name{chapter*.2}) 
@@ -1342,8 +985,8 @@ e }{\@secnumber }{ABSTRACT}}
 (hyperref)             reference {chapter*.5}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.x' on input line 191.
-[10
+Package hyperref Info: Anchor `page.ix' on input line 191.
+[9
 
 
 
@@ -1376,8 +1019,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-Package hyperref Info: Anchor `page.xi' on input line 201.
-[11
+Package hyperref Info: Anchor `page.x' on input line 201.
+[10
 
 
 
@@ -1616,23 +1259,22 @@ e }{\@secnumber }{\Sectionformat {The bean V2}{1}}}
 Package hyperref Info: Reference (link) `figure.caption.4' on input line 18.
 Package hyperref Info: Anchor `figure.caption.4' on input line 20.
 Package epstopdf Info: Source file: <./figures/thebeamdiagram-02.eps>
-(epstopdf)                    date: 2016-12-08 17:51:20
+(epstopdf)                    date: 2019-01-02 23:39:11
 (epstopdf)                    size: 683422 bytes
 (epstopdf)             Output file: <./figures/thebeamdiagram-02-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-12-08 17:56:12
+(epstopdf)                    date: 2019-01-02 23:39:11
 (epstopdf)                    size: 23908 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/thebeamdiagram-02
 -eps-converted-to.pdf ./figures/thebeamdiagram-02.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
-
-<./figures/thebeamdiagram-02-eps-converted-to.pdf, id=419, 398.48875pt x 237.88
+<./figures/thebeamdiagram-02-eps-converted-to.pdf, id=358, 398.48875pt x 237.88
 875pt>
 File: ./figures/thebeamdiagram-02-eps-converted-to.pdf Graphic file (type pdf)
- <use ./figures/thebeamdiagram-02-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/thebeamdiagram-02-eps-converted-to.pdf used 
-on input line 22.
+<use ./figures/thebeamdiagram-02-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/thebeamdiagram-02-eps-converted-to.pdf  used
+ on input line 22.
 (pdftex.def)             Requested size: 361.34999pt x 215.72769pt.
 Package hyperref Info: bookmark on input line 23:
 (hyperref)             thecounter {2.1}
@@ -1688,27 +1330,29 @@ Package `hyperref' Info: End of reference (cite) `cite.diegothesis', line 52.
 Package `hyperref' Info: End of reference (cite) `cite.diegothesis', line 52.
 Package `hyperref' Info: End of reference (link) `figure.caption.6', line 52.
  <./figures/thebeamdiagram-02-eps-converted-to.pdf>]
-Package hyperref Info: Reference (link) `chapter.3' on input line 55.
+
+LaTeX Warning: Reference `chapter:theoretical' on page 11 undefined on input li
+ne 55.
+
 Package hyperref Info: Anchor `figure.caption.6' on input line 57.
 Package epstopdf Info: Source file: <./figures/especificiaciones-01.eps>
-(epstopdf)                    date: 2016-12-08 18:00:57
+(epstopdf)                    date: 2019-01-02 23:39:11
 (epstopdf)                    size: 898702 bytes
 (epstopdf)             Output file: <./figures/especificiaciones-01-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2016-12-08 18:01:04
+(epstopdf)                    date: 2019-01-02 23:39:11
 (epstopdf)                    size: 17855 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/especificiaciones
 -01-eps-converted-to.pdf ./figures/especificiaciones-01.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
-
-<./figures/especificiaciones-01-eps-converted-to.pdf, id=448, 629.35126pt x 330
+<./figures/especificiaciones-01-eps-converted-to.pdf, id=387, 629.35126pt x 330
 .23375pt>
 File: ./figures/especificiaciones-01-eps-converted-to.pdf Graphic file (type pd
 f)
- <use ./figures/especificiaciones-01-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/especificiaciones-01-eps-converted-to.pdf us
-ed on input line 59.
+<use ./figures/especificiaciones-01-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/especificiaciones-01-eps-converted-to.pdf  u
+sed on input line 59.
 (pdftex.def)             Requested size: 433.62pt x 227.52895pt.
 
 Overfull \hbox (4.26434pt too wide) in paragraph at lines 59--60
@@ -1727,9 +1371,7 @@ itos del IC.\relax }}
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package hyperref Info: Anchor `page.11' on input line 66.
- [11
-Package `hyperref' Info: End of reference (link) `chapter.3', line 55.
-]
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package hyperref Info: Anchor `page.12' on input line 73.
@@ -1901,13 +1543,12 @@ e }{\@secnumber }{\Sectionformat {The Bean V2 prototype Implementation}{1}}}
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (link) `Hfootnote.4' on input line 5.
 Package hyperref Info: Anchor `Hfootnote.4' on input line 5.
-Package hyperref Info: Reference (link) `figure.caption.16' on input line 7.
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 7.
 Package hyperref Info: Anchor `figure.caption.8' on input line 9.
-<./Figures/IC_layout.pdf, id=506, 566.115pt x 568.1225pt>
+<./Figures/IC_layout.pdf, id=444, 566.115pt x 568.1225pt>
 File: ./Figures/IC_layout.pdf Graphic file (type pdf)
-
 <use ./Figures/IC_layout.pdf>
-Package pdftex.def Info: ./Figures/IC_layout.pdf used on input line 11.
+Package pdftex.def Info: ./Figures/IC_layout.pdf  used on input line 11.
 (pdftex.def)             Requested size: 361.34999pt x 362.64357pt.
 Package hyperref Info: bookmark on input line 12:
 (hyperref)             thecounter {4.1}
@@ -1917,15 +1558,14 @@ relax }}
 (hyperref)             reference {figure.caption.8}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 15.
-
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 15.
 
 LaTeX Warning: Reference `fig:filter_post' on page 18 undefined on input line 1
 5.
 
-Package hyperref Info: Reference (link) `figure.caption.20' on input line 15.
-Package hyperref Info: Reference (link) `figure.caption.18' on input line 15.
-Package hyperref Info: Reference (link) `figure.caption.19' on input line 15.
+Package hyperref Info: Reference (link) `figure.caption.12' on input line 15.
+Package hyperref Info: Reference (link) `figure.caption.10' on input line 15.
+Package hyperref Info: Reference (link) `figure.caption.11' on input line 15.
 Package hyperref Info: Anchor `page.18' on input line 16.
 [18
 
@@ -1934,18 +1574,17 @@ Package hyperref Info: Anchor `page.18' on input line 16.
 
 
 Package `hyperref' Info: End of reference (link) `Hfootnote.4', line 5.
-Package `hyperref' Info: End of reference (link) `figure.caption.16', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 15.
-Package `hyperref' Info: End of reference (link) `figure.caption.20', line 15.
-Package `hyperref' Info: End of reference (link) `figure.caption.18', line 15.
-Package `hyperref' Info: End of reference (link) `figure.caption.19', line 15.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 7.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 15.
+Package `hyperref' Info: End of reference (link) `figure.caption.12', line 15.
+Package `hyperref' Info: End of reference (link) `figure.caption.10', line 15.
+Package `hyperref' Info: End of reference (link) `figure.caption.11', line 15.
 ]
 Package hyperref Info: Anchor `figure.caption.9' on input line 17.
- <./Figures/filter_layout.pdf, id=516, 942.52126pt x 536.0025pt>
+<./Figures/filter_layout.pdf, id=454, 942.52126pt x 536.0025pt>
 File: ./Figures/filter_layout.pdf Graphic file (type pdf)
-
 <use ./Figures/filter_layout.pdf>
-Package pdftex.def Info: ./Figures/filter_layout.pdf used on input line 19.
+Package pdftex.def Info: ./Figures/filter_layout.pdf  used on input line 19.
 (pdftex.def)             Requested size: 433.62pt x 246.59685pt.
 
 Overfull \hbox (4.26434pt too wide) in paragraph at lines 19--20
@@ -1961,22 +1600,21 @@ p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Filter Layout.\relax }}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.caption.10' on input line 24.
 Package epstopdf Info: Source file: <./Figures/CSA_layout.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
-(epstopdf)                    size: 6351021 bytes
+(epstopdf)                    date: 2019-01-02 23:39:10
+(epstopdf)                    size: 6430003 bytes
 (epstopdf)             Output file: <./Figures/CSA_layout-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 2342223 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Figures/CSA_layout-eps-co
 nverted-to.pdf ./Figures/CSA_layout.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./Figures/CSA_layout-eps-converted-to.pdf, id=517, 552.0625pt x 501.875pt>
+<./Figures/CSA_layout-eps-converted-to.pdf, id=455, 552.0625pt x 501.875pt>
 File: ./Figures/CSA_layout-eps-converted-to.pdf Graphic file (type pdf)
-
 <use ./Figures/CSA_layout-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/CSA_layout-eps-converted-to.pdf used on inpu
-t line 26.
+Package pdftex.def Info: ./Figures/CSA_layout-eps-converted-to.pdf  used on inp
+ut line 26.
 (pdftex.def)             Requested size: 289.07999pt x 262.80675pt.
 Package hyperref Info: bookmark on input line 27:
 (hyperref)             thecounter {4.3}
@@ -1988,23 +1626,21 @@ out. Feedback capacitors are not included here.\relax }}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.caption.11' on input line 30.
 Package epstopdf Info: Source file: <./Figures/OTA_layout.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
-(epstopdf)                    size: 6481134 bytes
+(epstopdf)                    date: 2019-01-02 23:39:10
+(epstopdf)                    size: 6561722 bytes
 (epstopdf)             Output file: <./Figures/OTA_layout-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 2419929 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Figures/OTA_layout-eps-co
 nverted-to.pdf ./Figures/OTA_layout.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
-
-<./Figures/OTA_layout-eps-converted-to.pdf, id=518, 635.37375pt x 503.8825pt>
+<./Figures/OTA_layout-eps-converted-to.pdf, id=456, 635.37375pt x 503.8825pt>
 File: ./Figures/OTA_layout-eps-converted-to.pdf Graphic file (type pdf)
-
 <use ./Figures/OTA_layout-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/OTA_layout-eps-converted-to.pdf used on inpu
-t line 32.
+Package pdftex.def Info: ./Figures/OTA_layout-eps-converted-to.pdf  used on inp
+ut line 32.
 (pdftex.def)             Requested size: 325.215pt x 257.92238pt.
 Package hyperref Info: bookmark on input line 33:
 (hyperref)             thecounter {4.4}
@@ -2016,22 +1652,22 @@ ayout.\relax }}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.caption.12' on input line 36.
 Package epstopdf Info: Source file: <./Figures/buffer_layout.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
-(epstopdf)                    size: 7468285 bytes
+(epstopdf)                    date: 2019-01-02 23:39:11
+(epstopdf)                    size: 7561060 bytes
 (epstopdf)             Output file: <./Figures/buffer_layout-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:11
 (epstopdf)                    size: 3025734 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Figures/buffer_layout-eps
 -converted-to.pdf ./Figures/buffer_layout.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
+<./Figures/buffer_layout-eps-converted-to.pdf, id=457, 704.6325pt x 499.8675pt>
 
-<./Figures/buffer_layout-eps-converted-to.pdf, id=519, 704.6325pt x 499.8675pt>
 File: ./Figures/buffer_layout-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/buffer_layout-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figures/buffer_layout-eps-converted-to.pdf used on i
-nput line 38.
+Package pdftex.def Info: ./Figures/buffer_layout-eps-converted-to.pdf  used on 
+input line 38.
 (pdftex.def)             Requested size: 325.215pt x 230.70457pt.
 Package hyperref Info: bookmark on input line 39:
 (hyperref)             thecounter {4.5}
@@ -2062,28 +1698,26 @@ dcsname }{\@secnumber }{\Sectionformat {Sub-blocks}{2}}}
 (hyperref)             reference {subsection.4.2.1}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.21' on input line 46.
-Package hyperref Info: Reference (link) `figure.caption.22' on input line 46.
-Package hyperref Info: Reference (link) `chapter.4' on input line 46.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 46.
+Package hyperref Info: Reference (link) `figure.caption.14' on input line 46.
+Package hyperref Info: Reference (link) `chapter.3' on input line 46.
 Package hyperref Info: Anchor `figure.caption.13' on input line 48.
 Package epstopdf Info: Source file: <./Test/bode_OTA_post.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 209814 bytes
 (epstopdf)             Output file: <./Test/bode_OTA_post-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 27413 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Test/bode_OTA_post-eps-co
 nverted-to.pdf ./Test/bode_OTA_post.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-
-<./Test/bode_OTA_post-eps-converted-to.pdf, id=561, 562.1pt x 421.575pt>
+<./Test/bode_OTA_post-eps-converted-to.pdf, id=499, 562.1pt x 421.575pt>
 File: ./Test/bode_OTA_post-eps-converted-to.pdf Graphic file (type pdf)
-
 <use ./Test/bode_OTA_post-eps-converted-to.pdf>
-Package pdftex.def Info: ./Test/bode_OTA_post-eps-converted-to.pdf used on inpu
-t line 50.
+Package pdftex.def Info: ./Test/bode_OTA_post-eps-converted-to.pdf  used on inp
+ut line 50.
 (pdftex.def)             Requested size: 383.03122pt x 287.27187pt.
 Package hyperref Info: bookmark on input line 51:
 (hyperref)             thecounter {4.6}
@@ -2094,12 +1728,10 @@ p response, with a $0.4\,\text {pF}$ load capacitance.\relax }}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.caption.14' on input line 54.
-
-<./Test/bode_buffer_post.pdf, id=562, 563.10374pt x 422.57875pt>
+<./Test/bode_buffer_post.pdf, id=500, 563.10374pt x 422.57875pt>
 File: ./Test/bode_buffer_post.pdf Graphic file (type pdf)
-
 <use ./Test/bode_buffer_post.pdf>
-Package pdftex.def Info: ./Test/bode_buffer_post.pdf used on input line 56.
+Package pdftex.def Info: ./Test/bode_buffer_post.pdf  used on input line 56.
 (pdftex.def)             Requested size: 383.03122pt x 287.44646pt.
 Package hyperref Info: bookmark on input line 57:
 (hyperref)             thecounter {4.7}
@@ -2117,15 +1749,15 @@ dcsname }{\@secnumber }{\Sectionformat {Power dissipation}{2}}}
 (hyperref)             reference {subsection.4.2.2}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `table.caption.23' on input line 62.
+Package hyperref Info: Reference (link) `table.caption.15' on input line 62.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package hyperref Info: Anchor `page.20' on input line 63.
  [20
-Package `hyperref' Info: End of reference (link) `figure.caption.21', line 46.
-Package `hyperref' Info: End of reference (link) `figure.caption.22', line 46.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 46.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 46.
+Package `hyperref' Info: End of reference (link) `figure.caption.14', line 46.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 46.
  <./Figures/filter_layout.pdf>]
 Package hyperref Info: Anchor `table.caption.15' on input line 65.
 Package hyperref Info: bookmark on input line 75:
@@ -2144,28 +1776,27 @@ dcsname }{\@secnumber }{\Sectionformat {Functionality}{2}}}
 (hyperref)             reference {subsection.4.2.3}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.24' on input line 82.
-Package hyperref Info: Reference (link) `figure.caption.25' on input line 84.
+Package hyperref Info: Reference (link) `figure.caption.16' on input line 82.
+Package hyperref Info: Reference (link) `figure.caption.17' on input line 84.
 Package hyperref Info: Anchor `figure.caption.16' on input line 86.
 Package epstopdf Info: Source file: <./Test/test_filter_after_omni.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 151780 bytes
 (epstopdf)             Output file: <./Test/test_filter_after_omni-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 26059 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Test/test_filter_after_om
 ni-eps-converted-to.pdf ./Test/test_filter_after_omni.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
-
-<./Test/test_filter_after_omni-eps-converted-to.pdf, id=652, 562.1pt x 460.7212
+<./Test/test_filter_after_omni-eps-converted-to.pdf, id=589, 562.1pt x 460.7212
 5pt>
 File: ./Test/test_filter_after_omni-eps-converted-to.pdf Graphic file (type pdf
 )
- <use ./Test/test_filter_after_omni-eps-converted-to.pdf>
-Package pdftex.def Info: ./Test/test_filter_after_omni-eps-converted-to.pdf use
-d on input line 88.
+<use ./Test/test_filter_after_omni-eps-converted-to.pdf>
+Package pdftex.def Info: ./Test/test_filter_after_omni-eps-converted-to.pdf  us
+ed on input line 88.
 (pdftex.def)             Requested size: 361.34999pt x 296.1752pt.
 Package hyperref Info: bookmark on input line 89:
 (hyperref)             thecounter {4.8}
@@ -2176,12 +1807,10 @@ n. $V_\textit {in}=0.1\,V$ and $\text {gain}=0.25\,V/V$.\relax }}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.caption.17' on input line 92.
-
-<./Test/gain_curves.pdf, id=653, 562.1pt x 421.575pt>
+<./Test/gain_curves.pdf, id=590, 562.1pt x 421.575pt>
 File: ./Test/gain_curves.pdf Graphic file (type pdf)
-
 <use ./Test/gain_curves.pdf>
-Package pdftex.def Info: ./Test/gain_curves.pdf used on input line 94.
+Package pdftex.def Info: ./Test/gain_curves.pdf  used on input line 94.
 (pdftex.def)             Requested size: 317.98755pt x 238.49265pt.
 Package hyperref Info: bookmark on input line 95:
 (hyperref)             thecounter {4.9}
@@ -2199,22 +1828,21 @@ dcsname }{\@secnumber }{\Sectionformat {Linearity}{2}}}
 (hyperref)             reference {subsection.4.2.4}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.26' on input line 99.
+Package hyperref Info: Reference (link) `figure.caption.18' on input line 99.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package hyperref Info: Anchor `page.21' on input line 100.
  [21
-Package `hyperref' Info: End of reference (link) `table.caption.23', line 62.
-Package `hyperref' Info: End of reference (link) `figure.caption.24', line 82.
-Package `hyperref' Info: End of reference (link) `figure.caption.25', line 84.
+Package `hyperref' Info: End of reference (link) `table.caption.15', line 62.
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 82.
+Package `hyperref' Info: End of reference (link) `figure.caption.17', line 84.
 ]
 Package hyperref Info: Anchor `figure.caption.18' on input line 101.
-
-<./Test/linearity.pdf, id=660, 562.1pt x 421.575pt>
+<./Test/linearity.pdf, id=597, 562.1pt x 421.575pt>
 File: ./Test/linearity.pdf Graphic file (type pdf)
- <use ./Test/linearity.pdf>
-Package pdftex.def Info: ./Test/linearity.pdf used on input line 103.
+<use ./Test/linearity.pdf>
+Package pdftex.def Info: ./Test/linearity.pdf  used on input line 103.
 (pdftex.def)             Requested size: 317.98755pt x 238.49265pt.
 Package hyperref Info: bookmark on input line 104:
 (hyperref)             thecounter {4.10}
@@ -2232,32 +1860,34 @@ dcsname }{\@secnumber }{\Sectionformat {Weighting function}{2}}}
 (hyperref)             reference {subsection.4.2.5}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `chapter.3' on input line 108.
-Package hyperref Info: Reference (link) `figure.caption.27' on input line 108.
-Package hyperref Info: Reference (link) `figure.caption.28' on input line 110.
 
+
+LaTeX Warning: Reference `chapter:theoretical' on page 22 undefined on input li
+ne 108.
+
+Package hyperref Info: Reference (link) `figure.caption.19' on input line 108.
+Package hyperref Info: Reference (link) `figure.caption.20' on input line 110.
 
 LaTeX Warning: Reference `fig:optimum_wf' on page 22 undefined on input line 11
 0.
 
 Package hyperref Info: Anchor `figure.caption.19' on input line 112.
 Package epstopdf Info: Source file: <./Test/wf_test_circuit.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 516763 bytes
 (epstopdf)             Output file: <./Test/wf_test_circuit-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 60164 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Test/wf_test_circuit-eps-
 converted-to.pdf ./Test/wf_test_circuit.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<./Test/wf_test_circuit-eps-converted-to.pdf, id=664, 529.98pt x 146.5475pt>
+<./Test/wf_test_circuit-eps-converted-to.pdf, id=600, 529.98pt x 146.5475pt>
 File: ./Test/wf_test_circuit-eps-converted-to.pdf Graphic file (type pdf)
-
 <use ./Test/wf_test_circuit-eps-converted-to.pdf>
-Package pdftex.def Info: ./Test/wf_test_circuit-eps-converted-to.pdf used on in
-put line 114.
+Package pdftex.def Info: ./Test/wf_test_circuit-eps-converted-to.pdf  used on i
+nput line 114.
 (pdftex.def)             Requested size: 361.34999pt x 99.9193pt.
 Package hyperref Info: bookmark on input line 115:
 (hyperref)             thecounter {4.11}
@@ -2269,22 +1899,20 @@ t.\relax }}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.caption.20' on input line 118.
 Package epstopdf Info: Source file: <./Test/sim_wf.eps>
-(epstopdf)                    date: 2014-08-24 17:26:56
-(epstopdf)                    size: 63220 bytes
+(epstopdf)                    date: 2019-01-02 23:39:10
+(epstopdf)                    size: 64598 bytes
 (epstopdf)             Output file: <./Test/sim_wf-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-24 17:26:56
+(epstopdf)                    date: 2019-01-02 23:39:10
 (epstopdf)                    size: 10070 bytes
 (epstopdf)             Command: <epstopdf --outfile=./Test/sim_wf-eps-converted
 -to.pdf ./Test/sim_wf.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
-
-<./Test/sim_wf-eps-converted-to.pdf, id=665, 462.72874pt x 388.45125pt>
+<./Test/sim_wf-eps-converted-to.pdf, id=601, 462.72874pt x 388.45125pt>
 File: ./Test/sim_wf-eps-converted-to.pdf Graphic file (type pdf)
-
 <use ./Test/sim_wf-eps-converted-to.pdf>
-Package pdftex.def Info: ./Test/sim_wf-eps-converted-to.pdf used on input line 
-120.
+Package pdftex.def Info: ./Test/sim_wf-eps-converted-to.pdf  used on input line
+ 120.
 (pdftex.def)             Requested size: 260.17244pt x 218.40845pt.
 Package hyperref Info: bookmark on input line 121:
 (hyperref)             thecounter {4.12}
@@ -2297,11 +1925,10 @@ tion. $\tau =8\,\text {ns}$, $N=16$ and $T_s=19.25\,\text {ns}$.\relax }}
 )
 Package hyperref Info: Anchor `page.22' on input line 213.
  [22
-Package `hyperref' Info: End of reference (link) `figure.caption.26', line 99.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 108.
-Package `hyperref' Info: End of reference (link) `figure.caption.27', line 108.
+Package `hyperref' Info: End of reference (link) `figure.caption.18', line 99.
+Package `hyperref' Info: End of reference (link) `figure.caption.19', line 108.
 
-Package `hyperref' Info: End of reference (link) `figure.caption.28', line 110.
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 110.
 
 ]
 Package hyperref Info: Anchor `page.23' on input line 213.
@@ -2311,19 +1938,19 @@ Package hyperref Info: Anchor `page.24' on input line 213.
  [24 <./Figures/buffer_layout-eps-converted-to.pdf> <./Test/bode_OTA_post-eps-c
 onverted-to.pdf>]
 Package hyperref Info: Anchor `page.25' on input line 213.
-
-[25 <./Test/bode_buffer_post.pdf>]
+ [25 <./Test/bode_buffer_post.pdf>]
 Package hyperref Info: Anchor `page.26' on input line 213.
- [26 <./Test/test_filter_after_omni-eps-converted-to.pdf> <./Test/gain_curves.p
-df>]
+
+[26 <./Test/test_filter_after_omni-eps-converted-to.pdf> <./Test/gain_curves.pd
+f>]
 Package hyperref Info: Anchor `page.27' on input line 213.
  [27 <./Test/linearity.pdf> <./Test/wf_test_circuit-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.28' on input line 213.
- [28 <./Test/sim_wf-eps-converted-to.pdf>]
+
+[28 <./Test/sim_wf-eps-converted-to.pdf>]
 \openout2 = `./text/conclusion.aux'.
 
-
-(text/conclusion.tex
+ (text/conclusion.tex
 Package hyperref Info: Anchor `chapter.5' on input line 1.
 
 CONCLUSION
@@ -2424,9 +2051,9 @@ Package hyperref Info: Anchor `page.31' on input line 261.
 
 
 
-Package `hyperref' Info: End of reference (link) `figure.caption.28', line 110.
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 110.
 
-Package `hyperref' Info: End of reference (link) `figure.caption.28', line 110.
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 110.
 
 ]
 Package hyperref Info: Anchor `cite.tuttle101' on input line 261.
@@ -2442,7 +2069,7 @@ T1/ptm/m/n/12 Re-trieved from [][]$\OT1/pcr/m/n/12 http :// en [] .wikipedia []
 )
 Package hyperref Info: Anchor `page.32' on input line 229.
  [32
-Package `hyperref' Info: End of reference (link) `figure.caption.28', line 110.
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 110.
 
 ]
 Package hyperref Info: bookmark on input line 236:
@@ -2528,11 +2155,10 @@ Package hyperref Info: Anchor `page.37' on input line 131.
 
 ]
 Package hyperref Info: Anchor `figure.caption.22' on input line 136.
- <./Figures/bondpad.pdf, id=950, 537.00626pt x 531.9875pt>
+<./Figures/bondpad.pdf, id=884, 537.00626pt x 531.9875pt>
 File: ./Figures/bondpad.pdf Graphic file (type pdf)
-
 <use ./Figures/bondpad.pdf>
-Package pdftex.def Info: ./Figures/bondpad.pdf used on input line 138.
+Package pdftex.def Info: ./Figures/bondpad.pdf  used on input line 138.
 (pdftex.def)             Requested size: 433.62pt x 429.56815pt.
 
 Overfull \hbox (4.26434pt too wide) in paragraph at lines 138--139
@@ -2565,17 +2191,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
  *File List*
 XPucThesis.cls    2008/10/01 v1.2 LaTeX Thesis Class for the PUC and the X
 setspace.sty    2011/12/19 v6.7a set line spacing
-graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
   keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
-graphics.sty    2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
 graphics.cfg    2016/06/04 v1.11 sample graphics configuration
-  pdftex.def    2016/07/10 v0.06j Graphics/color for pdfTeX
-infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
- ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+  pdftex.def    2018/01/08 v1.0l Graphics/color driver for pdftex
   ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
- amsbook.cls    2015/03/04 v2.20.2
- amsmath.sty    2016/06/28 v2.15d AMS math features
+ amsbook.cls    2017/10/31 v2.20.4
+ amsmath.sty    2017/09/02 v2.17a AMS math features
  amstext.sty    2000/06/29 v2.01 AMS text
   amsgen.sty    1999/11/30 v2.0 generic functions
   amsbsy.sty    1999/11/29 v1.2d Bold Symbols
@@ -2584,37 +2208,35 @@ infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
 amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
  apacite.sty    2013/07/21 v6.03 APA citation
   natbib.sty    2010/09/13 8.31b (PWD, AO)
-fixltx2e.sty    2015/06/22 v2.0b fixes to LaTeX (obsolete)
-inputenc.sty    2015/03/17 v1.2c Input encoding file
-    utf8.def    2016/02/28 v1.1s UTF-8 support for inputenc
-   t1enc.dfu    2016/02/28 v1.1s UTF-8 support for inputenc
-  ot1enc.dfu    2016/02/28 v1.1s UTF-8 support for inputenc
-  omsenc.dfu    2016/02/28 v1.1s UTF-8 support for inputenc
+fixltx2e.sty    2016/12/29 v2.1a fixes to LaTeX (obsolete)
+inputenc.sty    2018/04/06 v1.3b Input encoding file
    times.sty    2005/04/12 PSNFSS-v9.2a (SPQR) 
   lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
  amssymb.sty    2013/01/14 v3.01 AMS font symbols
 mathrsfs.sty    1996/01/01 Math RSFS package v1.0 (jk)
-fancyhdr.sty    2016/09/06 3.8 Extensive control of page headers and footers
+fancyhdr.sty    2017/06/30 v3.9a Extensive control of page headers and footers
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
   subfig.sty    2005/06/28 ver: 1.3 subfig package
- caption.sty    2016/02/21 v3.3-144 Customizing captions (AR)
-caption3.sty    2016/05/22 v1.7-166 caption3 kernel (AR)
-rotating.sty    2016/05/22 v2.16c rotated objects in LaTeX
-pdfpages.sty    2016/04/19 v0.5f Insert pages of external PDF documents (AM)
-    calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
- eso-pic.sty    2015/07/21 v2.0g eso-pic (RN)
+ caption.sty    2018/10/06 v3.3-154 Customizing captions (AR)
+caption3.sty    2018/09/12 v1.8c caption3 kernel (AR)
+rotating.sty    2016/08/11 v2.16d rotated objects in LaTeX
+pdfpages.sty    2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ eso-pic.sty    2018/04/12 v2.0h eso-pic (RN)
 atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
-   ifpdf.sty    2016/05/14 v3.1 Provides the ifpdf switch
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+   ifpdf.sty    2018/09/07 v3.3 Provides the ifpdf switch
   xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
    color.cfg    2016/01/02 v1.6 sample color configuration
-pppdftex.def    2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
-   array.sty    2014/10/28 v2.4c Tabular extension package (FMi)
+pppdftex.def    2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+   array.sty    2018/04/30 v2.4h Tabular extension package (FMi)
  sistyle.sty    2008/07/16 v2.3a SI units and numbers (DNJ Els)
 nicefrac.sty    1998/08/04 v0.9b Nice fractions
 longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)
 footmisc.sty    2011/06/06 v5.5b a miscellany of footnote facilities
  wasysym.sty    2003/10/30 v2.0 Wasy-2 symbol support package
-  epsfig.sty    1999/02/16 v1.7a (e)psfig emulation (SPQR)
+  epsfig.sty    2017/06/25 v1.7b (e)psfig emulation (SPQR)
 epstopdf.sty    2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
   grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -2623,8 +2245,8 @@ kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
 kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
 etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
-pdftexcmds.sty    2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
-hyperref.sty    2016/06/24 v6.83q Hypertext links for LaTeX
+pdftexcmds.sty    2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+hyperref.sty    2018/09/30 v6.88a Hypertext links for LaTeX
 hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
   hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
@@ -2642,10 +2264,10 @@ refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
  hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
  ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
  auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
-  pd1enc.def    2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+  pd1enc.def    2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
      url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
- hpdftex.def    2016/06/24 v6.83q Hyperref driver for pdfTeX
+ hpdftex.def    2018/09/30 v6.88a Hyperref driver for pdfTeX
 rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
   ot1ptm.fd    2001/06/04 font definitions for OT1/ptm.
 supp-pdf.mkii
@@ -2654,7 +2276,7 @@ supp-pdf.mkii
    ursfs.fd    1998/03/24 rsfs font definition file (jk)
    uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
  english.apc    2013/07/21 v6.03 apacite language file
-ltcaption.sty    2013/06/09 v1.4-94 longtable captions (AR)
+ltcaption.sty    2018/08/26 v1.4-95 longtable captions (AR)
 pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
@@ -2689,109 +2311,40 @@ Figures/LogoUC.pdf
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: F70576D06AEF1C8A564697F38773ADB0;3147
-(rerunfilecheck)             After:  00A8789DF79649F604BEF5A70ED44D7D;2568.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 00A8789DF79649F604BEF5A70ED44D7D;2568.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
- 11466 strings out of 493333
- 163570 string characters out of 3139199
- 287751 words of memory out of 3000000
- 14353 multiletter control sequences out of 15000+200000
+ 11122 strings out of 492970
+ 163401 string characters out of 3135856
+ 286513 words of memory out of 3000000
+ 14387 multiletter control sequences out of 15000+200000
  42988 words of font info for 110 fonts, out of 3000000 for 9000
  1305 hyphenation exceptions out of 8191
- 44i,15n,51p,1664b,570s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.23} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.25} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (50 pages, 9311308 bytes).
+ 44i,15n,51p,1664b,585s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucr
+r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (49 pages, 9302609 bytes).
 PDF statistics:
- 1061 PDF objects out of 1200 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 990 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
